@@ -38,10 +38,10 @@ def prepare_image(data: bytes, long_side: int = LONG_SIDE) -> bytes:
 
 
 def transcribe_bytes(data: bytes, base_url: str = DEFAULT_BASE_URL, model: str = DEFAULT_MODEL,
-                     timeout: float = 300.0, max_tokens: int = 2048) -> Transcription:
+                     timeout: float = 300.0, max_tokens: int = 2048, long_side: int = LONG_SIDE) -> Transcription:
     """Send one page image to the server and return its error-preserving transcription."""
     url = base_url.rstrip("/") + "/chat/completions"
-    image = base64.b64encode(prepare_image(data)).decode()
+    image = base64.b64encode(prepare_image(data, long_side)).decode()
     body = {
         "model": model,
         # Image only: the empty prompt is the transcription mode used in training.

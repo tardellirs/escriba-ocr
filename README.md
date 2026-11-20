@@ -25,7 +25,7 @@ This repository contains the code and data behind **Escriba-OCR-1B** and the acc
 - the **human review** of apparent corrections and an **erratum** of 40 transcription errors in the BRESSAY test ground truth;
 - the scripts that produce every **table and figure** in the paper.
 
-**Model:** [`tardellirs/Escriba-OCR-1B`](https://huggingface.co/tardellirs/Escriba-OCR-1B) on Hugging Face.
+**Model:** [`tardellirs/Escriba-OCR-1B`](https://huggingface.co/tardellirs/Escriba-OCR-1B) on Hugging Face; GGUF for CPU in [`tardellirs/Escriba-OCR-1B-GGUF`](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF).
 
 ## Why "error-preserving"?
 
@@ -47,17 +47,27 @@ CER is case-insensitive and capped at 100% per page. The full table of 22 open b
 
 ### 1. Serve the model
 
+**CPU only (llama.cpp, GGUF):**
+
+```bash
+llama-server -hf tardellirs/Escriba-OCR-1B-GGUF:Q4_K_M --temp 0 --repeat-penalty 1.05 -c 8192 --port 8010
+```
+
+About 70–160 s per page on 4 vCPUs and about 3.5 GB of RAM. See [the GGUF card](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF) for all quantizations.
+
+**GPU (vLLM, about 2 s per page):**
+
 ```bash
 pip install "vllm>=0.34"
 vllm serve tardellirs/Escriba-OCR-1B --port 8010 --max-model-len 8192 --limit-mm-per-prompt '{"image": 1}'
 ```
 
-Any GPU with 8 GB of memory is enough.
+Both expose the same OpenAI-compatible API on port 8010.
 
 ### 2. Transcribe pages or open the viewer
 
 ```bash
-pip install -e .                       # installs the `escriba` command (standard library + Pillow)
+pip install git+https://github.com/tardellirs/escriba-ocr   # the `escriba` command (needs only Pillow)
 escriba transcribe photos/ --name turma-3a   # one .txt per image in out/turma-3a/
 escriba viewer                         # http://127.0.0.1:8000
 ```
@@ -78,7 +88,7 @@ Without the `escriba` package, `scripts/inference_example.py` runs the model dir
 ### Reproduce the benchmark numbers
 
 ```bash
-uv sync                                  # or: pip install -e .
+uv sync --extra bench                     # or: pip install -e ".[bench]"
 bash scripts/download_bressay.sh         # BRESSAY from Zenodo + Hunspell pt-BR dictionary
 uv run python -m bench.evaluate lightonocr3-1b-ft-r2 or-qwen3-vl-235b-a22b-instruct
 uv run python -m bench.compare results/or-qwen3-vl-235b-a22b-instruct results/lightonocr3-1b-ft-r2 --metric cer_ci
