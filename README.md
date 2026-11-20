@@ -128,7 +128,7 @@ review/      human-review verdicts and BRESSAY erratum
 
 ```bibtex
 @misc{stekel2026escriba,
-  title  = {Escriba-OCR: Error-Preserving Transcription of Handwritten Student Essays with a 1B Open Vision-Language Model},
+  title  = {Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays},
   author = {Stekel, Tardelli Ronan Coelho},
   year   = {2026},
   howpublished = {\url{https://github.com/tardellirs/escriba-ocr}}
