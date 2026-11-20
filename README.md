@@ -1,3 +1,17 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/escriba-logo-dark.svg">
+    <img src="assets/brand/escriba-logo.svg" alt="[escriba] OCR-1B" width="372">
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/tardellirs/Escriba-OCR-1B">Model on Hugging Face</a> ·
+  <a href="#quick-start">Quick start</a> ·
+  <a href="#reproduce-the-benchmark-numbers">Benchmark</a> ·
+  <a href="#citation">Citation</a>
+</p>
+
 # Escriba-OCR
 
 **Error-preserving (diplomatic) transcription of handwritten Brazilian Portuguese student essays.**
