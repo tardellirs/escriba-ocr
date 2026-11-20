@@ -1,0 +1,14 @@
+{
+ "model": "Qwen/Qwen3-VL-2B-Instruct",
+ "run": "qwen3-vl-2b",
+ "prompt": "dipl",
+ "rep_penalty": 1.05,
+ "long_side": 1600,
+ "pages": 199,
+ "gpu": "NVIDIA L4",
+ "load_s": 124.4,
+ "batch_s": 661.7,
+ "pages_per_s": 0.301,
+ "seq_median_s": 34.42,
+ "truncated": 55
+}

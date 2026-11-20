@@ -1,0 +1,15 @@
+<table>
+  <tr>
+    <th>TULO</th>
+    <th>Cemitério de esperançar enterrador</th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>Aque o relonte de carro com as duas mães. No banco de trás, meu filho conta uma música infantil genérica. Sua voz derafinada aquece o meu coração. Ohe pele expello xtra vigor e preciso que seu uniforme da escola já está bagunçado. Servie. Come é bom ser criança. Lembremo-me de quando eu tinha a mesma idade que ele. Eu estudava em uma escola particular. Hoje elas são uma realidade. O quase mimquim que pagar por um serviço público e de qualidade.</p>
+      <p>Emquanto preto atempão na entrada me recorde de uma reportagem que vi no jornal remomar atrás. Faz quimça amor que a nossa escola foi exradicado no Brasil. Quando eu era pequena, minha avó me contou que sua mãe nunca estudava. É de extrema estranha imaginação algo assim na atual conjectura. A nossa escola em qualquer nível é uma falha imediata de Estado. E Como as pessoas podem ser consideradas iguais em direito e dever quando os oportunidades não diverjam?</p>
+      <p>Minha avó também me contou que pessoas se interessavam pela carreira de educador. Anticamente os professores eram mais remunerados. Imagine se, uma das mais importantes profissões — o pilar de todas as outras profissões — mais ser valorizada corretamente! Ou absurdo para dese.</p>
+      <p>Outra campanha educacional começa a ruissar pelo carro. Linte qualidade por meu filho viver em uma época em que a educação não só é valorizada, como também, universal. Aprendi mais aulas de história que outra o Brasil estava me ranking ter parecer mais desiguais do mundo. É claro que um país que considerava a educação uma “balkúndia” seria desigual. Esse quadro de anseios ao conhecimento e repúdio à igualdade só foi reverter quando elegermer governantes preocupados com o povo e que não incentivaram a ignorância e o ódio.</p>
+      <p>Pare me sinal vermelho e me viro para ver meu filho. Quantas oportunidades de mão teria se tivesse nascido no século XX? Afinal, não ter educação é não ter infância. No livro “Anne de Green Gabler” escrito no fim do século dezenove, a primeira principal, Anne Shirley, diz que sua vida é um perfeito cemitério de esperançar enterrador. Não ter educação é viver em um cemitério de esperançar enterrador. Pare o carro na frente da escola do meu filho. Se como as pessoas viviam sabendo que o curso à educação era desigual?</p>
+    </td>
+  </tr>
+</table>

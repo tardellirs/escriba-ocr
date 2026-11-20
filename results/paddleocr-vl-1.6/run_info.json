@@ -1,0 +1,14 @@
+{
+ "model": "PaddlePaddle/PaddleOCR-VL-1.6",
+ "run": "paddleocr-vl-1.6",
+ "prompt": "ocr",
+ "rep_penalty": 1.05,
+ "long_side": 1600,
+ "pages": 199,
+ "gpu": "NVIDIA L4",
+ "load_s": 81.7,
+ "batch_s": 181.4,
+ "pages_per_s": 1.097,
+ "seq_median_s": 3.73,
+ "truncated": 10
+}

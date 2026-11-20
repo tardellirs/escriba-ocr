@@ -1,0 +1,14 @@
+{
+ "model": "zai-org/GLM-OCR",
+ "run": "glm-ocr",
+ "prompt": "glm",
+ "rep_penalty": 1.05,
+ "long_side": 1600,
+ "pages": 199,
+ "gpu": "NVIDIA L4",
+ "load_s": 85.3,
+ "batch_s": 464.5,
+ "pages_per_s": 0.428,
+ "seq_median_s": 6.0,
+ "truncated": 6
+}

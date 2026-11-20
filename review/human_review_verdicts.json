@@ -1,0 +1,962 @@
+[
+ {
+  "id": "c000",
+  "page": "6944-026",
+  "line": "6944-026-01-02",
+  "reference_word": "sociedode",
+  "escriba_output": "sociedade",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "faltou a linha de baixo, nessa linha aparece somente \"socie\""
+ },
+ {
+  "id": "c001",
+  "page": "4771-016",
+  "line": "4771-016-04-02",
+  "reference_word": "gorvernamental",
+  "escriba_output": "governamental",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c002",
+  "page": "0961-046",
+  "line": "0961-046-02-09",
+  "reference_word": "diretto",
+  "escriba_output": "direito",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c003",
+  "page": "8616-064",
+  "line": "8616-064-01-04",
+  "reference_word": "terapeutico",
+  "escriba_output": "terapêutico",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c004",
+  "page": "2495-038",
+  "line": "2495-038-01-02",
+  "reference_word": "crêr",
+  "escriba_output": "crê",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c005",
+  "page": "8755-043",
+  "line": "8755-043-04-05",
+  "reference_word": "homogênio",
+  "escriba_output": "homogêneo",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c006",
+  "page": "3943-018",
+  "line": "3943-018-04-08",
+  "reference_word": "harmonicas",
+  "escriba_output": "harmonizadas",
+  "verdict": "student",
+  "raw_verdict": "other",
+  "note": "acho que escreveru harmoniozas, mas tem uma rasura."
+ },
+ {
+  "id": "c007",
+  "page": "7607-063",
+  "line": "7607-063-01-06",
+  "reference_word": "imgressos",
+  "escriba_output": "ingressos",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c008",
+  "page": "7558-014",
+  "line": "7558-014-02-03",
+  "reference_word": "metrópolis",
+  "escriba_output": "metrópoles",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "faltou linha debaixo, aqui só aparece metró-"
+ },
+ {
+  "id": "c009",
+  "page": "7130-071",
+  "line": "7130-071-01-02",
+  "reference_word": "artistica",
+  "escriba_output": "artística",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "acho que está a linha errada,  nao aparece essa frase aqui"
+ },
+ {
+  "id": "c010",
+  "page": "0673-064",
+  "line": "0673-064-01-01",
+  "reference_word": "holanês",
+  "escriba_output": "holandês",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c011",
+  "page": "4103-021",
+  "line": "4103-021-02-02",
+  "reference_word": "especialmentes",
+  "escriba_output": "especialmente",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c012",
+  "page": "8455-049",
+  "line": "8455-049-02-06",
+  "reference_word": "empatico",
+  "escriba_output": "empático",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c013",
+  "page": "0643-034",
+  "line": "0643-034-04-06",
+  "reference_word": "trasidas",
+  "escriba_output": "Tomadas",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c015",
+  "page": "0522-022",
+  "line": "0522-022-01-02",
+  "reference_word": "decorrêcia",
+  "escriba_output": "decorrência",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c016",
+  "page": "0643-034",
+  "line": "0643-034-01-03",
+  "reference_word": "emtre",
+  "escriba_output": "entre",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c017",
+  "page": "2187-044",
+  "line": "2187-044-03-05",
+  "reference_word": "inadimissível",
+  "escriba_output": "inadmissível",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c018",
+  "page": "2122-072",
+  "line": "2122-072-01-02",
+  "reference_word": "homen",
+  "escriba_output": "homem",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c019",
+  "page": "4306-002",
+  "line": "4306-002-04-04",
+  "reference_word": "tecnología",
+  "escriba_output": "tecnologia",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c020",
+  "page": "2122-072",
+  "line": "2122-072-01-06",
+  "reference_word": "orden",
+  "escriba_output": "ordem",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c021",
+  "page": "4917-082",
+  "line": "4917-082-02-06",
+  "reference_word": "verdaderamente",
+  "escriba_output": "verdadeiramente",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c022",
+  "page": "4560-123",
+  "line": "4560-123-04-10",
+  "reference_word": "frusta",
+  "escriba_output": "frustra",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c023",
+  "page": "4254-023",
+  "line": "4254-023-02-01",
+  "reference_word": "individuos",
+  "escriba_output": "indivíduos",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "faltou a linha debaixo, aqui aparece somente indivi-"
+ },
+ {
+  "id": "c024",
+  "page": "4497-060",
+  "line": "4497-060-02-03",
+  "reference_word": "contemporária",
+  "escriba_output": "contemporânea",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c025",
+  "page": "2495-038",
+  "line": "2495-038-04-05",
+  "reference_word": "establecidos",
+  "escriba_output": "estabelecidos",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c026",
+  "page": "2671-028",
+  "line": "2671-028-01-01",
+  "reference_word": "longividade",
+  "escriba_output": "longevidade",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c027",
+  "page": "4917-082",
+  "line": "4917-082-03-06",
+  "reference_word": "establece",
+  "escriba_output": "estabelece",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c028",
+  "page": "3517-021",
+  "line": "3517-021-01-02",
+  "reference_word": "ecometido",
+  "escriba_output": "acometido",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c029",
+  "page": "0643-034",
+  "line": "0643-034-01-04",
+  "reference_word": "contribuiindo",
+  "escriba_output": "contribuindo",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "faltou linha debaixo aqui aparece contribu-"
+ },
+ {
+  "id": "c030",
+  "page": "2608-025",
+  "line": "2608-025-01-06",
+  "reference_word": "analizado",
+  "escriba_output": "analisado",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c031",
+  "page": "0643-034",
+  "line": "0643-034-04-01",
+  "reference_word": "discursão",
+  "escriba_output": "discussão",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c032",
+  "page": "0689-080",
+  "line": "0689-080-04-01",
+  "reference_word": "volores",
+  "escriba_output": "valores",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c033",
+  "page": "4120-038",
+  "line": "4120-038-03-01",
+  "reference_word": "estigmalização",
+  "escriba_output": "estigmatização",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c034",
+  "page": "4254-023",
+  "line": "4254-023-03-06",
+  "reference_word": "pervercidade",
+  "escriba_output": "perversidade",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c035",
+  "page": "4497-060",
+  "line": "4497-060-02-05",
+  "reference_word": "socias",
+  "escriba_output": "sociais",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c036",
+  "page": "4497-060",
+  "line": "4497-060-05-01",
+  "reference_word": "possivel",
+  "escriba_output": "possível",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c037",
+  "page": "4415-093",
+  "line": "4415-093-03-06",
+  "reference_word": "imgressos",
+  "escriba_output": "ingressos",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c038",
+  "page": "0957-042",
+  "line": "0957-042-02-03",
+  "reference_word": "naturalistica",
+  "escriba_output": "naturalística",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c040",
+  "page": "8755-043",
+  "line": "8755-043-02-03",
+  "reference_word": "assistênciais",
+  "escriba_output": "assistenciais",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c041",
+  "page": "4917-082",
+  "line": "4917-082-04-02",
+  "reference_word": "sociológio",
+  "escriba_output": "sociólogo",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c042",
+  "page": "4110-028",
+  "line": "4110-028-04-01",
+  "reference_word": "apresores",
+  "escriba_output": "operativos",
+  "verdict": "gt_error",
+  "raw_verdict": "other",
+  "note": "escreveu opressores, mas tem rasura."
+ },
+ {
+  "id": "c043",
+  "page": "7128-069",
+  "line": "7128-069-02-09",
+  "reference_word": "eletização",
+  "escriba_output": "elitização",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c044",
+  "page": "7281-083",
+  "line": "7281-083-04-04",
+  "reference_word": "pumam",
+  "escriba_output": "punam",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c045",
+  "page": "7605-061",
+  "line": "7605-061-01-03",
+  "reference_word": "entreternimento",
+  "escriba_output": "entretenimento",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c046",
+  "page": "7130-071",
+  "line": "7130-071-04-04",
+  "reference_word": "posibilitar",
+  "escriba_output": "possibilitar",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c047",
+  "page": "2671-028",
+  "line": "2671-028-02-02",
+  "reference_word": "apartir",
+  "escriba_output": "partir",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c048",
+  "page": "7802-034",
+  "line": "7802-034-01-03",
+  "reference_word": "astrocizalos",
+  "escriba_output": "ostracizados",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c049",
+  "page": "4103-021",
+  "line": "4103-021-01-03",
+  "reference_word": "expresções",
+  "escriba_output": "expressões",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "faltou a linha de baixo."
+ },
+ {
+  "id": "c050",
+  "page": "4497-060",
+  "line": "4497-060-02-06",
+  "reference_word": "comprender",
+  "escriba_output": "compreender",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c051",
+  "page": "7130-071",
+  "line": "7130-071-01-02",
+  "reference_word": "artistica",
+  "escriba_output": "artísticas",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c052",
+  "page": "1635-024",
+  "line": "1635-024-02-08",
+  "reference_word": "consientização",
+  "escriba_output": "conscientização",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c053",
+  "page": "4117-035",
+  "line": "4117-035-03-02",
+  "reference_word": "psicológo",
+  "escriba_output": "psicólogo",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c054",
+  "page": "1644-033",
+  "line": "1644-033-02-04",
+  "reference_word": "folta",
+  "escriba_output": "falta",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c055",
+  "page": "7560-016",
+  "line": "7560-016-01-08",
+  "reference_word": "privida",
+  "escriba_output": "privada",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c056",
+  "page": "8135-037",
+  "line": "8135-037-02-01",
+  "reference_word": "contigenciamento",
+  "escriba_output": "contingenciamento",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c057",
+  "page": "7149-090",
+  "line": "7149-090-03-02",
+  "reference_word": "sociologa",
+  "escriba_output": "socióloga",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c058",
+  "page": "4981-037",
+  "line": "4981-037-04-06",
+  "reference_word": "conseguição",
+  "escriba_output": "conseguirão",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c059",
+  "page": "6904-011",
+  "line": "6904-011-03-06",
+  "reference_word": "exibicidade",
+  "escriba_output": "criticidade",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c060",
+  "page": "9193-026",
+  "line": "9193-026-03-08",
+  "reference_word": "piscológicos",
+  "escriba_output": "psicológicos",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c061",
+  "page": "7149-090",
+  "line": "7149-090-03-06",
+  "reference_word": "despreso",
+  "escriba_output": "desprezo",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c062",
+  "page": "7593-049",
+  "line": "7593-049-04-06",
+  "reference_word": "culturamente",
+  "escriba_output": "culturalmente",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c063",
+  "page": "7802-034",
+  "line": "7802-034-03-01",
+  "reference_word": "repercusão",
+  "escriba_output": "repercussão",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c064",
+  "page": "7058-021",
+  "line": "7058-021-05-04",
+  "reference_word": "destinato",
+  "escriba_output": "destinada",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c065",
+  "page": "7566-022",
+  "line": "7566-022-03-01",
+  "reference_word": "heterogeneo",
+  "escriba_output": "heterogêneo",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c066",
+  "page": "3197-007",
+  "line": "3197-007-02-04",
+  "reference_word": "derespeita",
+  "escriba_output": "desrespeita",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c067",
+  "page": "1125-020",
+  "line": "1125-020-04-06",
+  "reference_word": "categorega",
+  "escriba_output": "categoriza",
+  "verdict": "gt_error",
+  "raw_verdict": "other",
+  "note": "categoriza"
+ },
+ {
+  "id": "c068",
+  "page": "8125-027",
+  "line": "8125-027-03-04",
+  "reference_word": "restingir",
+  "escriba_output": "restringir",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c069",
+  "page": "1675-064",
+  "line": "1675-064-03-03",
+  "reference_word": "ingnorância",
+  "escriba_output": "ignorância",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c070",
+  "page": "6114-022",
+  "line": "6114-022-02-07",
+  "reference_word": "profisional",
+  "escriba_output": "profissional",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c071",
+  "page": "6944-026",
+  "line": "6944-026-01-05",
+  "reference_word": "patriaricalismo",
+  "escriba_output": "patriarcalismo",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c073",
+  "page": "2495-038",
+  "line": "2495-038-02-01",
+  "reference_word": "perpectiva",
+  "escriba_output": "perspectiva",
+  "verdict": "gt_error",
+  "raw_verdict": "other",
+  "note": "perspectiva"
+ },
+ {
+  "id": "c074",
+  "page": "1267-041",
+  "line": "1267-041-04-04",
+  "reference_word": "orgãos",
+  "escriba_output": "órgãos",
+  "verdict": "gt_error",
+  "raw_verdict": "other",
+  "note": "órgãos"
+ },
+ {
+  "id": "c075",
+  "page": "1756-020",
+  "line": "1756-020-01-04",
+  "reference_word": "tráz",
+  "escriba_output": "trás",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c076",
+  "page": "7292-094",
+  "line": "7292-094-04-05",
+  "reference_word": "tranformar",
+  "escriba_output": "transformar",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c077",
+  "page": "1493-038",
+  "line": "1493-038-01-04",
+  "reference_word": "expresão",
+  "escriba_output": "expressão",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c078",
+  "page": "3942-017",
+  "line": "3942-017-03-02",
+  "reference_word": "irreleva",
+  "escriba_output": "irrelevante",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c079",
+  "page": "6692-042",
+  "line": "6692-042-02-01",
+  "reference_word": "tecnología",
+  "escriba_output": "tecnologia",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c080",
+  "page": "0673-064",
+  "line": "0673-064-04-05",
+  "reference_word": "equilibrio",
+  "escriba_output": "equilíbrio",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c081",
+  "page": "1756-020",
+  "line": "1756-020-04-05",
+  "reference_word": "doenção",
+  "escriba_output": "doenças",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c082",
+  "page": "4290-003",
+  "line": "4290-003-05-01",
+  "reference_word": "catastrofe",
+  "escriba_output": "amnistia",
+  "verdict": "gt_error",
+  "raw_verdict": "other",
+  "note": "CATÁSTROFE"
+ },
+ {
+  "id": "c083",
+  "page": "2122-072",
+  "line": "2122-072-02-03",
+  "reference_word": "percéptivel",
+  "escriba_output": "perceptível",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c084",
+  "page": "0957-042",
+  "line": "0957-042-04-02",
+  "reference_word": "fucral",
+  "escriba_output": "fulcral",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c085",
+  "page": "8126-028",
+  "line": "8126-028-02-08",
+  "reference_word": "essentada",
+  "escriba_output": "assentada",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": "assentada"
+ },
+ {
+  "id": "c086",
+  "page": "0522-022",
+  "line": "0522-022-04-03",
+  "reference_word": "conseguência",
+  "escriba_output": "consequência",
+  "verdict": "other",
+  "raw_verdict": "other",
+  "note": "faltou linha debaixo."
+ },
+ {
+  "id": "c087",
+  "page": "0643-034",
+  "line": "0643-034-04-03",
+  "reference_word": "precológicos",
+  "escriba_output": "psicológicos",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c088",
+  "page": "0960-045",
+  "line": "0960-045-02-08",
+  "reference_word": "derespeito",
+  "escriba_output": "desrespeito",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c089",
+  "page": "1675-064",
+  "line": "1675-064-04-06",
+  "reference_word": "inserí-los",
+  "escriba_output": "inseri-los",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c090",
+  "page": "7578-034",
+  "line": "7578-034-03-04",
+  "reference_word": "manificada",
+  "escriba_output": "massificada",
+  "verdict": "student",
+  "raw_verdict": "other",
+  "note": "aluno escreveu manificados."
+ },
+ {
+  "id": "c092",
+  "page": "0961-046",
+  "line": "0961-046-02-09",
+  "reference_word": "garantía",
+  "escriba_output": "garantia",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c093",
+  "page": "4917-082",
+  "line": "4917-082-02-06",
+  "reference_word": "verdaderamente",
+  "escriba_output": "verdadeiramente",
+  "verdict": "ambiguous",
+  "raw_verdict": "ambiguous",
+  "note": ""
+ },
+ {
+  "id": "c094",
+  "page": "0957-042",
+  "line": "0957-042-04-07",
+  "reference_word": "afestá-la",
+  "escriba_output": "afastá-la",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c095",
+  "page": "2247-047",
+  "line": "2247-047-01-03",
+  "reference_word": "estigmalização",
+  "escriba_output": "estigmatização",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c096",
+  "page": "9187-020",
+  "line": "9187-020-04-02",
+  "reference_word": "cinematografica",
+  "escriba_output": "cinematográfica",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ },
+ {
+  "id": "c097",
+  "page": "7274-076",
+  "line": "7274-076-04-03",
+  "reference_word": "importancia",
+  "escriba_output": "importância",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c098",
+  "page": "1623-012",
+  "line": "1623-012-03-02",
+  "reference_word": "possivel",
+  "escriba_output": "possível",
+  "verdict": "student",
+  "raw_verdict": "student",
+  "note": ""
+ },
+ {
+  "id": "c099",
+  "page": "4100-018",
+  "line": "4100-018-01-06",
+  "reference_word": "perpeturação",
+  "escriba_output": "perpetuação",
+  "verdict": "gt_error",
+  "raw_verdict": "gt_error",
+  "note": ""
+ }
+]

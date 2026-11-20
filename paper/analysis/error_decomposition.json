@@ -1,0 +1,65 @@
+{
+ "escriba": {
+  "cer": 2.06,
+  "cer_case": 2.13,
+  "cer_no_accents": 1.99,
+  "cer_no_punct": 1.77,
+  "sub": 5877,
+  "ins": 2489,
+  "del": 2593
+ },
+ "qwen235": {
+  "cer": 5.6,
+  "cer_case": 6.44,
+  "cer_no_accents": 5.45,
+  "cer_no_punct": 4.49,
+  "sub": 12999,
+  "ins": 3690,
+  "del": 13076
+ },
+ "qwen27": {
+  "cer": 8.01,
+  "cer_case": 8.4,
+  "cer_no_accents": 7.9,
+  "cer_no_punct": 6.61,
+  "sub": 15636,
+  "ins": 6276,
+  "del": 13464
+ },
+ "qwen72": {
+  "cer": 8.51,
+  "cer_case": 9.12,
+  "cer_no_accents": 8.22,
+  "cer_no_punct": 7.17,
+  "sub": 20278,
+  "ins": 4187,
+  "del": 17796
+ },
+ "lo4b": {
+  "cer": 8.44,
+  "cer_case": 8.52,
+  "cer_no_accents": 8.3,
+  "cer_no_punct": 6.99,
+  "sub": 17279,
+  "ins": 10598,
+  "del": 18625
+ },
+ "base": {
+  "cer": 8.97,
+  "cer_case": 9.83,
+  "cer_no_accents": 8.76,
+  "cer_no_punct": 7.56,
+  "sub": 23308,
+  "ins": 5422,
+  "del": 18928
+ },
+ "htr": {
+  "cer": 10.33,
+  "cer_case": 10.43,
+  "cer_no_accents": 10.15,
+  "cer_no_punct": 9.02,
+  "sub": 28434,
+  "ins": 3705,
+  "del": 22724
+ }
+}

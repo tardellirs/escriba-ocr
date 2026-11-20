@@ -1,0 +1,59 @@
+{
+ "train": {
+  "pages": 647,
+  "lines": 19565,
+  "words": 267588,
+  "chars": 1754376,
+  "lines_per_page": 30.2,
+  "words_per_page": 413.6,
+  "chars_per_page": 2712,
+  "markup": {
+   "strike": 1823,
+   "insert": 930,
+   "illegible": 375,
+   "strike_x": 902
+  },
+  "img_w_median": 492,
+  "img_h_median": 556,
+  "suspect_words": 1820,
+  "px_per_line": 18.4
+ },
+ "val": {
+  "pages": 154,
+  "lines": 4609,
+  "words": 63957,
+  "chars": 419530,
+  "lines_per_page": 29.9,
+  "words_per_page": 415.3,
+  "chars_per_page": 2724,
+  "markup": {
+   "illegible": 58,
+   "insert": 140,
+   "strike": 376,
+   "strike_x": 184
+  },
+  "img_w_median": 525.0,
+  "img_h_median": 583.5,
+  "suspect_words": 382,
+  "px_per_line": 19.5
+ },
+ "test": {
+  "pages": 199,
+  "lines": 5916,
+  "words": 81118,
+  "chars": 531106,
+  "lines_per_page": 29.7,
+  "words_per_page": 407.6,
+  "chars_per_page": 2669,
+  "markup": {
+   "strike": 590,
+   "strike_x": 259,
+   "illegible": 57,
+   "insert": 379
+  },
+  "img_w_median": 538,
+  "img_h_median": 618,
+  "suspect_words": 496,
+  "px_per_line": 20.8
+ }
+}

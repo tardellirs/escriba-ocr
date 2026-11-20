@@ -1,0 +1,14 @@
+{
+ "model": "/content/ft/r2-final-aug-12k/final",
+ "run": "r2-final-aug-12k",
+ "prompt": "empty",
+ "rep_penalty": 1.05,
+ "long_side": 1200,
+ "pages": 199,
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "load_s": 20.4,
+ "batch_s": 125.1,
+ "pages_per_s": 1.591,
+ "seq_median_s": 2.29,
+ "truncated": 0
+}

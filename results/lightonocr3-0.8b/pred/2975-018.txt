@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>ULO</th>
+    <th>caixa de Pandora</th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>Des após os anos, Józé, sem tanto o que fazer depois de um dia de aulas, decidiu revisar algumas caixas velhas que sua avó, por saudosismo, guardava nos cantos dos arquivos de casa. Não precisou vasculhar muito para encontrar um caixa que logo e chamou a atenção. “Jurma de Medicina 2019”, lia-se no laço do pacote. O menino, curioso como era, sem delongas, excanear a caixa que encerrava tantos registros — ou, ao menos, que ele imaginava encerrar — tal qual Pandora outros o fez.</p>
+      <p>Por entre fatos empoeirados, lembranças fatigadas pelos décadas e outros artefactos que, em seu cérebro, classificou como “bugigangas”, Józé percebeu um atípico recorte de jornal. Naquele enfadonho pedaço de papel, ler “Vestibular de Medicina”, título este seguido por uma curta lista de nomes… e de sua avó (que, ao leitor, não vem as caso) entre eles. Dure sua caríssima “nona” era médico não lhe era estranha, mas naquele jornal havia uma palavra pouco familiar à Józé: vestibular. O garoto, sem se preocupar em ir averiguar no dicionário o caminho vernáculo deste vocabulo, optou por ir direto à fonte: foi interrogar o poluvo.</p>
+      <p>Mal havia encontrado a serena senhora, começou a saturá-la de perguntas. “Como assim ‘vestibular’?; “Por que não existem oportunidades para todo mundo?”; “Uma prova para selecionar quem pode ou não estudar!?” Quente mais questionava, mais decepção ficava com as respostas. Józé, veja bem, que nascera em meados do século de 2000, sempre teve o prazer de viver em uma sociedade que valoriza a educação, indistintamente. Ele e seus colegas, independentemente da faixa etária, sendo ou localização espacial, disfrutavam do direito a equidade: mesma qualidade de ensino e oportunidades semelhantes. Como consequência, claro, tornavam-se profissionais capacitados para exercer as mais diversas funções, gelando pelo bem estar humano. Por viver assim, Józé achou pesoso crer que, em algum tempo não tão remoto, crianças e jovens não possuíam o mesmo acesso à educação… que deveriam, até, competir por vagas ao ensino superior—desconsiderando os históricos escolares tão injustamente discrepantes.</p>
+      <p>Józé, em uma aula de redegação, ainda naquela semana, deveria escrever um conto distópico sobre “uma sociedade no qual crianças e jovens não tenham o mesmo acesso à educação”. “Muito virônico” ele pensou.</p>
+    </td>
+  </tr>
+</table>

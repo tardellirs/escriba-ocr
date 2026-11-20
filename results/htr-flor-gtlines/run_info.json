@@ -1,0 +1,4 @@
+{
+ "gpu": "A6000 (train)",
+ "note": "line-level HTR-Flor on GT line crops, assembled to pages"
+}

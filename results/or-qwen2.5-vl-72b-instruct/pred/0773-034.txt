@@ -1,0 +1,35 @@
+
+Maquina sue funçô do homem
+
+A IBM, uma das maiores empresas de tecnologia, lançou o seguinte slogan para seu software de in-
+teligência artificial (IA) "inteligência pronta para trabalhar". De tal frase, subentende-se que a máquina
+produz de acordo com o direcionamento do cliente e, por ser uma máquina, não tem falhas humanas, doen-
+ças ou licença maternidade, mas a, mais importante: não questiona. A introdução da IA na medicina ca-
+minha a passo largo, sendo atualmente utilizada para diagnóstico de imagem com certa precisão. Já quem
+digo que ela irá suprir o papel do médico por ser mais rápida e produtiva; entretanto, essa visão não con-
+sidera que a IA é alimentada por dados criados pelo médico, como também não possui a interação humana
+que auxilia na avaliação do paciente. Dessa forma, a IA é apenas um recurso a cabe ao médico a responsabi-
+lidade ética sobre o diagnóstico.
+
+Quando a inteligência utiliza dados e informações guardados por médicos, não se pode assumi-la como
+autônoma. Ainda que a IA apresente "machine learning", ou aprendizado da máquina e, assim, possa se autodevlar,
+ela depira de um banco de dado futu por pessoas logo, a responsabilidade acaba sendo de quem a alimenta
+com o conteúdo a ser processado. O software, portanto, não tem a autonomia no sentido de questionar a fonte eu, ali
+mesmo, ter constantemente um frontuário, pois se limita ce que lhe é fornecido. Por outro lado, o médico teve a capacida-
+de de boa convigir erros de leitura e discutir com outros profissionais de saúde caso clínico, podendo
+assim, aperfeiçoar a máquina. A IA, portanto, pode ser aprimorada, mas tal feito deriva da conduta do médico.
+
+Além disso, esso profissional da saúde possui qualidade que a tecnologia não tem. Através da
+subjetividade, ele consegue dialogar com o paciente, torná-lo confortável e, assim, retirar informação
+que auxiliam no diagnóstico. Isso torna mais capacitado para analisar todo o contexto sociocultural
+do paciente, transformar um dado em hipótese e assim, ter um diagnóstico mais preciso. Isso não se
+limita a salar a doença de um indivíduo, mas também agirar no prognóstico e manutenção do tratamento.
+Verifica-se portanto, que há uma autonomia do médico através de seu conhecimento de mundo, fazendo-o
+capacitado a verificar sinais clínicos e psicológicos que uma máquina não consegue.
+
+Assim, ainda que a IA tenha alto processamento e precisão, ela é alimentada apenas por dados
+futu por pessoa. Isso faz uma "inteligência pronta para trabalhar", mas apenas como ferramenta e
+recurso em diagnóstico, não podendo ser responsável por ele. O médico, porém, consegue verificar sinais
+que a máquina não consegue, e, também questioná-la quanto ao diagnóstico. Isso torna ética-
+mente responsável pelo diagnóstico e pelo paciente, e, portanto ele deve xaimbar e assinar embaixo as
+suas escolhas.

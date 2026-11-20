@@ -1,0 +1,14 @@
+{
+ "model": "Qwen/Qwen3.5-2B",
+ "run": "qwen3.5-2b",
+ "prompt": "dipl",
+ "rep_penalty": 1.05,
+ "long_side": 1600,
+ "pages": 199,
+ "gpu": "NVIDIA L4",
+ "load_s": 73.6,
+ "batch_s": 282.8,
+ "pages_per_s": 0.704,
+ "seq_median_s": 10.47,
+ "truncated": 8
+}

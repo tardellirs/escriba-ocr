@@ -1,0 +1,26 @@
+<table>
+  <thead>
+    <tr>
+      <th>JULO</th>
+      <th>Laixa de Pandora</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Aos dezzeito anos, José, sem tanto o que fazer depois de um dia de aulas, decidiu recorrer algumas caixas velhas que sua avó, por saudosismo, guardava nos cantos descuros de casa. Não precisou vasculhar muito para encontrar um caixote que logo o chamou a atenção. "Turma de Mediana 2019", lia-se no lacru do pacote. O menino, curioso como era, sem delongas, escancarai a caixa que encerrava tantos segredos — ou, ao menos, que ele imaginava encerrar — tal qual Pandora outrora o fez.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Por entre fotos empoeiradas, lembranças fatigadas pelas décadas e outros artefatos que, em seu cérebro, classificou como "bugigangas", José percebeu um atípico recorte de jornal. Naquele enfadonho pedacinho de papel, leu "Vestibular de Mediana", título este seguido por uma curta lista de nomes... e de sua avó (que, ao leitor, não vem ao caso) entre eles. Que sua carissima "nona" era médica não lhe era estranho, mas naquele jornal erabia uma palavra pouco familiar a José: vestibular. O garoto, sem se preocupar em ir averiguar no diccionário o cunho vernáculo deste vocábulo, optou por ir direto à fonte: foi interrogar o pobre vó.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Mal havia encontrado a serena senhora, começou a saturá-la de perguntas. "Como assim 'vestibulari'?"; "Por que não existiam oportunidades para todo mundo?"; "Uma prova para selecionar quem pode ou não estudar!?" Quanto mais questionava, mais decepcionado ficava com as respostas. José, veja bem, que nascera em meados da década de 2000, sempre teve o prazer de viver em uma sociedade que valoriza a educação, indistintamente. Ele e seus colegas, independentemente da faixa etária, vendo as localizações espacial, disfrutavam do direito à equidade: mesma qualidade de ensino e oportunidades semelhantes. Como consequência, claro, tornavam-se profissionais capacitados para exercer as mais diversas funções, gelando pelo bem estar humano. Por viver assim, José achou pesaroso crer que, em algum tempo não tão remoto, crianças e jovens não possuíam o mesmo acesso à educação... que deveriam, até, competir por vagas ao ensino superior — desconsiderando os históricos escolares tão injustamente discrepantes.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>José, em uma aula de redação, ainda naquela semana, deveria escrever um conto distópico sobre "uma sociedade na qual crianças e jovens não tenham o mesmo acesso à educação". "Muito irônico" ele pensou.</td>
+    </tr>
+  </tbody>
+</table>

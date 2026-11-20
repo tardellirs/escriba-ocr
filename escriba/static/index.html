@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Escriba Viewer</title>
+<style>
+:root{
+  --bg:#f6f5f2;--panel:#ffffff;--ink:#1d1d1b;--ink2:#5b5a55;--muted:#8a8880;--line:#e3e1db;
+  --accent:#2b5cab;--accent-soft:#e6eefa;--sel:#eceae4;
+  --del:#b3261e;--del-bg:#fbe4e2;--ins:#1e6b3a;--ins-bg:#dff3e5;
+  --mk-strike:#8a4b08;--mk-ins:#2b5cab;--mk-ill:#7a3f98;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#151513;--panel:#1d1d1a;--ink:#ecebe6;--ink2:#b5b3ab;--muted:#85837b;--line:#2f2e2a;
+  --accent:#8db2f0;--accent-soft:#22304a;--sel:#2a2925;
+  --del:#ff9b90;--del-bg:#4a1f1b;--ins:#8fdcaa;--ins-bg:#173a25;
+  --mk-strike:#f0b46a;--mk-ins:#8db2f0;--mk-ill:#cf9cf0;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#151513;--panel:#1d1d1a;--ink:#ecebe6;--ink2:#b5b3ab;--muted:#85837b;--line:#2f2e2a;
+  --accent:#8db2f0;--accent-soft:#22304a;--sel:#2a2925;
+  --del:#ff9b90;--del-bg:#4a1f1b;--ins:#8fdcaa;--ins-bg:#173a25;
+  --mk-strike:#f0b46a;--mk-ins:#8db2f0;--mk-ill:#cf9cf0;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 var(--sans);display:grid;grid-template-columns:260px 1fr;grid-template-rows:auto 1fr;height:100vh;overflow:hidden}
+header{grid-column:1/-1;display:flex;align-items:center;gap:14px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+header h1{font-size:15px;margin:0;font-weight:650;letter-spacing:.2px}
+header .sub{color:var(--muted);font-size:12.5px}
+header .sp{flex:1}
+.pill{font-size:12px;padding:3px 9px;border-radius:99px;border:1px solid var(--line);color:var(--ink2);white-space:nowrap}
+.pill.ok::before,.pill.off::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.pill.ok::before{background:#2e9a55}.pill.off::before{background:#c24a3a}
+button,select{font:inherit;color:var(--ink);background:var(--panel);border:1px solid var(--line);border-radius:7px;padding:5px 10px;cursor:pointer}
+button:hover,select:hover{border-color:var(--muted)}
+button:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+button.primary{background:var(--accent);color:var(--panel);border-color:var(--accent)}
+aside{border-right:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-height:0}
+.drop{margin:12px;padding:14px 10px;border:1.5px dashed var(--line);border-radius:10px;text-align:center;color:var(--ink2);font-size:13px;cursor:pointer}
+.drop:hover,.drop.over{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.drop small{display:block;color:var(--muted);margin-top:3px}
+.drop.disabled{opacity:.55;cursor:not-allowed}
+progress{width:calc(100% - 24px);margin:0 12px 6px;accent-color:var(--accent)}
+.status{margin:0 12px 6px;font-size:12px;color:var(--ink2);min-height:1em}
+.status.err{color:var(--del)}
+.filter{margin:4px 12px 8px;padding:6px 9px;border:1px solid var(--line);border-radius:7px;background:var(--bg);color:var(--ink);font:inherit;width:calc(100% - 24px)}
+nav{overflow:auto;flex:1;padding-bottom:12px}
+nav details{border-top:1px solid var(--line)}
+nav summary{padding:8px 14px;font-weight:600;font-size:12.5px;color:var(--ink2);cursor:pointer;list-style:none;display:flex;justify-content:space-between}
+nav summary::-webkit-details-marker{display:none}
+nav summary span{color:var(--muted);font-weight:400}
+nav ul{list-style:none;margin:0;padding:0 6px 6px}
+nav li{padding:4px 10px;border-radius:6px;cursor:pointer;font-family:var(--mono);font-size:12.5px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+nav li:hover{background:var(--sel);color:var(--ink)}
+nav li[aria-selected="true"]{background:var(--accent-soft);color:var(--ink);font-weight:600}
+main{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:0}
+.pane{display:flex;flex-direction:column;min-height:0;min-width:0}
+.pane+.pane{border-left:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:8px;padding:8px 12px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap;min-height:45px}
+.bar .title{font-family:var(--mono);font-size:12.5px;color:var(--ink2);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden}
+.seg button{border:0;border-radius:0;padding:4px 10px;font-size:12.5px}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--ink);font-weight:600}
+.imgwrap{flex:1;overflow:auto;background:var(--bg);overscroll-behavior:contain;cursor:grab}
+.imgwrap.drag{cursor:grabbing}
+.imgwrap img{display:block;margin:0 auto;transform-origin:0 0;user-select:none;-webkit-user-drag:none;box-shadow:0 1px 4px rgb(0 0 0/.12)}
+.text{flex:1;overflow:auto;padding:16px 20px;background:var(--panel)}
+.text pre{margin:0;font:13.5px/1.75 var(--mono);white-space:pre-wrap;word-break:break-word;counter-reset:ln}
+.text .ln{display:block;padding-left:3.2em;position:relative}
+.text .ln::before{counter-increment:ln;content:counter(ln);position:absolute;left:0;width:2.4em;text-align:right;color:var(--muted);font-size:11px}
+.text .ln.blank::before{content:"";counter-increment:none}
+.mk-strike{color:var(--mk-strike);text-decoration:line-through;text-decoration-thickness:1.5px}
+.mk-ins{color:var(--mk-ins);font-weight:600}
+.mk-ill{color:var(--mk-ill);font-style:italic}
+del.d{background:var(--del-bg);color:var(--del);text-decoration:line-through}
+ins.i{background:var(--ins-bg);color:var(--ins);text-decoration:none}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--ink2);padding:6px 12px;border-bottom:1px solid var(--line);background:var(--panel)}
+.legend b{font-weight:600}
+.meta{font-size:12px;color:var(--muted)}
+.empty{color:var(--muted);padding:40px 24px;text-align:center;line-height:1.7}
+.empty code{font-family:var(--mono);background:var(--sel);padding:1px 5px;border-radius:4px}
+kbd{font:11px var(--mono);border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media (max-width:900px){
+  body{grid-template-columns:1fr;grid-template-rows:auto auto 1fr;overflow:auto;height:auto}
+  aside{max-height:40vh;border-right:0;border-bottom:1px solid var(--line)}
+  main{grid-template-columns:1fr}
+  .pane+.pane{border-left:0;border-top:1px solid var(--line)}
+  .imgwrap,.text{min-height:60vh}
+  header .sub{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Escriba Viewer</h1>
+  <span class="sub">error-preserving transcription of handwritten essays</span>
+  <span class="sp"></span>
+  <span id="server" class="pill">model server…</span>
+  <button id="theme" type="button" aria-label="Toggle light or dark theme">◐</button>
+</header>
+
+<aside>
+  <label id="drop" class="drop" tabindex="0">
+    <strong>Drop page images here</strong>
+    <small>or click to choose · JPG, PNG, WebP</small>
+    <input id="file" type="file" accept="image/*" multiple hidden>
+  </label>
+  <progress id="prog" hidden aria-label="Transcription progress"></progress>
+  <div id="status" class="status" role="status" aria-live="polite"></div>
+  <input id="filter" class="filter" type="search" placeholder="Filter pages" aria-label="Filter pages">
+  <nav id="nav" aria-label="Pages"></nav>
+</aside>
+
+<main>
+  <section class="pane" aria-label="Page image">
+    <div class="bar">
+      <span id="pageTitle" class="title">—</span>
+      <div class="seg" role="group" aria-label="Zoom">
+        <button type="button" id="zout" aria-label="Zoom out">−</button>
+        <button type="button" id="zfit" aria-label="Fit width">Fit</button>
+        <button type="button" id="zin" aria-label="Zoom in">+</button>
+      </div>
+    </div>
+    <div id="imgwrap" class="imgwrap"><img id="img" alt=""></div>
+  </section>
+
+  <section class="pane" aria-label="Transcription">
+    <div class="bar">
+      <div id="views" class="seg" role="group" aria-label="View"></div>
+      <select id="system" aria-label="System" hidden></select>
+      <span class="sp" style="flex:1"></span>
+      <span id="meta" class="meta"></span>
+      <button type="button" id="copy">Copy</button>
+    </div>
+    <div id="legend" class="legend" hidden></div>
+    <div id="text" class="text"><div class="empty">Choose a page on the left, or drop a photo of an essay to transcribe it.<br><kbd>↑</kbd> <kbd>↓</kbd> or <kbd>j</kbd> <kbd>k</kbd> move between pages · <kbd>d</kbd> diff · <kbd>+</kbd> <kbd>−</kbd> zoom</div></div>
+  </section>
+</main>
+
+<script type="module">
+const $ = s => document.querySelector(s);
+const state = {runs: [], systems: [], serverOk: false, run: null, page: null, data: null,
+               view: "text", system: null, zoom: null, flat: []};
+
+// ---------- theme ----------
+const root = document.documentElement;
+try { const t = localStorage.getItem("escriba-theme"); if (t) root.dataset.theme = t; } catch {}
+$("#theme").onclick = () => {
+  const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  root.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("escriba-theme", root.dataset.theme); } catch {}
+};
+
+// ---------- api ----------
+async function api(path) {
+  const r = await fetch(path);
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
+  return r.json();
+}
+
+async function loadState(select) {
+  const s = await api("/api/state");
+  Object.assign(state, {runs: s.runs, systems: s.systems, serverOk: s.server_ok});
+  const pill = $("#server");
+  pill.className = "pill " + (s.server_ok ? "ok" : "off");
+  pill.textContent = s.server_ok ? "model server ready" : "model server offline";
+  pill.title = `${s.model} at ${s.base_url}`;
+  $("#drop").classList.toggle("disabled", !s.server_ok);
+  $("#drop").title = s.server_ok ? "" : `Start the model server first: vllm serve ${s.model} --port 8010`;
+  if (!state.system && s.systems.length) state.system = s.systems.find(x => x.includes("ft-r2")) || s.systems[0];
+  renderNav();
+  const h = location.hash.slice(1).split("/").map(decodeURIComponent);
+  if (select) open(select.run, select.page);
+  else if (!state.page && h.length >= 2 && state.flat.some(f => f.run === h[0] && f.page === h[1])) {
+    if (h[2]) state.view = h[2];
+    open(h[0], h[1]);
+  }
+  else if (!state.page && state.flat.length) open(state.flat[0].run, state.flat[0].page);
+}
+
+// ---------- sidebar ----------
+function renderNav() {
+  const q = $("#filter").value.trim().toLowerCase();
+  const nav = $("#nav"); nav.replaceChildren(); state.flat = [];
+  for (const run of state.runs) {
+    const pages = run.pages.filter(p => !q || p.toLowerCase().includes(q));
+    if (!pages.length) continue;
+    const det = document.createElement("details"); det.open = true;
+    const sum = document.createElement("summary");
+    sum.append(run.label, Object.assign(document.createElement("span"), {textContent: pages.length}));
+    const ul = document.createElement("ul"); ul.setAttribute("role", "listbox"); ul.setAttribute("aria-label", run.label);
+    for (const p of pages) {
+      const li = document.createElement("li");
+      li.textContent = p; li.setAttribute("role", "option"); li.dataset.run = run.id; li.dataset.page = p;
+      li.setAttribute("aria-selected", String(run.id === state.run && p === state.page));
+      li.onclick = () => open(run.id, p);
+      ul.append(li); state.flat.push({run: run.id, page: p, el: li});
+    }
+    det.append(sum, ul); nav.append(det);
+  }
+  if (!state.flat.length) nav.innerHTML = '<div class="empty">No transcriptions yet.<br>Drop an image above, or run<br><code>escriba transcribe photos/</code></div>';
+}
+$("#filter").oninput = renderNav;
+
+// ---------- open a page ----------
+async function open(run, page) {
+  state.run = run; state.page = page;
+  for (const f of state.flat) f.el.setAttribute("aria-selected", String(f.run === run && f.page === page));
+  state.flat.find(f => f.run === run && f.page === page)?.el.scrollIntoView({block: "nearest"});
+  $("#pageTitle").textContent = `${run} / ${page}`;
+  const img = $("#img");
+  img.onload = () => applyZoom();
+  img.src = `/image?run=${encodeURIComponent(run)}&page=${encodeURIComponent(page)}`;
+  img.alt = `Handwritten page ${page}`;
+  const sys = state.systems.join(",");
+  state.data = await api(`/api/page?run=${encodeURIComponent(run)}&page=${encodeURIComponent(page)}&systems=${encodeURIComponent(sys)}`);
+  if (state.data.run !== state.run || state.data.page !== state.page) return;
+  renderViews();
+}
+
+function hypothesis() {
+  const d = state.data;
+  return d.systems && Object.keys(d.systems).length ? d.systems[state.system] ?? null : d.text;
+}
+
+function renderViews() {
+  const d = state.data, bench = d.systems && Object.keys(d.systems).length > 0;
+  const views = [["text", bench ? "Output" : "Transcription"]];
+  if (d.reference) views.push(["ref", "Reference"], ["diff", "Diff"]);
+  if (!views.some(v => v[0] === state.view)) state.view = "text";
+  const seg = $("#views"); seg.replaceChildren();
+  for (const [k, label] of views) {
+    const b = document.createElement("button"); b.type = "button"; b.textContent = label;
+    b.setAttribute("aria-pressed", String(k === state.view));
+    b.onclick = () => { state.view = k; renderViews(); };
+    seg.append(b);
+  }
+  const sel = $("#system"); sel.hidden = !bench;
+  if (bench) {
+    sel.replaceChildren(...state.systems.map(s => new Option(s, s, false, s === state.system)));
+  }
+  const m = d.meta;
+  $("#meta").textContent = m ? `${m.seconds}s · ${m.output_tokens} tokens${m.finish_reason === "length" ? " · stopped at token limit" : ""}` : "";
+  renderText();
+}
+$("#system").onchange = e => { state.system = e.target.value; renderText(); };
+
+// ---------- text rendering ----------
+const esc = s => s.replace(/[&<>]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;"}[c]));
+function markup(line) {
+  return esc(line)
+    .replace(/--(.+?)--/g, '<span class="mk-strike" title="struck through">--$1--</span>')
+    .replace(/##(.+?)##/g, '<span class="mk-ins" title="inserted above the line">##$1##</span>')
+    .replace(/\$\$(.+?)\$\$/g, '<span class="mk-ins" title="inserted below the line">$$$$$1$$$$</span>')
+    .replace(/@@\?\?\?@@/g, '<span class="mk-ill" title="illegible">@@???@@</span>');
+}
+function lines(html) {
+  return html.split("\n").map(l => `<span class="ln${l.trim() ? "" : " blank"}">${l || " "}</span>`).join("");
+}
+
+// word-level diff (LCS) with whitespace tokens kept, so line breaks survive
+function tokenize(s) { return s.match(/\s+|[^\s]+/g) || []; }
+function diff(a, b) {
+  const A = tokenize(a), B = tokenize(b), n = A.length, m = B.length;
+  const W = m + 1, L = new Uint16Array((n + 1) * W);
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    L[i * W + j] = A[i] === B[j] ? L[(i + 1) * W + j + 1] + 1 : Math.max(L[(i + 1) * W + j], L[i * W + j + 1]);
+  const out = []; let i = 0, j = 0;
+  const push = (t, s) => { const last = out[out.length - 1]; if (last && last[0] === t) last[1] += s; else out.push([t, s]); };
+  while (i < n && j < m) {
+    if (A[i] === B[j]) { push("=", A[i]); i++; j++; }
+    else if (L[(i + 1) * W + j] >= L[i * W + j + 1]) { push("-", A[i++]); }
+    else { push("+", B[j++]); }
+  }
+  while (i < n) push("-", A[i++]);
+  while (j < m) push("+", B[j++]);
+  return out;
+}
+function renderDiff(ref, hyp) {
+  let html = "", del = 0, ins = 0;
+  for (const [t, s] of diff(ref, hyp)) {
+    if (t === "=") { html += esc(s); continue; }
+    const words = s.trim() ? s.trim().split(/\s+/).length : 0;
+    // keep newlines outside the highlight so the line structure stays readable
+    const parts = s.split(/(\n)/);
+    const wrap = p => p === "\n" ? p : (t === "-" ? `<del class="d">${esc(p)}</del>` : `<ins class="i">${esc(p)}</ins>`);
+    if (t === "-") { del += words; html += parts.filter(p => p !== "\n").map(wrap).join(""); }
+    else { ins += words; html += parts.map(wrap).join(""); }
+  }
+  return {html, del, ins};
+}
+
+function renderText() {
+  const d = state.data, box = $("#text"), legend = $("#legend");
+  history.replaceState(null, "", `#${encodeURIComponent(state.run)}/${encodeURIComponent(state.page)}/${state.view}`);
+  const hyp = hypothesis();
+  legend.hidden = true;
+  if (state.view === "diff" && d.reference && hyp != null) {
+    const {html, del, ins} = renderDiff(d.reference.trim(), hyp.trim());
+    legend.hidden = false;
+    legend.innerHTML = `<span><del class="d">reference only</del> ${del} words</span><span><ins class="i">output only</ins> ${ins} words</span><span>Line breaks follow the output.</span>`;
+    box.innerHTML = `<pre>${lines(html)}</pre>`;
+    return;
+  }
+  const src = state.view === "ref" ? d.reference : hyp;
+  if (src == null) { box.innerHTML = '<div class="empty">No output for this page.</div>'; return; }
+  box.innerHTML = `<pre>${lines(markup(src.trim()))}</pre>`;
+}
+
+$("#copy").onclick = async () => {
+  const t = state.view === "ref" ? state.data?.reference : hypothesis();
+  if (!t) return;
+  try { await navigator.clipboard.writeText(t.trim()); flash("Copied to clipboard."); } catch { flash("Copy failed.", true); }
+};
+
+// ---------- zoom & pan ----------
+const wrap = $("#imgwrap"), img = $("#img");
+function fitScale() { return img.naturalWidth ? Math.min(1, (wrap.clientWidth - 24) / img.naturalWidth) : 1; }
+function applyZoom() {
+  const s = state.zoom ?? fitScale();
+  img.style.width = Math.round(img.naturalWidth * s) + "px";
+}
+function zoomBy(f) { state.zoom = Math.min(4, Math.max(0.15, (state.zoom ?? fitScale()) * f)); applyZoom(); }
+$("#zin").onclick = () => zoomBy(1.25);
+$("#zout").onclick = () => zoomBy(0.8);
+$("#zfit").onclick = () => { state.zoom = null; applyZoom(); };
+new ResizeObserver(() => { if (state.zoom == null) applyZoom(); }).observe(wrap);
+wrap.addEventListener("wheel", e => {
+  if (!(e.ctrlKey || e.metaKey)) return;
+  e.preventDefault(); zoomBy(e.deltaY < 0 ? 1.1 : 0.9);
+}, {passive: false});
+let pan = null;
+wrap.addEventListener("pointerdown", e => {
+  if (e.button !== 0) return;
+  pan = {x: e.clientX, y: e.clientY, l: wrap.scrollLeft, t: wrap.scrollTop};
+  wrap.setPointerCapture(e.pointerId); wrap.classList.add("drag");
+});
+wrap.addEventListener("pointermove", e => {
+  if (!pan) return;
+  wrap.scrollLeft = pan.l - (e.clientX - pan.x); wrap.scrollTop = pan.t - (e.clientY - pan.y);
+});
+const endPan = () => { pan = null; wrap.classList.remove("drag"); };
+wrap.addEventListener("pointerup", endPan); wrap.addEventListener("pointercancel", endPan);
+
+// ---------- upload ----------
+const drop = $("#drop"), file = $("#file");
+function flash(msg, err = false) { const s = $("#status"); s.textContent = msg; s.classList.toggle("err", err); }
+async function upload(files) {
+  files = [...files].filter(f => f.type.startsWith("image/"));
+  if (!files.length) return;
+  if (!state.serverOk) { await loadState(); if (!state.serverOk) { flash("The model server is offline. Start it with: vllm serve tardellirs/Escriba-OCR-1B --port 8010", true); return; } }
+  const prog = $("#prog"); prog.hidden = false; prog.max = files.length; prog.value = 0;
+  let last = null;
+  for (const [k, f] of files.entries()) {
+    flash(`Transcribing ${f.name} (${k + 1}/${files.length})…`);
+    try {
+      const r = await fetch("/api/transcribe", {method: "POST", body: f,
+        headers: {"Content-Type": f.type || "application/octet-stream", "X-Filename": encodeURIComponent(f.name)}});
+      const j = await r.json();
+      if (!r.ok) throw new Error(j.error || r.statusText);
+      last = j;
+    } catch (e) { flash(`${f.name}: ${e.message}`, true); prog.hidden = true; return; }
+    prog.value = k + 1;
+  }
+  prog.hidden = true;
+  flash(files.length > 1 ? `${files.length} pages transcribed.` : "Page transcribed.");
+  await loadState(last);
+}
+drop.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); file.click(); } });
+file.onchange = () => { upload(file.files); file.value = ""; };
+for (const t of [document.body]) {
+  t.addEventListener("dragover", e => { e.preventDefault(); drop.classList.add("over"); });
+  t.addEventListener("dragleave", e => { if (!e.relatedTarget) drop.classList.remove("over"); });
+  t.addEventListener("drop", e => { e.preventDefault(); drop.classList.remove("over"); upload(e.dataTransfer.files); });
+}
+
+// ---------- keyboard ----------
+document.addEventListener("keydown", e => {
+  if (e.target.closest("input,select,textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+  const i = state.flat.findIndex(f => f.run === state.run && f.page === state.page);
+  const go = d => { const n = state.flat[i + d]; if (n) { e.preventDefault(); open(n.run, n.page); } };
+  if (e.key === "ArrowDown" || e.key === "j") go(1);
+  else if (e.key === "ArrowUp" || e.key === "k") go(-1);
+  else if (e.key === "+" || e.key === "=") zoomBy(1.25);
+  else if (e.key === "-") zoomBy(0.8);
+  else if (e.key === "0") { state.zoom = null; applyZoom(); }
+  else if (e.key === "d" && state.data?.reference) { state.view = state.view === "diff" ? "text" : "diff"; renderViews(); }
+  else if (e.key === "r" && state.data?.reference) { state.view = state.view === "ref" ? "text" : "ref"; renderViews(); }
+});
+
+loadState().catch(e => flash(`Could not load: ${e.message}`, true));
+setInterval(() => api("/api/state").then(s => {
+  if (s.server_ok !== state.serverOk) loadState();
+}).catch(() => {}), 15000);
+</script>
+</body>
+</html>

@@ -1,0 +1,5758 @@
+{
+ "summary": {
+  "pages_per_s": 0.991,
+  "gpu": "NVIDIA L4",
+  "run": "lightonocr3-0.8b",
+  "pages": 199,
+  "of": 199,
+  "cer_dipl": 20.742187058703912,
+  "wer_dipl": 33.40835817263824,
+  "cer_ci": 20.18806038719201,
+  "wer_ci": 32.649187906806986,
+  "cer_plain": 19.829397234342174,
+  "wer_plain": 32.79543381247072,
+  "cer_lines": 20.759509401136498,
+  "wer_lines": 32.649187906806986,
+  "invented": 2.022726835739968,
+  "cer_cap": 17.579353274111007,
+  "lines_ok": 0.5025125628140703,
+  "err_suspect": 496,
+  "err_preserved": 10.685483870967742,
+  "err_corrected": 72.58064516129032,
+  "err_misread": 12.903225806451612,
+  "err_deleted": 3.8306451612903225,
+  "strike_P": NaN,
+  "strike_x_P": NaN,
+  "insert_P": NaN,
+  "illegible_P": NaN,
+  "strike_R": 0.0,
+  "strike_x_R": 0.0,
+  "insert_R": 0.0,
+  "illegible_R": 0.0,
+  "lat_median": 5.0305,
+  "lat_p90": 6.4411000000000005,
+  "in_tok_mean": 2364.3015075376884,
+  "out_tok_mean": 627.3819095477387,
+  "usd_per_1k_pages": null
+ },
+ "per_page": {
+  "7607-063": {
+   "cer_ci": [
+    614,
+    2973
+   ],
+   "cer_dipl": [
+    614,
+    2973
+   ],
+   "cer_lines": [
+    632,
+    2973
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 31,
+    "invented": 3,
+    "dict_words": 303
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2495-038": {
+   "cer_ci": [
+    100,
+    2589
+   ],
+   "cer_dipl": [
+    101,
+    2589
+   ],
+   "cer_lines": [
+    115,
+    2589
+   ],
+   "err": {
+    "suspect": 4,
+    "misread": 1,
+    "corrected": 2,
+    "preserved": 1,
+    "dict_words_replaced": 21,
+    "invented": 9,
+    "dict_words": 242
+   },
+   "markup": {},
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "8475-069": {
+   "cer_ci": [
+    168,
+    2391
+   ],
+   "cer_dipl": [
+    169,
+    2391
+   ],
+   "cer_lines": [
+    187,
+    2391
+   ],
+   "err": {
+    "dict_words_replaced": 39,
+    "invented": 5,
+    "dict_words": 230
+   },
+   "markup": {
+    "strike_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4106-024": {
+   "cer_ci": [
+    688,
+    2598
+   ],
+   "cer_dipl": [
+    688,
+    2598
+   ],
+   "cer_lines": [
+    703,
+    2598
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 7,
+    "invented": 3,
+    "dict_words": 252
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 14,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4117-035": {
+   "cer_ci": [
+    680,
+    2428
+   ],
+   "cer_dipl": [
+    684,
+    2428
+   ],
+   "cer_lines": [
+    696,
+    2428
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 58,
+    "invented": 16,
+    "dict_words": 231
+   },
+   "markup": {
+    "insert_ref": 4,
+    "strike_ref": 14,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    26,
+    5
+   ]
+  },
+  "8118-020": {
+   "cer_ci": [
+    177,
+    2139
+   ],
+   "cer_dipl": [
+    181,
+    2139
+   ],
+   "cer_lines": [
+    190,
+    2139
+   ],
+   "err": {
+    "suspect": 1,
+    "misread": 1,
+    "dict_words_replaced": 40,
+    "invented": 8,
+    "dict_words": 198
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0635-026": {
+   "cer_ci": [
+    697,
+    3346
+   ],
+   "cer_dipl": [
+    697,
+    3346
+   ],
+   "cer_lines": [
+    716,
+    3346
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 114,
+    "invented": 7,
+    "dict_words": 339
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 3,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1131-026": {
+   "cer_ci": [
+    680,
+    2280
+   ],
+   "cer_dipl": [
+    681,
+    2280
+   ],
+   "cer_lines": [
+    693,
+    2280
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 127,
+    "invented": 8,
+    "dict_words": 230
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "0951-036": {
+   "cer_ci": [
+    98,
+    2298
+   ],
+   "cer_dipl": [
+    99,
+    2298
+   ],
+   "cer_lines": [
+    110,
+    2298
+   ],
+   "err": {
+    "suspect": 1,
+    "misread": 1,
+    "dict_words_replaced": 13,
+    "invented": 4,
+    "dict_words": 225
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    6
+   ]
+  },
+  "4744-307": {
+   "cer_ci": [
+    736,
+    2892
+   ],
+   "cer_dipl": [
+    739,
+    2892
+   ],
+   "cer_lines": [
+    736,
+    2892
+   ],
+   "err": {
+    "dict_words_replaced": 62,
+    "invented": 13,
+    "dict_words": 295
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    31
+   ]
+  },
+  "0992-018": {
+   "cer_ci": [
+    800,
+    2640
+   ],
+   "cer_dipl": [
+    804,
+    2640
+   ],
+   "cer_lines": [
+    817,
+    2640
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 135,
+    "invented": 1,
+    "dict_words": 275
+   },
+   "markup": {
+    "strike_ref": 3,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7865-041": {
+   "cer_ci": [
+    347,
+    2552
+   ],
+   "cer_dipl": [
+    348,
+    2552
+   ],
+   "cer_lines": [
+    357,
+    2552
+   ],
+   "err": {
+    "dict_words_replaced": 54,
+    "invented": 17,
+    "dict_words": 240
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1436-040": {
+   "cer_ci": [
+    383,
+    2318
+   ],
+   "cer_dipl": [
+    383,
+    2318
+   ],
+   "cer_lines": [
+    397,
+    2318
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 23,
+    "invented": 2,
+    "dict_words": 238
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "6114-022": {
+   "cer_ci": [
+    743,
+    3651
+   ],
+   "cer_dipl": [
+    747,
+    3651
+   ],
+   "cer_lines": [
+    763,
+    3651
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 121,
+    "invented": 4,
+    "dict_words": 373
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 1,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "7566-022": {
+   "cer_ci": [
+    29,
+    2342
+   ],
+   "cer_dipl": [
+    33,
+    2342
+   ],
+   "cer_lines": [
+    49,
+    2342
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 6,
+    "invented": 1,
+    "dict_words": 221
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0589-036": {
+   "cer_ci": [
+    366,
+    2879
+   ],
+   "cer_dipl": [
+    368,
+    2879
+   ],
+   "cer_lines": [
+    379,
+    2879
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 62,
+    "invented": 5,
+    "dict_words": 270
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 2,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "6400-025": {
+   "cer_ci": [
+    640,
+    3414
+   ],
+   "cer_dipl": [
+    642,
+    3414
+   ],
+   "cer_lines": [
+    659,
+    3414
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 106,
+    "invented": 2,
+    "dict_words": 342
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 2,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0954-039": {
+   "cer_ci": [
+    108,
+    2590
+   ],
+   "cer_dipl": [
+    108,
+    2590
+   ],
+   "cer_lines": [
+    128,
+    2590
+   ],
+   "err": {
+    "suspect": 1,
+    "preserved": 1,
+    "dict_words_replaced": 20,
+    "invented": 7,
+    "dict_words": 251
+   },
+   "markup": {
+    "strike_ref": 1,
+    "strike_x_ref": 4
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2609-026": {
+   "cer_ci": [
+    117,
+    2855
+   ],
+   "cer_dipl": [
+    120,
+    2855
+   ],
+   "cer_lines": [
+    130,
+    2855
+   ],
+   "err": {
+    "suspect": 1,
+    "preserved": 1,
+    "dict_words_replaced": 15,
+    "invented": 1,
+    "dict_words": 286
+   },
+   "markup": {
+    "strike_x_ref": 2,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "6109-017": {
+   "cer_ci": [
+    95,
+    1870
+   ],
+   "cer_dipl": [
+    97,
+    1870
+   ],
+   "cer_lines": [
+    101,
+    1870
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 10,
+    "invented": 1,
+    "dict_words": 194
+   },
+   "markup": {
+    "strike_x_ref": 3
+   },
+   "n_lines": [
+    24,
+    4
+   ]
+  },
+  "6482-012": {
+   "cer_ci": [
+    124,
+    2916
+   ],
+   "cer_dipl": [
+    124,
+    2916
+   ],
+   "cer_lines": [
+    140,
+    2916
+   ],
+   "err": {
+    "dict_words_replaced": 23,
+    "invented": 6,
+    "dict_words": 299
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "3126-007": {
+   "cer_ci": [
+    83,
+    1996
+   ],
+   "cer_dipl": [
+    86,
+    1996
+   ],
+   "cer_lines": [
+    101,
+    1996
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 21,
+    "invented": 2,
+    "dict_words": 222
+   },
+   "markup": {},
+   "n_lines": [
+    32,
+    4
+   ]
+  },
+  "4122-040": {
+   "cer_ci": [
+    1027,
+    3916
+   ],
+   "cer_dipl": [
+    1030,
+    3916
+   ],
+   "cer_lines": [
+    1042,
+    3916
+   ],
+   "err": {
+    "suspect": 1,
+    "deleted": 1,
+    "dict_words_replaced": 28,
+    "invented": 3,
+    "dict_words": 339
+   },
+   "markup": {
+    "insert_ref": 29,
+    "strike_ref": 23,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "7572-028": {
+   "cer_ci": [
+    128,
+    3123
+   ],
+   "cer_dipl": [
+    130,
+    3123
+   ],
+   "cer_lines": [
+    139,
+    3123
+   ],
+   "err": {
+    "suspect": 6,
+    "preserved": 1,
+    "deleted": 1,
+    "corrected": 4,
+    "dict_words_replaced": 16,
+    "invented": 5,
+    "dict_words": 311
+   },
+   "markup": {
+    "strike_ref": 4
+   },
+   "n_lines": [
+    27,
+    4
+   ]
+  },
+  "4560-123": {
+   "cer_ci": [
+    698,
+    3067
+   ],
+   "cer_dipl": [
+    706,
+    3067
+   ],
+   "cer_lines": [
+    714,
+    3067
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 96,
+    "invented": 5,
+    "dict_words": 294
+   },
+   "markup": {
+    "insert_ref": 9,
+    "strike_ref": 11,
+    "strike_x_ref": 2,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "6944-026": {
+   "cer_ci": [
+    341,
+    2242
+   ],
+   "cer_dipl": [
+    343,
+    2242
+   ],
+   "cer_lines": [
+    359,
+    2242
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 61,
+    "invented": 5,
+    "dict_words": 209
+   },
+   "markup": {
+    "strike_ref": 4
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2975-018": {
+   "cer_ci": [
+    258,
+    2366
+   ],
+   "cer_dipl": [
+    263,
+    2366
+   ],
+   "cer_lines": [
+    270,
+    2366
+   ],
+   "err": {
+    "dict_words_replaced": 31,
+    "invented": 7,
+    "dict_words": 268
+   },
+   "markup": {},
+   "n_lines": [
+    31,
+    14
+   ]
+  },
+  "6904-011": {
+   "cer_ci": [
+    708,
+    3200
+   ],
+   "cer_dipl": [
+    710,
+    3200
+   ],
+   "cer_lines": [
+    725,
+    3200
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 109,
+    "invented": 4,
+    "dict_words": 315
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 10,
+    "strike_x_ref": 5
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1664-053": {
+   "cer_ci": [
+    452,
+    2816
+   ],
+   "cer_dipl": [
+    459,
+    2816
+   ],
+   "cer_lines": [
+    468,
+    2816
+   ],
+   "err": {
+    "suspect": 2,
+    "preserved": 1,
+    "corrected": 1,
+    "dict_words_replaced": 76,
+    "invented": 3,
+    "dict_words": 285
+   },
+   "markup": {
+    "strike_ref": 1,
+    "strike_x_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2187-044": {
+   "cer_ci": [
+    575,
+    2052
+   ],
+   "cer_dipl": [
+    575,
+    2052
+   ],
+   "cer_lines": [
+    590,
+    2052
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 29,
+    "invented": 3,
+    "dict_words": 192
+   },
+   "markup": {
+    "strike_ref": 5
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "0773-034": {
+   "cer_ci": [
+    236,
+    2928
+   ],
+   "cer_dipl": [
+    238,
+    2928
+   ],
+   "cer_lines": [
+    254,
+    2928
+   ],
+   "err": {
+    "suspect": 5,
+    "preserved": 2,
+    "misread": 1,
+    "corrected": 2,
+    "dict_words_replaced": 35,
+    "invented": 1,
+    "dict_words": 313
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 5,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2971-014": {
+   "cer_ci": [
+    504,
+    3704
+   ],
+   "cer_dipl": [
+    505,
+    3704
+   ],
+   "cer_lines": [
+    518,
+    3704
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "preserved": 1,
+    "dict_words_replaced": 59,
+    "invented": 2,
+    "dict_words": 401
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2122-072": {
+   "cer_ci": [
+    267,
+    2587
+   ],
+   "cer_dipl": [
+    274,
+    2587
+   ],
+   "cer_lines": [
+    284,
+    2587
+   ],
+   "err": {
+    "suspect": 8,
+    "misread": 1,
+    "corrected": 7,
+    "dict_words_replaced": 37,
+    "invented": 3,
+    "dict_words": 250
+   },
+   "markup": {
+    "insert_ref": 5,
+    "strike_ref": 5,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "4290-003": {
+   "cer_ci": [
+    229,
+    2224
+   ],
+   "cer_dipl": [
+    233,
+    2224
+   ],
+   "cer_lines": [
+    251,
+    2224
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 33,
+    "invented": 4,
+    "dict_words": 230
+   },
+   "markup": {
+    "illegible_ref": 4
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "2636-022": {
+   "cer_ci": [
+    618,
+    2391
+   ],
+   "cer_dipl": [
+    622,
+    2391
+   ],
+   "cer_lines": [
+    630,
+    2391
+   ],
+   "err": {
+    "suspect": 1,
+    "deleted": 1,
+    "dict_words_replaced": 65,
+    "invented": 2,
+    "dict_words": 239
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 2
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "9285-030": {
+   "cer_ci": [
+    417,
+    3094
+   ],
+   "cer_dipl": [
+    419,
+    3094
+   ],
+   "cer_lines": [
+    430,
+    3094
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 73,
+    "invented": 5,
+    "dict_words": 317
+   },
+   "markup": {
+    "strike_ref": 3,
+    "strike_x_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1648-037": {
+   "cer_ci": [
+    293,
+    2606
+   ],
+   "cer_dipl": [
+    295,
+    2606
+   ],
+   "cer_lines": [
+    302,
+    2606
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 42,
+    "invented": 1,
+    "dict_words": 254
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2608-025": {
+   "cer_ci": [
+    593,
+    2620
+   ],
+   "cer_dipl": [
+    595,
+    2620
+   ],
+   "cer_lines": [
+    607,
+    2620
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 2,
+    "preserved": 1,
+    "dict_words_replaced": 22,
+    "invented": 5,
+    "dict_words": 269
+   },
+   "markup": {
+    "insert_ref": 8,
+    "strike_ref": 4,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "9001-015": {
+   "cer_ci": [
+    97,
+    2118
+   ],
+   "cer_dipl": [
+    102,
+    2118
+   ],
+   "cer_lines": [
+    108,
+    2118
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 19,
+    "invented": 6,
+    "dict_words": 208
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7292-094": {
+   "cer_ci": [
+    819,
+    2127
+   ],
+   "cer_dipl": [
+    824,
+    2127
+   ],
+   "cer_lines": [
+    840,
+    2127
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 3,
+    "deleted": 1,
+    "dict_words_replaced": 66,
+    "invented": 7,
+    "dict_words": 212
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 2,
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7698-064": {
+   "cer_ci": [
+    92,
+    3054
+   ],
+   "cer_dipl": [
+    92,
+    3054
+   ],
+   "cer_lines": [
+    110,
+    3054
+   ],
+   "err": {
+    "suspect": 1,
+    "misread": 1,
+    "dict_words_replaced": 13,
+    "invented": 4,
+    "dict_words": 304
+   },
+   "markup": {
+    "strike_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "3197-007": {
+   "cer_ci": [
+    7184,
+    2818
+   ],
+   "cer_dipl": [
+    7193,
+    2818
+   ],
+   "cer_lines": [
+    7207,
+    2818
+   ],
+   "err": {
+    "suspect": 4,
+    "misread": 1,
+    "corrected": 3,
+    "dict_words_replaced": 235,
+    "invented": 1,
+    "dict_words": 256
+   },
+   "markup": {
+    "insert_ref": 12,
+    "strike_ref": 17,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    32,
+    26
+   ]
+  },
+  "4291-004": {
+   "cer_ci": [
+    522,
+    3069
+   ],
+   "cer_dipl": [
+    527,
+    3069
+   ],
+   "cer_lines": [
+    544,
+    3069
+   ],
+   "err": {
+    "dict_words_replaced": 83,
+    "invented": 12,
+    "dict_words": 275
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 1,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    31,
+    5
+   ]
+  },
+  "8119-021": {
+   "cer_ci": [
+    165,
+    2517
+   ],
+   "cer_dipl": [
+    169,
+    2517
+   ],
+   "cer_lines": [
+    174,
+    2517
+   ],
+   "err": {
+    "dict_words_replaced": 18,
+    "invented": 2,
+    "dict_words": 230
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "6692-042": {
+   "cer_ci": [
+    221,
+    2028
+   ],
+   "cer_dipl": [
+    221,
+    2028
+   ],
+   "cer_lines": [
+    232,
+    2028
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 37,
+    "invented": 9,
+    "dict_words": 193
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "4771-016": {
+   "cer_ci": [
+    342,
+    3304
+   ],
+   "cer_dipl": [
+    343,
+    3304
+   ],
+   "cer_lines": [
+    359,
+    3304
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 70,
+    "invented": 4,
+    "dict_words": 317
+   },
+   "markup": {
+    "illegible_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1212-019": {
+   "cer_ci": [
+    178,
+    2652
+   ],
+   "cer_dipl": [
+    179,
+    2652
+   ],
+   "cer_lines": [
+    192,
+    2652
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 33,
+    "invented": 5,
+    "dict_words": 285
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1678-067": {
+   "cer_ci": [
+    65,
+    1975
+   ],
+   "cer_dipl": [
+    65,
+    1975
+   ],
+   "cer_lines": [
+    81,
+    1975
+   ],
+   "err": {
+    "dict_words_replaced": 8,
+    "invented": 2,
+    "dict_words": 201
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "4116-034": {
+   "cer_ci": [
+    591,
+    2359
+   ],
+   "cer_dipl": [
+    591,
+    2359
+   ],
+   "cer_lines": [
+    607,
+    2359
+   ],
+   "err": {
+    "dict_words_replaced": 62,
+    "invented": 3,
+    "dict_words": 256
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    28,
+    5
+   ]
+  },
+  "2493-036": {
+   "cer_ci": [
+    755,
+    3339
+   ],
+   "cer_dipl": [
+    762,
+    3339
+   ],
+   "cer_lines": [
+    771,
+    3339
+   ],
+   "err": {
+    "suspect": 3,
+    "deleted": 2,
+    "corrected": 1,
+    "dict_words_replaced": 91,
+    "invented": 16,
+    "dict_words": 289
+   },
+   "markup": {
+    "insert_ref": 12,
+    "strike_x_ref": 6,
+    "strike_ref": 6
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2976-019": {
+   "cer_ci": [
+    362,
+    2338
+   ],
+   "cer_dipl": [
+    363,
+    2338
+   ],
+   "cer_lines": [
+    381,
+    2338
+   ],
+   "err": {
+    "dict_words_replaced": 58,
+    "invented": 13,
+    "dict_words": 251
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    31,
+    15
+   ]
+  },
+  "1493-038": {
+   "cer_ci": [
+    163,
+    2541
+   ],
+   "cer_dipl": [
+    163,
+    2541
+   ],
+   "cer_lines": [
+    176,
+    2541
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 28,
+    "invented": 5,
+    "dict_words": 232
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "8616-064": {
+   "cer_ci": [
+    673,
+    3008
+   ],
+   "cer_dipl": [
+    675,
+    3008
+   ],
+   "cer_lines": [
+    690,
+    3008
+   ],
+   "err": {
+    "suspect": 8,
+    "corrected": 8,
+    "dict_words_replaced": 93,
+    "invented": 5,
+    "dict_words": 291
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "8125-027": {
+   "cer_ci": [
+    518,
+    2484
+   ],
+   "cer_dipl": [
+    519,
+    2484
+   ],
+   "cer_lines": [
+    532,
+    2484
+   ],
+   "err": {
+    "suspect": 2,
+    "misread": 2,
+    "dict_words_replaced": 92,
+    "invented": 9,
+    "dict_words": 222
+   },
+   "markup": {
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7615-071": {
+   "cer_ci": [
+    362,
+    2444
+   ],
+   "cer_dipl": [
+    362,
+    2444
+   ],
+   "cer_lines": [
+    382,
+    2444
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 69,
+    "invented": 3,
+    "dict_words": 250
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1599-038": {
+   "cer_ci": [
+    536,
+    3135
+   ],
+   "cer_dipl": [
+    539,
+    3135
+   ],
+   "cer_lines": [
+    551,
+    3135
+   ],
+   "err": {
+    "dict_words_replaced": 91,
+    "dict_words": 283
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7999-053": {
+   "cer_ci": [
+    714,
+    2899
+   ],
+   "cer_dipl": [
+    714,
+    2899
+   ],
+   "cer_lines": [
+    725,
+    2899
+   ],
+   "err": {
+    "suspect": 4,
+    "deleted": 1,
+    "corrected": 2,
+    "preserved": 1,
+    "dict_words_replaced": 32,
+    "invented": 1,
+    "dict_words": 253
+   },
+   "markup": {
+    "insert_ref": 15,
+    "strike_x_ref": 7,
+    "strike_ref": 13,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "7280-082": {
+   "cer_ci": [
+    108,
+    2184
+   ],
+   "cer_dipl": [
+    109,
+    2184
+   ],
+   "cer_lines": [
+    123,
+    2184
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 15,
+    "invented": 3,
+    "dict_words": 203
+   },
+   "markup": {
+    "strike_x_ref": 2,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7574-030": {
+   "cer_ci": [
+    138,
+    2390
+   ],
+   "cer_dipl": [
+    141,
+    2390
+   ],
+   "cer_lines": [
+    153,
+    2390
+   ],
+   "err": {
+    "dict_words_replaced": 26,
+    "dict_words": 243
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1631-020": {
+   "cer_ci": [
+    72,
+    2508
+   ],
+   "cer_dipl": [
+    75,
+    2508
+   ],
+   "cer_lines": [
+    84,
+    2508
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 17,
+    "invented": 3,
+    "dict_words": 246
+   },
+   "markup": {
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0675-066": {
+   "cer_ci": [
+    329,
+    2308
+   ],
+   "cer_dipl": [
+    329,
+    2308
+   ],
+   "cer_lines": [
+    330,
+    2308
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 19,
+    "invented": 5,
+    "dict_words": 227
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    26
+   ]
+  },
+  "9003-017": {
+   "cer_ci": [
+    1105,
+    2534
+   ],
+   "cer_dipl": [
+    1109,
+    2534
+   ],
+   "cer_lines": [
+    1110,
+    2534
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 97,
+    "invented": 7,
+    "dict_words": 250
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 6,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    31
+   ]
+  },
+  "0661-052": {
+   "cer_ci": [
+    413,
+    2897
+   ],
+   "cer_dipl": [
+    414,
+    2897
+   ],
+   "cer_lines": [
+    432,
+    2897
+   ],
+   "err": {
+    "suspect": 3,
+    "preserved": 2,
+    "corrected": 1,
+    "dict_words_replaced": 66,
+    "invented": 3,
+    "dict_words": 273
+   },
+   "markup": {
+    "strike_ref": 9
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "9287-032": {
+   "cer_ci": [
+    81,
+    2113
+   ],
+   "cer_dipl": [
+    81,
+    2113
+   ],
+   "cer_lines": [
+    94,
+    2113
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 11,
+    "invented": 3,
+    "dict_words": 204
+   },
+   "markup": {
+    "strike_x_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "9144-028": {
+   "cer_ci": [
+    7071,
+    3079
+   ],
+   "cer_dipl": [
+    7079,
+    3079
+   ],
+   "cer_lines": [
+    7091,
+    3079
+   ],
+   "err": {
+    "suspect": 6,
+    "corrected": 5,
+    "deleted": 1,
+    "dict_words_replaced": 173,
+    "invented": 3,
+    "dict_words": 298
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 1,
+    "strike_x_ref": 5
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4254-023": {
+   "cer_ci": [
+    146,
+    2181
+   ],
+   "cer_dipl": [
+    150,
+    2181
+   ],
+   "cer_lines": [
+    166,
+    2181
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 30,
+    "invented": 5,
+    "dict_words": 224
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "9193-026": {
+   "cer_ci": [
+    214,
+    2095
+   ],
+   "cer_dipl": [
+    216,
+    2095
+   ],
+   "cer_lines": [
+    231,
+    2095
+   ],
+   "err": {
+    "suspect": 9,
+    "corrected": 7,
+    "deleted": 2,
+    "dict_words_replaced": 40,
+    "invented": 2,
+    "dict_words": 196
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4777-022": {
+   "cer_ci": [
+    144,
+    1899
+   ],
+   "cer_dipl": [
+    144,
+    1899
+   ],
+   "cer_lines": [
+    163,
+    1899
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 23,
+    "invented": 2,
+    "dict_words": 168
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "strike_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "0757-018": {
+   "cer_ci": [
+    595,
+    2554
+   ],
+   "cer_dipl": [
+    595,
+    2554
+   ],
+   "cer_lines": [
+    607,
+    2554
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 2,
+    "deleted": 1,
+    "dict_words_replaced": 100,
+    "invented": 1,
+    "dict_words": 240
+   },
+   "markup": {},
+   "n_lines": [
+    32,
+    4
+   ]
+  },
+  "0771-032": {
+   "cer_ci": [
+    1113,
+    2152
+   ],
+   "cer_dipl": [
+    1118,
+    2152
+   ],
+   "cer_lines": [
+    1133,
+    2152
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 156,
+    "invented": 10,
+    "dict_words": 238
+   },
+   "markup": {
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "2973-016": {
+   "cer_ci": [
+    48,
+    2563
+   ],
+   "cer_dipl": [
+    49,
+    2563
+   ],
+   "cer_lines": [
+    67,
+    2563
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 13,
+    "dict_words": 263
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7712-078": {
+   "cer_ci": [
+    202,
+    1814
+   ],
+   "cer_dipl": [
+    203,
+    1814
+   ],
+   "cer_lines": [
+    216,
+    1814
+   ],
+   "err": {
+    "dict_words_replaced": 32,
+    "dict_words": 175
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1672-061": {
+   "cer_ci": [
+    258,
+    2556
+   ],
+   "cer_dipl": [
+    259,
+    2556
+   ],
+   "cer_lines": [
+    274,
+    2556
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 47,
+    "invented": 1,
+    "dict_words": 263
+   },
+   "markup": {
+    "strike_ref": 1,
+    "illegible_ref": 4
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4110-028": {
+   "cer_ci": [
+    1037,
+    2988
+   ],
+   "cer_dipl": [
+    1040,
+    2988
+   ],
+   "cer_lines": [
+    1059,
+    2988
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 142,
+    "invented": 8,
+    "dict_words": 294
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 3
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "0959-044": {
+   "cer_ci": [
+    223,
+    2389
+   ],
+   "cer_dipl": [
+    224,
+    2389
+   ],
+   "cer_lines": [
+    234,
+    2389
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 40,
+    "invented": 1,
+    "dict_words": 232
+   },
+   "markup": {
+    "strike_ref": 2
+   },
+   "n_lines": [
+    28,
+    4
+   ]
+  },
+  "0230-022": {
+   "cer_ci": [
+    304,
+    1631
+   ],
+   "cer_dipl": [
+    306,
+    1631
+   ],
+   "cer_lines": [
+    314,
+    1631
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 34,
+    "invented": 1,
+    "dict_words": 149
+   },
+   "markup": {
+    "strike_ref": 10
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7130-071": {
+   "cer_ci": [
+    336,
+    3342
+   ],
+   "cer_dipl": [
+    336,
+    3342
+   ],
+   "cer_lines": [
+    349,
+    3342
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "misread": 1,
+    "dict_words_replaced": 62,
+    "invented": 2,
+    "dict_words": 328
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 1,
+    "strike_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "8755-043": {
+   "cer_ci": [
+    5853,
+    2457
+   ],
+   "cer_dipl": [
+    5861,
+    2457
+   ],
+   "cer_lines": [
+    5875,
+    2457
+   ],
+   "err": {
+    "suspect": 10,
+    "preserved": 1,
+    "corrected": 8,
+    "misread": 1,
+    "dict_words_replaced": 31,
+    "invented": 4,
+    "dict_words": 244
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4306-002": {
+   "cer_ci": [
+    330,
+    2560
+   ],
+   "cer_dipl": [
+    331,
+    2560
+   ],
+   "cer_lines": [
+    345,
+    2560
+   ],
+   "err": {
+    "suspect": 7,
+    "corrected": 6,
+    "misread": 1,
+    "dict_words_replaced": 52,
+    "invented": 5,
+    "dict_words": 238
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 4
+   },
+   "n_lines": [
+    31,
+    5
+   ]
+  },
+  "0248-040": {
+   "cer_ci": [
+    250,
+    2544
+   ],
+   "cer_dipl": [
+    250,
+    2544
+   ],
+   "cer_lines": [
+    264,
+    2544
+   ],
+   "err": {
+    "dict_words_replaced": 15,
+    "invented": 2,
+    "dict_words": 259
+   },
+   "markup": {
+    "insert_ref": 6,
+    "strike_x_ref": 8,
+    "strike_ref": 5
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0522-022": {
+   "cer_ci": [
+    459,
+    2592
+   ],
+   "cer_dipl": [
+    463,
+    2592
+   ],
+   "cer_lines": [
+    472,
+    2592
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "misread": 1,
+    "dict_words_replaced": 81,
+    "invented": 5,
+    "dict_words": 287
+   },
+   "markup": {
+    "strike_ref": 4
+   },
+   "n_lines": [
+    28,
+    4
+   ]
+  },
+  "4631-194": {
+   "cer_ci": [
+    189,
+    1950
+   ],
+   "cer_dipl": [
+    191,
+    1950
+   ],
+   "cer_lines": [
+    206,
+    1950
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 39,
+    "dict_words": 194
+   },
+   "markup": {
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    28,
+    6
+   ]
+  },
+  "7560-016": {
+   "cer_ci": [
+    439,
+    2818
+   ],
+   "cer_dipl": [
+    442,
+    2818
+   ],
+   "cer_lines": [
+    455,
+    2818
+   ],
+   "err": {
+    "suspect": 3,
+    "preserved": 1,
+    "corrected": 1,
+    "misread": 1,
+    "dict_words_replaced": 76,
+    "invented": 8,
+    "dict_words": 271
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 6,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7146-087": {
+   "cer_ci": [
+    170,
+    2527
+   ],
+   "cer_dipl": [
+    172,
+    2527
+   ],
+   "cer_lines": [
+    184,
+    2527
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 28,
+    "invented": 3,
+    "dict_words": 269
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "7627-083": {
+   "cer_ci": [
+    232,
+    2742
+   ],
+   "cer_dipl": [
+    236,
+    2742
+   ],
+   "cer_lines": [
+    248,
+    2742
+   ],
+   "err": {
+    "dict_words_replaced": 34,
+    "dict_words": 277
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1727-016": {
+   "cer_ci": [
+    620,
+    3233
+   ],
+   "cer_dipl": [
+    624,
+    3233
+   ],
+   "cer_lines": [
+    640,
+    3233
+   ],
+   "err": {
+    "suspect": 2,
+    "preserved": 1,
+    "corrected": 1,
+    "dict_words_replaced": 104,
+    "invented": 4,
+    "dict_words": 312
+   },
+   "markup": {
+    "strike_ref": 13,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "3942-017": {
+   "cer_ci": [
+    500,
+    2829
+   ],
+   "cer_dipl": [
+    503,
+    2829
+   ],
+   "cer_lines": [
+    518,
+    2829
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 85,
+    "invented": 11,
+    "dict_words": 276
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 9
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7281-083": {
+   "cer_ci": [
+    274,
+    2842
+   ],
+   "cer_dipl": [
+    277,
+    2842
+   ],
+   "cer_lines": [
+    292,
+    2842
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "misread": 1,
+    "dict_words_replaced": 47,
+    "invented": 11,
+    "dict_words": 268
+   },
+   "markup": {
+    "strike_ref": 3,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2972-015": {
+   "cer_ci": [
+    190,
+    2366
+   ],
+   "cer_dipl": [
+    191,
+    2366
+   ],
+   "cer_lines": [
+    207,
+    2366
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 33,
+    "invented": 1,
+    "dict_words": 235
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7605-061": {
+   "cer_ci": [
+    134,
+    2730
+   ],
+   "cer_dipl": [
+    135,
+    2730
+   ],
+   "cer_lines": [
+    147,
+    2730
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 3,
+    "deleted": 1,
+    "dict_words_replaced": 14,
+    "invented": 4,
+    "dict_words": 264
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 2,
+    "illegible_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4114-032": {
+   "cer_ci": [
+    367,
+    2905
+   ],
+   "cer_dipl": [
+    369,
+    2905
+   ],
+   "cer_lines": [
+    382,
+    2905
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 2,
+    "misread": 2,
+    "dict_words_replaced": 65,
+    "invented": 5,
+    "dict_words": 286
+   },
+   "markup": {
+    "strike_x_ref": 3,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    28,
+    4
+   ]
+  },
+  "1667-056": {
+   "cer_ci": [
+    572,
+    2660
+   ],
+   "cer_dipl": [
+    573,
+    2660
+   ],
+   "cer_lines": [
+    586,
+    2660
+   ],
+   "err": {
+    "suspect": 3,
+    "misread": 1,
+    "preserved": 2,
+    "dict_words_replaced": 12,
+    "invented": 1,
+    "dict_words": 239
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    6
+   ]
+  },
+  "8135-037": {
+   "cer_ci": [
+    83,
+    3021
+   ],
+   "cer_dipl": [
+    83,
+    3021
+   ],
+   "cer_lines": [
+    98,
+    3021
+   ],
+   "err": {
+    "suspect": 5,
+    "preserved": 1,
+    "corrected": 2,
+    "misread": 2,
+    "dict_words_replaced": 11,
+    "invented": 3,
+    "dict_words": 284
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "8455-049": {
+   "cer_ci": [
+    203,
+    2346
+   ],
+   "cer_dipl": [
+    204,
+    2346
+   ],
+   "cer_lines": [
+    223,
+    2346
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 33,
+    "invented": 1,
+    "dict_words": 229
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "strike_ref": 4
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4634-197": {
+   "cer_ci": [
+    331,
+    2548
+   ],
+   "cer_dipl": [
+    338,
+    2548
+   ],
+   "cer_lines": [
+    352,
+    2548
+   ],
+   "err": {
+    "suspect": 5,
+    "preserved": 3,
+    "corrected": 2,
+    "dict_words_replaced": 39,
+    "invented": 6,
+    "dict_words": 251
+   },
+   "markup": {
+    "insert_ref": 8,
+    "strike_x_ref": 12,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "0953-038": {
+   "cer_ci": [
+    257,
+    3539
+   ],
+   "cer_dipl": [
+    261,
+    3539
+   ],
+   "cer_lines": [
+    269,
+    3539
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 45,
+    "invented": 4,
+    "dict_words": 330
+   },
+   "markup": {
+    "insert_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7294-096": {
+   "cer_ci": [
+    187,
+    2597
+   ],
+   "cer_dipl": [
+    189,
+    2597
+   ],
+   "cer_lines": [
+    205,
+    2597
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 37,
+    "invented": 3,
+    "dict_words": 260
+   },
+   "markup": {
+    "strike_ref": 2,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4098-016": {
+   "cer_ci": [
+    562,
+    2732
+   ],
+   "cer_dipl": [
+    565,
+    2732
+   ],
+   "cer_lines": [
+    578,
+    2732
+   ],
+   "err": {
+    "dict_words_replaced": 29,
+    "invented": 3,
+    "dict_words": 263
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "3515-019": {
+   "cer_ci": [
+    503,
+    2194
+   ],
+   "cer_dipl": [
+    507,
+    2194
+   ],
+   "cer_lines": [
+    519,
+    2194
+   ],
+   "err": {
+    "suspect": 1,
+    "preserved": 1,
+    "dict_words_replaced": 62,
+    "invented": 5,
+    "dict_words": 212
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 4
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0962-047": {
+   "cer_ci": [
+    367,
+    3733
+   ],
+   "cer_dipl": [
+    367,
+    3733
+   ],
+   "cer_lines": [
+    381,
+    3733
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 2,
+    "preserved": 2,
+    "dict_words_replaced": 75,
+    "invented": 14,
+    "dict_words": 362
+   },
+   "markup": {
+    "insert_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "2638-024": {
+   "cer_ci": [
+    617,
+    2326
+   ],
+   "cer_dipl": [
+    619,
+    2326
+   ],
+   "cer_lines": [
+    631,
+    2326
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 2,
+    "preserved": 1,
+    "dict_words_replaced": 43,
+    "invented": 3,
+    "dict_words": 228
+   },
+   "markup": {
+    "insert_ref": 5,
+    "strike_x_ref": 10
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "1655-044": {
+   "cer_ci": [
+    489,
+    2778
+   ],
+   "cer_dipl": [
+    489,
+    2778
+   ],
+   "cer_lines": [
+    506,
+    2778
+   ],
+   "err": {
+    "suspect": 1,
+    "preserved": 1,
+    "dict_words_replaced": 41,
+    "invented": 9,
+    "dict_words": 284
+   },
+   "markup": {
+    "strike_ref": 4
+   },
+   "n_lines": [
+    28,
+    5
+   ]
+  },
+  "4430-108": {
+   "cer_ci": [
+    755,
+    3007
+   ],
+   "cer_dipl": [
+    761,
+    3007
+   ],
+   "cer_lines": [
+    774,
+    3007
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 127,
+    "invented": 6,
+    "dict_words": 294
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2107-057": {
+   "cer_ci": [
+    159,
+    2383
+   ],
+   "cer_dipl": [
+    159,
+    2383
+   ],
+   "cer_lines": [
+    159,
+    2383
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 35,
+    "invented": 5,
+    "dict_words": 258
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    30
+   ]
+  },
+  "7619-075": {
+   "cer_ci": [
+    395,
+    2240
+   ],
+   "cer_dipl": [
+    397,
+    2240
+   ],
+   "cer_lines": [
+    412,
+    2240
+   ],
+   "err": {
+    "suspect": 1,
+    "preserved": 1,
+    "dict_words_replaced": 21,
+    "invented": 1,
+    "dict_words": 223
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4509-072": {
+   "cer_ci": [
+    576,
+    2771
+   ],
+   "cer_dipl": [
+    576,
+    2771
+   ],
+   "cer_lines": [
+    589,
+    2771
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 108,
+    "invented": 4,
+    "dict_words": 282
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    31,
+    5
+   ]
+  },
+  "7274-076": {
+   "cer_ci": [
+    199,
+    1949
+   ],
+   "cer_dipl": [
+    201,
+    1949
+   ],
+   "cer_lines": [
+    215,
+    1949
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 25,
+    "invented": 2,
+    "dict_words": 172
+   },
+   "markup": {
+    "strike_ref": 5
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7578-034": {
+   "cer_ci": [
+    318,
+    3014
+   ],
+   "cer_dipl": [
+    320,
+    3014
+   ],
+   "cer_lines": [
+    335,
+    3014
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 2,
+    "deleted": 1,
+    "misread": 1,
+    "dict_words_replaced": 46,
+    "invented": 6,
+    "dict_words": 294
+   },
+   "markup": {
+    "insert_ref": 4,
+    "strike_ref": 3,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0689-080": {
+   "cer_ci": [
+    1498,
+    3449
+   ],
+   "cer_dipl": [
+    1508,
+    3449
+   ],
+   "cer_lines": [
+    1521,
+    3449
+   ],
+   "err": {
+    "suspect": 2,
+    "misread": 1,
+    "corrected": 1,
+    "dict_words_replaced": 139,
+    "invented": 8,
+    "dict_words": 323
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "9426-007": {
+   "cer_ci": [
+    52,
+    2229
+   ],
+   "cer_dipl": [
+    52,
+    2229
+   ],
+   "cer_lines": [
+    70,
+    2229
+   ],
+   "err": {
+    "dict_words_replaced": 11,
+    "dict_words": 221
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "1639-028": {
+   "cer_ci": [
+    632,
+    2470
+   ],
+   "cer_dipl": [
+    633,
+    2470
+   ],
+   "cer_lines": [
+    652,
+    2470
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 1,
+    "misread": 2,
+    "dict_words_replaced": 38,
+    "invented": 15,
+    "dict_words": 228
+   },
+   "markup": {
+    "strike_ref": 13,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "7345-047": {
+   "cer_ci": [
+    782,
+    3349
+   ],
+   "cer_dipl": [
+    783,
+    3349
+   ],
+   "cer_lines": [
+    798,
+    3349
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 3,
+    "misread": 1,
+    "dict_words_replaced": 61,
+    "invented": 2,
+    "dict_words": 307
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 16,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "3943-018": {
+   "cer_ci": [
+    498,
+    2283
+   ],
+   "cer_dipl": [
+    498,
+    2283
+   ],
+   "cer_lines": [
+    515,
+    2283
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "preserved": 1,
+    "dict_words_replaced": 42,
+    "invented": 10,
+    "dict_words": 232
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 4
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "0691-082": {
+   "cer_ci": [
+    747,
+    3029
+   ],
+   "cer_dipl": [
+    749,
+    3029
+   ],
+   "cer_lines": [
+    766,
+    3029
+   ],
+   "err": {
+    "dict_words_replaced": 63,
+    "invented": 7,
+    "dict_words": 305
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 5,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4917-082": {
+   "cer_ci": [
+    1171,
+    2740
+   ],
+   "cer_dipl": [
+    1173,
+    2740
+   ],
+   "cer_lines": [
+    1189,
+    2740
+   ],
+   "err": {
+    "suspect": 9,
+    "deleted": 1,
+    "corrected": 7,
+    "misread": 1,
+    "dict_words_replaced": 122,
+    "invented": 6,
+    "dict_words": 260
+   },
+   "markup": {
+    "insert_ref": 9,
+    "strike_ref": 7,
+    "strike_x_ref": 8,
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "1439-043": {
+   "cer_ci": [
+    734,
+    2099
+   ],
+   "cer_dipl": [
+    736,
+    2099
+   ],
+   "cer_lines": [
+    750,
+    2099
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 48,
+    "invented": 7,
+    "dict_words": 213
+   },
+   "markup": {
+    "insert_ref": 4,
+    "strike_ref": 6,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    28,
+    5
+   ]
+  },
+  "4843-008": {
+   "cer_ci": [
+    533,
+    2477
+   ],
+   "cer_dipl": [
+    536,
+    2477
+   ],
+   "cer_lines": [
+    551,
+    2477
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 84,
+    "invented": 9,
+    "dict_words": 245
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "7609-065": {
+   "cer_ci": [
+    103,
+    2536
+   ],
+   "cer_dipl": [
+    104,
+    2536
+   ],
+   "cer_lines": [
+    111,
+    2536
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 14,
+    "invented": 3,
+    "dict_words": 262
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2188-045": {
+   "cer_ci": [
+    58,
+    2399
+   ],
+   "cer_dipl": [
+    65,
+    2399
+   ],
+   "cer_lines": [
+    73,
+    2399
+   ],
+   "err": {
+    "dict_words_replaced": 7,
+    "invented": 1,
+    "dict_words": 255
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0558-005": {
+   "cer_ci": [
+    169,
+    2371
+   ],
+   "cer_dipl": [
+    172,
+    2371
+   ],
+   "cer_lines": [
+    178,
+    2371
+   ],
+   "err": {
+    "suspect": 2,
+    "preserved": 1,
+    "corrected": 1,
+    "dict_words_replaced": 34,
+    "invented": 10,
+    "dict_words": 253
+   },
+   "markup": {
+    "strike_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "6147-018": {
+   "cer_ci": [
+    110,
+    2719
+   ],
+   "cer_dipl": [
+    110,
+    2719
+   ],
+   "cer_lines": [
+    128,
+    2719
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 2,
+    "misread": 1,
+    "dict_words_replaced": 14,
+    "invented": 3,
+    "dict_words": 252
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4109-027": {
+   "cer_ci": [
+    692,
+    3280
+   ],
+   "cer_dipl": [
+    693,
+    3280
+   ],
+   "cer_lines": [
+    703,
+    3280
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 71,
+    "invented": 10,
+    "dict_words": 305
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 1,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "7802-034": {
+   "cer_ci": [
+    584,
+    3556
+   ],
+   "cer_dipl": [
+    584,
+    3556
+   ],
+   "cer_lines": [
+    601,
+    3556
+   ],
+   "err": {
+    "suspect": 8,
+    "preserved": 1,
+    "corrected": 6,
+    "misread": 1,
+    "dict_words_replaced": 60,
+    "invented": 4,
+    "dict_words": 328
+   },
+   "markup": {
+    "insert_ref": 16,
+    "strike_ref": 13,
+    "strike_x_ref": 2,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0562-009": {
+   "cer_ci": [
+    196,
+    2375
+   ],
+   "cer_dipl": [
+    196,
+    2375
+   ],
+   "cer_lines": [
+    215,
+    2375
+   ],
+   "err": {
+    "dict_words_replaced": 14,
+    "invented": 1,
+    "dict_words": 235
+   },
+   "markup": {
+    "insert_ref": 5,
+    "strike_x_ref": 5,
+    "strike_ref": 5
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7335-037": {
+   "cer_ci": [
+    127,
+    2194
+   ],
+   "cer_dipl": [
+    127,
+    2194
+   ],
+   "cer_lines": [
+    145,
+    2194
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 18,
+    "invented": 3,
+    "dict_words": 214
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 5
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "4100-018": {
+   "cer_ci": [
+    126,
+    2353
+   ],
+   "cer_dipl": [
+    126,
+    2353
+   ],
+   "cer_lines": [
+    139,
+    2353
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 2,
+    "preserved": 1,
+    "deleted": 1,
+    "dict_words_replaced": 23,
+    "invented": 4,
+    "dict_words": 220
+   },
+   "markup": {
+    "strike_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "4670-233": {
+   "cer_ci": [
+    800,
+    2735
+   ],
+   "cer_dipl": [
+    804,
+    2735
+   ],
+   "cer_lines": [
+    813,
+    2735
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 1,
+    "misread": 2,
+    "dict_words_replaced": 73,
+    "invented": 8,
+    "dict_words": 259
+   },
+   "markup": {
+    "insert_ref": 5,
+    "strike_x_ref": 2,
+    "strike_ref": 6
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "1482-027": {
+   "cer_ci": [
+    37,
+    2430
+   ],
+   "cer_dipl": [
+    39,
+    2430
+   ],
+   "cer_lines": [
+    55,
+    2430
+   ],
+   "err": {
+    "dict_words_replaced": 8,
+    "dict_words": 256
+   },
+   "markup": {},
+   "n_lines": [
+    26,
+    4
+   ]
+  },
+  "4491-054": {
+   "cer_ci": [
+    1419,
+    3413
+   ],
+   "cer_dipl": [
+    1432,
+    3413
+   ],
+   "cer_lines": [
+    1433,
+    3413
+   ],
+   "err": {
+    "suspect": 2,
+    "misread": 1,
+    "corrected": 1,
+    "dict_words_replaced": 194,
+    "invented": 6,
+    "dict_words": 330
+   },
+   "markup": {
+    "insert_ref": 10,
+    "strike_x_ref": 5,
+    "strike_ref": 15,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    31,
+    5
+   ]
+  },
+  "8130-032": {
+   "cer_ci": [
+    303,
+    2875
+   ],
+   "cer_dipl": [
+    304,
+    2875
+   ],
+   "cer_lines": [
+    318,
+    2875
+   ],
+   "err": {
+    "suspect": 5,
+    "misread": 3,
+    "preserved": 1,
+    "corrected": 1,
+    "dict_words_replaced": 46,
+    "invented": 7,
+    "dict_words": 240
+   },
+   "markup": {
+    "strike_ref": 3,
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2247-047": {
+   "cer_ci": [
+    415,
+    2448
+   ],
+   "cer_dipl": [
+    422,
+    2448
+   ],
+   "cer_lines": [
+    424,
+    2448
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 3,
+    "preserved": 2,
+    "dict_words_replaced": 55,
+    "invented": 2,
+    "dict_words": 239
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 3,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4937-011": {
+   "cer_ci": [
+    162,
+    2456
+   ],
+   "cer_dipl": [
+    163,
+    2456
+   ],
+   "cer_lines": [
+    177,
+    2456
+   ],
+   "err": {
+    "suspect": 1,
+    "preserved": 1,
+    "dict_words_replaced": 30,
+    "invented": 3,
+    "dict_words": 261
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "7128-069": {
+   "cer_ci": [
+    430,
+    2912
+   ],
+   "cer_dipl": [
+    430,
+    2912
+   ],
+   "cer_lines": [
+    450,
+    2912
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 5,
+    "dict_words_replaced": 87,
+    "invented": 8,
+    "dict_words": 276
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4989-045": {
+   "cer_ci": [
+    3519,
+    2735
+   ],
+   "cer_dipl": [
+    3527,
+    2735
+   ],
+   "cer_lines": [
+    3535,
+    2735
+   ],
+   "err": {
+    "suspect": 1,
+    "misread": 1,
+    "dict_words_replaced": 53,
+    "invented": 7,
+    "dict_words": 259
+   },
+   "markup": {
+    "insert_ref": 10,
+    "strike_ref": 11
+   },
+   "n_lines": [
+    33,
+    6
+   ]
+  },
+  "8129-031": {
+   "cer_ci": [
+    231,
+    2982
+   ],
+   "cer_dipl": [
+    232,
+    2982
+   ],
+   "cer_lines": [
+    248,
+    2982
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 48,
+    "invented": 5,
+    "dict_words": 269
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 2
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4099-017": {
+   "cer_ci": [
+    281,
+    2429
+   ],
+   "cer_dipl": [
+    282,
+    2429
+   ],
+   "cer_lines": [
+    299,
+    2429
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 7,
+    "dict_words": 259
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2671-028": {
+   "cer_ci": [
+    2035,
+    2936
+   ],
+   "cer_dipl": [
+    2048,
+    2936
+   ],
+   "cer_lines": [
+    2050,
+    2936
+   ],
+   "err": {
+    "suspect": 6,
+    "misread": 1,
+    "corrected": 4,
+    "deleted": 1,
+    "dict_words_replaced": 193,
+    "invented": 42,
+    "dict_words": 278
+   },
+   "markup": {
+    "strike_ref": 2
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "3514-018": {
+   "cer_ci": [
+    418,
+    2479
+   ],
+   "cer_dipl": [
+    419,
+    2479
+   ],
+   "cer_lines": [
+    435,
+    2479
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 48,
+    "invented": 18,
+    "dict_words": 250
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "7147-088": {
+   "cer_ci": [
+    899,
+    3671
+   ],
+   "cer_dipl": [
+    903,
+    3671
+   ],
+   "cer_lines": [
+    914,
+    3671
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 120,
+    "invented": 3,
+    "dict_words": 352
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_x_ref": 1,
+    "strike_ref": 2,
+    "illegible_ref": 4
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "9187-020": {
+   "cer_ci": [
+    177,
+    2111
+   ],
+   "cer_dipl": [
+    183,
+    2111
+   ],
+   "cer_lines": [
+    193,
+    2111
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 5,
+    "dict_words_replaced": 36,
+    "dict_words": 209
+   },
+   "markup": {},
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "1635-024": {
+   "cer_ci": [
+    1335,
+    2050
+   ],
+   "cer_dipl": [
+    1344,
+    2050
+   ],
+   "cer_lines": [
+    1347,
+    2050
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 158,
+    "dict_words": 196
+   },
+   "markup": {
+    "strike_ref": 2,
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    28,
+    4
+   ]
+  },
+  "3511-015": {
+   "cer_ci": [
+    75,
+    1848
+   ],
+   "cer_dipl": [
+    75,
+    1848
+   ],
+   "cer_lines": [
+    87,
+    1848
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 12,
+    "invented": 4,
+    "dict_words": 178
+   },
+   "markup": {},
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "7593-049": {
+   "cer_ci": [
+    796,
+    3710
+   ],
+   "cer_dipl": [
+    796,
+    3710
+   ],
+   "cer_lines": [
+    810,
+    3710
+   ],
+   "err": {
+    "suspect": 5,
+    "deleted": 1,
+    "corrected": 4,
+    "dict_words_replaced": 55,
+    "invented": 2,
+    "dict_words": 325
+   },
+   "markup": {
+    "insert_ref": 28,
+    "strike_x_ref": 9,
+    "strike_ref": 16
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "2674-031": {
+   "cer_ci": [
+    327,
+    1941
+   ],
+   "cer_dipl": [
+    329,
+    1941
+   ],
+   "cer_lines": [
+    341,
+    1941
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 57,
+    "invented": 1,
+    "dict_words": 218
+   },
+   "markup": {
+    "strike_x_ref": 2,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    29,
+    6
+   ]
+  },
+  "2740-052": {
+   "cer_ci": [
+    58,
+    2528
+   ],
+   "cer_dipl": [
+    59,
+    2528
+   ],
+   "cer_lines": [
+    73,
+    2528
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 2,
+    "dict_words": 250
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1623-012": {
+   "cer_ci": [
+    382,
+    2622
+   ],
+   "cer_dipl": [
+    383,
+    2622
+   ],
+   "cer_lines": [
+    393,
+    2622
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 79,
+    "invented": 5,
+    "dict_words": 265
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7058-021": {
+   "cer_ci": [
+    635,
+    2890
+   ],
+   "cer_dipl": [
+    638,
+    2890
+   ],
+   "cer_lines": [
+    647,
+    2890
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 89,
+    "invented": 1,
+    "dict_words": 275
+   },
+   "markup": {
+    "insert_ref": 10,
+    "strike_x_ref": 3,
+    "strike_ref": 6,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "7149-090": {
+   "cer_ci": [
+    254,
+    2250
+   ],
+   "cer_dipl": [
+    259,
+    2250
+   ],
+   "cer_lines": [
+    273,
+    2250
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 2,
+    "misread": 3,
+    "dict_words_replaced": 50,
+    "invented": 5,
+    "dict_words": 230
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "3513-017": {
+   "cer_ci": [
+    494,
+    2975
+   ],
+   "cer_dipl": [
+    495,
+    2975
+   ],
+   "cer_lines": [
+    506,
+    2975
+   ],
+   "err": {
+    "dict_words_replaced": 72,
+    "invented": 9,
+    "dict_words": 265
+   },
+   "markup": {
+    "insert_ref": 6,
+    "strike_ref": 8,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2974-017": {
+   "cer_ci": [
+    68,
+    2308
+   ],
+   "cer_dipl": [
+    68,
+    2308
+   ],
+   "cer_lines": [
+    86,
+    2308
+   ],
+   "err": {
+    "suspect": 2,
+    "preserved": 2,
+    "dict_words_replaced": 12,
+    "invented": 2,
+    "dict_words": 234
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "1491-036": {
+   "cer_ci": [
+    456,
+    3061
+   ],
+   "cer_dipl": [
+    458,
+    3061
+   ],
+   "cer_lines": [
+    469,
+    3061
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "misread": 1,
+    "dict_words_replaced": 67,
+    "invented": 5,
+    "dict_words": 296
+   },
+   "markup": {
+    "strike_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1267-041": {
+   "cer_ci": [
+    882,
+    3395
+   ],
+   "cer_dipl": [
+    3327,
+    3395
+   ],
+   "cer_lines": [
+    896,
+    3395
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 2,
+    "misread": 2,
+    "preserved": 1,
+    "dict_words_replaced": 98,
+    "invented": 59,
+    "dict_words": 334
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 4
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4103-021": {
+   "cer_ci": [
+    983,
+    3394
+   ],
+   "cer_dipl": [
+    987,
+    3394
+   ],
+   "cer_lines": [
+    984,
+    3394
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "misread": 1,
+    "dict_words_replaced": 86,
+    "invented": 19,
+    "dict_words": 290
+   },
+   "markup": {
+    "insert_ref": 19,
+    "strike_x_ref": 12,
+    "strike_ref": 12
+   },
+   "n_lines": [
+    30,
+    31
+   ]
+  },
+  "8133-035": {
+   "cer_ci": [
+    666,
+    2981
+   ],
+   "cer_dipl": [
+    670,
+    2981
+   ],
+   "cer_lines": [
+    685,
+    2981
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 73,
+    "invented": 5,
+    "dict_words": 283
+   },
+   "markup": {
+    "strike_ref": 3,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "8626-074": {
+   "cer_ci": [
+    597,
+    2005
+   ],
+   "cer_dipl": [
+    598,
+    2005
+   ],
+   "cer_lines": [
+    597,
+    2005
+   ],
+   "err": {
+    "suspect": 1,
+    "misread": 1,
+    "dict_words_replaced": 52,
+    "invented": 15,
+    "dict_words": 198
+   },
+   "markup": {
+    "strike_x_ref": 2,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    28,
+    27
+   ]
+  },
+  "4120-038": {
+   "cer_ci": [
+    420,
+    2356
+   ],
+   "cer_dipl": [
+    420,
+    2356
+   ],
+   "cer_lines": [
+    436,
+    2356
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 16,
+    "invented": 4,
+    "dict_words": 242
+   },
+   "markup": {},
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "1494-039": {
+   "cer_ci": [
+    541,
+    3104
+   ],
+   "cer_dipl": [
+    543,
+    3104
+   ],
+   "cer_lines": [
+    556,
+    3104
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 84,
+    "invented": 5,
+    "dict_words": 294
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 3,
+    "strike_ref": 2,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4497-060": {
+   "cer_ci": [
+    609,
+    3059
+   ],
+   "cer_dipl": [
+    609,
+    3059
+   ],
+   "cer_lines": [
+    610,
+    3059
+   ],
+   "err": {
+    "suspect": 11,
+    "deleted": 2,
+    "corrected": 6,
+    "preserved": 1,
+    "misread": 2,
+    "dict_words_replaced": 86,
+    "invented": 8,
+    "dict_words": 294
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 2,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    31,
+    32
+   ]
+  },
+  "0956-041": {
+   "cer_ci": [
+    376,
+    3794
+   ],
+   "cer_dipl": [
+    377,
+    3794
+   ],
+   "cer_lines": [
+    391,
+    3794
+   ],
+   "err": {
+    "suspect": 4,
+    "misread": 1,
+    "corrected": 3,
+    "dict_words_replaced": 57,
+    "invented": 4,
+    "dict_words": 358
+   },
+   "markup": {
+    "insert_ref": 5,
+    "strike_x_ref": 8,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1765-029": {
+   "cer_ci": [
+    160,
+    2623
+   ],
+   "cer_dipl": [
+    161,
+    2623
+   ],
+   "cer_lines": [
+    173,
+    2623
+   ],
+   "err": {
+    "dict_words_replaced": 31,
+    "invented": 3,
+    "dict_words": 244
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0961-046": {
+   "cer_ci": [
+    103,
+    3482
+   ],
+   "cer_dipl": [
+    117,
+    3482
+   ],
+   "cer_lines": [
+    124,
+    3482
+   ],
+   "err": {
+    "suspect": 7,
+    "corrected": 4,
+    "preserved": 3,
+    "dict_words_replaced": 14,
+    "invented": 3,
+    "dict_words": 340
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    3
+   ]
+  },
+  "1475-020": {
+   "cer_ci": [
+    208,
+    2618
+   ],
+   "cer_dipl": [
+    208,
+    2618
+   ],
+   "cer_lines": [
+    224,
+    2618
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 19,
+    "invented": 2,
+    "dict_words": 240
+   },
+   "markup": {
+    "insert_ref": 3,
+    "strike_ref": 6,
+    "strike_x_ref": 4,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0697-088": {
+   "cer_ci": [
+    122,
+    2215
+   ],
+   "cer_dipl": [
+    122,
+    2215
+   ],
+   "cer_lines": [
+    139,
+    2215
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 22,
+    "invented": 5,
+    "dict_words": 229
+   },
+   "markup": {},
+   "n_lines": [
+    28,
+    4
+   ]
+  },
+  "3517-021": {
+   "cer_ci": [
+    163,
+    2437
+   ],
+   "cer_dipl": [
+    163,
+    2437
+   ],
+   "cer_lines": [
+    177,
+    2437
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 29,
+    "invented": 3,
+    "dict_words": 259
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "7870-046": {
+   "cer_ci": [
+    258,
+    3204
+   ],
+   "cer_dipl": [
+    262,
+    3204
+   ],
+   "cer_lines": [
+    276,
+    3204
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 2,
+    "misread": 1,
+    "dict_words_replaced": 45,
+    "invented": 3,
+    "dict_words": 317
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7595-051": {
+   "cer_ci": [
+    772,
+    2779
+   ],
+   "cer_dipl": [
+    774,
+    2779
+   ],
+   "cer_lines": [
+    786,
+    2779
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 5,
+    "dict_words_replaced": 69,
+    "invented": 5,
+    "dict_words": 253
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 4,
+    "strike_x_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "3516-020": {
+   "cer_ci": [
+    128,
+    2553
+   ],
+   "cer_dipl": [
+    129,
+    2553
+   ],
+   "cer_lines": [
+    148,
+    2553
+   ],
+   "err": {
+    "dict_words_replaced": 14,
+    "dict_words": 245
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_x_ref": 5
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "4415-093": {
+   "cer_ci": [
+    672,
+    3419
+   ],
+   "cer_dipl": [
+    677,
+    3419
+   ],
+   "cer_lines": [
+    691,
+    3419
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 5,
+    "dict_words_replaced": 82,
+    "invented": 6,
+    "dict_words": 353
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4981-037": {
+   "cer_ci": [
+    598,
+    3105
+   ],
+   "cer_dipl": [
+    601,
+    3105
+   ],
+   "cer_lines": [
+    615,
+    3105
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 3,
+    "dict_words_replaced": 61,
+    "dict_words": 289
+   },
+   "markup": {
+    "insert_ref": 7,
+    "strike_ref": 25,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    33,
+    5
+   ]
+  },
+  "7558-014": {
+   "cer_ci": [
+    380,
+    4165
+   ],
+   "cer_dipl": [
+    381,
+    4165
+   ],
+   "cer_lines": [
+    393,
+    4165
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "preserved": 1,
+    "dict_words_replaced": 52,
+    "invented": 18,
+    "dict_words": 409
+   },
+   "markup": {
+    "insert_ref": 5,
+    "strike_x_ref": 4,
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "9288-033": {
+   "cer_ci": [
+    572,
+    3245
+   ],
+   "cer_dipl": [
+    574,
+    3245
+   ],
+   "cer_lines": [
+    588,
+    3245
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 4,
+    "preserved": 1,
+    "dict_words_replaced": 76,
+    "invented": 1,
+    "dict_words": 296
+   },
+   "markup": {
+    "insert_ref": 4,
+    "strike_x_ref": 4,
+    "strike_ref": 3,
+    "illegible_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "7562-018": {
+   "cer_ci": [
+    245,
+    2856
+   ],
+   "cer_dipl": [
+    248,
+    2856
+   ],
+   "cer_lines": [
+    261,
+    2856
+   ],
+   "err": {
+    "dict_words_replaced": 54,
+    "invented": 4,
+    "dict_words": 303
+   },
+   "markup": {
+    "strike_ref": 3,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "0643-034": {
+   "cer_ci": [
+    823,
+    3235
+   ],
+   "cer_dipl": [
+    827,
+    3235
+   ],
+   "cer_lines": [
+    839,
+    3235
+   ],
+   "err": {
+    "suspect": 10,
+    "corrected": 9,
+    "misread": 1,
+    "dict_words_replaced": 130,
+    "invented": 2,
+    "dict_words": 301
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 5,
+    "illegible_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "7603-059": {
+   "cer_ci": [
+    207,
+    2771
+   ],
+   "cer_dipl": [
+    210,
+    2771
+   ],
+   "cer_lines": [
+    217,
+    2771
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 25,
+    "invented": 1,
+    "dict_words": 236
+   },
+   "markup": {
+    "strike_ref": 10,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1125-020": {
+   "cer_ci": [
+    144,
+    1935
+   ],
+   "cer_dipl": [
+    148,
+    1935
+   ],
+   "cer_lines": [
+    161,
+    1935
+   ],
+   "err": {
+    "suspect": 3,
+    "preserved": 1,
+    "misread": 1,
+    "corrected": 1,
+    "dict_words_replaced": 27,
+    "invented": 5,
+    "dict_words": 203
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "1679-068": {
+   "cer_ci": [
+    74,
+    2395
+   ],
+   "cer_dipl": [
+    78,
+    2395
+   ],
+   "cer_lines": [
+    90,
+    2395
+   ],
+   "err": {
+    "dict_words_replaced": 10,
+    "invented": 2,
+    "dict_words": 238
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4121-039": {
+   "cer_ci": [
+    265,
+    2073
+   ],
+   "cer_dipl": [
+    269,
+    2073
+   ],
+   "cer_lines": [
+    281,
+    2073
+   ],
+   "err": {
+    "suspect": 2,
+    "misread": 2,
+    "dict_words_replaced": 47,
+    "invented": 3,
+    "dict_words": 215
+   },
+   "markup": {
+    "strike_ref": 2
+   },
+   "n_lines": [
+    25,
+    4
+   ]
+  },
+  "1484-029": {
+   "cer_ci": [
+    53,
+    2513
+   ],
+   "cer_dipl": [
+    53,
+    2513
+   ],
+   "cer_lines": [
+    70,
+    2513
+   ],
+   "err": {
+    "dict_words_replaced": 15,
+    "invented": 9,
+    "dict_words": 275
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "2105-055": {
+   "cer_ci": [
+    173,
+    2302
+   ],
+   "cer_dipl": [
+    176,
+    2302
+   ],
+   "cer_lines": [
+    196,
+    2302
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 1,
+    "misread": 1,
+    "dict_words_replaced": 33,
+    "dict_words": 250
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 1,
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "4666-229": {
+   "cer_ci": [
+    305,
+    2975
+   ],
+   "cer_dipl": [
+    305,
+    2975
+   ],
+   "cer_lines": [
+    322,
+    2975
+   ],
+   "err": {
+    "dict_words_replaced": 15,
+    "invented": 6,
+    "dict_words": 285
+   },
+   "markup": {
+    "insert_ref": 8,
+    "strike_ref": 15,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "6910-017": {
+   "cer_ci": [
+    190,
+    1929
+   ],
+   "cer_dipl": [
+    191,
+    1929
+   ],
+   "cer_lines": [
+    208,
+    1929
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 31,
+    "invented": 2,
+    "dict_words": 184
+   },
+   "markup": {},
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1675-064": {
+   "cer_ci": [
+    700,
+    2941
+   ],
+   "cer_dipl": [
+    701,
+    2941
+   ],
+   "cer_lines": [
+    712,
+    2941
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 56,
+    "invented": 6,
+    "dict_words": 291
+   },
+   "markup": {
+    "insert_ref": 4,
+    "strike_ref": 4
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "8126-028": {
+   "cer_ci": [
+    289,
+    2938
+   ],
+   "cer_dipl": [
+    290,
+    2938
+   ],
+   "cer_lines": [
+    291,
+    2938
+   ],
+   "err": {
+    "suspect": 2,
+    "corrected": 2,
+    "dict_words_replaced": 63,
+    "invented": 8,
+    "dict_words": 289
+   },
+   "markup": {
+    "strike_ref": 1,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    30,
+    28
+   ]
+  },
+  "1756-020": {
+   "cer_ci": [
+    507,
+    2227
+   ],
+   "cer_dipl": [
+    517,
+    2227
+   ],
+   "cer_lines": [
+    521,
+    2227
+   ],
+   "err": {
+    "suspect": 3,
+    "misread": 1,
+    "corrected": 2,
+    "dict_words_replaced": 40,
+    "invented": 4,
+    "dict_words": 225
+   },
+   "markup": {
+    "insert_ref": 2,
+    "strike_ref": 6
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4309-005": {
+   "cer_ci": [
+    240,
+    2313
+   ],
+   "cer_dipl": [
+    242,
+    2313
+   ],
+   "cer_lines": [
+    253,
+    2313
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 35,
+    "invented": 4,
+    "dict_words": 230
+   },
+   "markup": {
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "0960-045": {
+   "cer_ci": [
+    608,
+    2798
+   ],
+   "cer_dipl": [
+    610,
+    2798
+   ],
+   "cer_lines": [
+    630,
+    2798
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 104,
+    "invented": 5,
+    "dict_words": 276
+   },
+   "markup": {
+    "insert_ref": 1,
+    "strike_x_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "1435-039": {
+   "cer_ci": [
+    249,
+    3006
+   ],
+   "cer_dipl": [
+    250,
+    3006
+   ],
+   "cer_lines": [
+    268,
+    3006
+   ],
+   "err": {
+    "dict_words_replaced": 39,
+    "invented": 13,
+    "dict_words": 313
+   },
+   "markup": {
+    "insert_ref": 4,
+    "strike_ref": 3,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "2978-021": {
+   "cer_ci": [
+    272,
+    2217
+   ],
+   "cer_dipl": [
+    275,
+    2217
+   ],
+   "cer_lines": [
+    288,
+    2217
+   ],
+   "err": {
+    "dict_words_replaced": 17,
+    "invented": 4,
+    "dict_words": 217
+   },
+   "markup": {},
+   "n_lines": [
+    31,
+    18
+   ]
+  },
+  "8123-025": {
+   "cer_ci": [
+    350,
+    2501
+   ],
+   "cer_dipl": [
+    351,
+    2501
+   ],
+   "cer_lines": [
+    368,
+    2501
+   ],
+   "err": {
+    "suspect": 3,
+    "corrected": 2,
+    "misread": 1,
+    "dict_words_replaced": 64,
+    "invented": 11,
+    "dict_words": 232
+   },
+   "markup": {
+    "strike_ref": 1
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  },
+  "9309-012": {
+   "cer_ci": [
+    3935,
+    2618
+   ],
+   "cer_dipl": [
+    3936,
+    2618
+   ],
+   "cer_lines": [
+    3953,
+    2618
+   ],
+   "err": {
+    "suspect": 2,
+    "misread": 2,
+    "dict_words_replaced": 61,
+    "invented": 8,
+    "dict_words": 291
+   },
+   "markup": {
+    "strike_ref": 2
+   },
+   "n_lines": [
+    29,
+    7
+   ]
+  },
+  "5379-030": {
+   "cer_ci": [
+    531,
+    2494
+   ],
+   "cer_dipl": [
+    539,
+    2494
+   ],
+   "cer_lines": [
+    546,
+    2494
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 25,
+    "invented": 6,
+    "dict_words": 243
+   },
+   "markup": {},
+   "n_lines": [
+    29,
+    6
+   ]
+  },
+  "0957-042": {
+   "cer_ci": [
+    123,
+    3059
+   ],
+   "cer_dipl": [
+    125,
+    3059
+   ],
+   "cer_lines": [
+    137,
+    3059
+   ],
+   "err": {
+    "suspect": 6,
+    "corrected": 5,
+    "misread": 1,
+    "dict_words_replaced": 22,
+    "invented": 4,
+    "dict_words": 291
+   },
+   "markup": {
+    "strike_ref": 4,
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "8132-034": {
+   "cer_ci": [
+    195,
+    2644
+   ],
+   "cer_dipl": [
+    195,
+    2644
+   ],
+   "cer_lines": [
+    215,
+    2644
+   ],
+   "err": {
+    "suspect": 5,
+    "misread": 2,
+    "preserved": 2,
+    "corrected": 1,
+    "dict_words_replaced": 44,
+    "invented": 7,
+    "dict_words": 244
+   },
+   "markup": {
+    "strike_ref": 4
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "9305-008": {
+   "cer_ci": [
+    412,
+    2442
+   ],
+   "cer_dipl": [
+    417,
+    2442
+   ],
+   "cer_lines": [
+    434,
+    2442
+   ],
+   "err": {
+    "suspect": 1,
+    "corrected": 1,
+    "dict_words_replaced": 78,
+    "invented": 5,
+    "dict_words": 247
+   },
+   "markup": {
+    "illegible_ref": 1
+   },
+   "n_lines": [
+    29,
+    4
+   ]
+  },
+  "9428-009": {
+   "cer_ci": [
+    360,
+    2237
+   ],
+   "cer_dipl": [
+    362,
+    2237
+   ],
+   "cer_lines": [
+    373,
+    2237
+   ],
+   "err": {
+    "suspect": 1,
+    "misread": 1,
+    "dict_words_replaced": 12,
+    "invented": 5,
+    "dict_words": 213
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    5
+   ]
+  },
+  "4592-155": {
+   "cer_ci": [
+    139,
+    2781
+   ],
+   "cer_dipl": [
+    139,
+    2781
+   ],
+   "cer_lines": [
+    152,
+    2781
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 24,
+    "invented": 3,
+    "dict_words": 288
+   },
+   "markup": {
+    "strike_x_ref": 1,
+    "strike_ref": 2
+   },
+   "n_lines": [
+    31,
+    6
+   ]
+  },
+  "0673-064": {
+   "cer_ci": [
+    497,
+    2806
+   ],
+   "cer_dipl": [
+    503,
+    2806
+   ],
+   "cer_lines": [
+    514,
+    2806
+   ],
+   "err": {
+    "suspect": 4,
+    "corrected": 4,
+    "dict_words_replaced": 39,
+    "invented": 7,
+    "dict_words": 312
+   },
+   "markup": {
+    "strike_x_ref": 2
+   },
+   "n_lines": [
+    29,
+    5
+   ]
+  },
+  "1644-033": {
+   "cer_ci": [
+    512,
+    2261
+   ],
+   "cer_dipl": [
+    521,
+    2261
+   ],
+   "cer_lines": [
+    528,
+    2261
+   ],
+   "err": {
+    "suspect": 5,
+    "corrected": 2,
+    "misread": 3,
+    "dict_words_replaced": 48,
+    "invented": 11,
+    "dict_words": 215
+   },
+   "markup": {
+    "insert_ref": 1
+   },
+   "n_lines": [
+    28,
+    5
+   ]
+  },
+  "8520-014": {
+   "cer_ci": [
+    101,
+    2991
+   ],
+   "cer_dipl": [
+    104,
+    2991
+   ],
+   "cer_lines": [
+    116,
+    2991
+   ],
+   "err": {
+    "dict_words_replaced": 20,
+    "invented": 4,
+    "dict_words": 299
+   },
+   "markup": {
+    "strike_ref": 3
+   },
+   "n_lines": [
+    30,
+    4
+   ]
+  }
+ }
+}

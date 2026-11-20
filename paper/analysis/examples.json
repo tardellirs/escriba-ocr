@@ -1,0 +1,884 @@
+{
+ "A": [
+  {
+   "page": "9003-017",
+   "idx": 15,
+   "gt": "to ao acesso à cultura --xxx--, ao lazer e à informação. O cinema cumpre, portanto, uma",
+   "escriba": "to ao acesso à cultura --xxx--, ao lazer e à informação. O cinema cumpre, portanto, uma",
+   "qwen": "to ao acesso à cultura, aos lazer e à informação. O cinema cumpre, portanto, uma",
+   "d": {
+    "escriba": 0,
+    "qwen": 9
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "9003-017",
+   "idx": 19,
+   "gt": "tais e ##as consequências## --a negligência-- da negligência de seu tratamento, o filme cumpre o papel de",
+   "escriba": "tais e ##as consequências## --a negligência-- da negligência de seu tratamento, o filme cumpre o papel de",
+   "qwen": "tais e a marginalização da negligência de seu tratamento, o filme cumpre o papel de",
+   "d": {
+    "escriba": 0,
+    "qwen": 32
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "0661-052",
+   "idx": 2,
+   "gt": "sociedade brasileira contemporânea, muitos --(indivíduos)-- indivíduos --(encontram)-- encontram-se em situações",
+   "escriba": "sociedade brasileira contemporânea, muitos --(indivíduos)-- indivíduos --(encontram)-- encontram-se em situações",
+   "qwen": "sociedade brasileira contemporânea, muitos (indivíduos) indivíduos (encontram-se) encontram-se em situações",
+   "d": {
+    "escriba": 0,
+    "qwen": 10
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "0661-052",
+   "idx": 19,
+   "gt": "tais e, assim, ridiculariza ou tenta segregar essa parcela do povo. Sendo assim, --(mostra crucial)-- mos-",
+   "escriba": "tais e, assim, ridiculariza ou tenta segregar essa parcela do povo. Sendo assim, --(mostra crucial)-- mos-",
+   "qwen": "tais e, assim, ridiculariza ou tenta segregar essa parcela do povo. Sendo assim, mostra-se crucial mos-",
+   "d": {
+    "escriba": 0,
+    "qwen": 9
+   },
+   "mk": true,
+   "sus": [
+    "mos"
+   ]
+  },
+  {
+   "page": "9287-032",
+   "idx": 16,
+   "gt": "sileira. Com a colonização portuguesa, no século XVI --xxx--, foram importados diversos",
+   "escriba": "sileira. Com a colonização portuguesa, no século XVI --xxx--, foram importados diversos",
+   "qwen": "sileira. Com a colonização portuguesa, no século XVI, foram importados diversos",
+   "d": {
+    "escriba": 0,
+    "qwen": 8
+   },
+   "mk": true,
+   "sus": [
+    "sileira"
+   ]
+  },
+  {
+   "page": "0248-040",
+   "idx": 29,
+   "gt": "sada e, assim, --xxx-- a acessibilidade será democratizada ##em## --a todos os-- todo o Brasil.",
+   "escriba": "sada e, assim, --xxx-- a acessibilidade será democratizada ##em## --a todos os-- todo o Brasil.",
+   "qwen": "sada e, assim, # a acessibilidade será democratizada em todo o Brasil.",
+   "d": {
+    "escriba": 0,
+    "qwen": 26
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "7560-016",
+   "idx": 2,
+   "gt": "cultura à tecnologia. Entretanto esse progresso ainda é restrito no Brasil, ao passo que o acesso às --xxx--",
+   "escriba": "cultura à tecnologia. Entretanto esse progresso ainda é restrito no Brasil, ao passo que o acesso às --xxx--",
+   "qwen": "cultura à tecnologia. Entretanto seu progresso ainda é restrito no Brasil, ao passo que o acesso às",
+   "d": {
+    "escriba": 0,
+    "qwen": 11
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "7560-016",
+   "idx": 11,
+   "gt": "sempre em segundo plano. Assim, --xxx-- cidades periféricas ##carecem de## --não possuem-- infraestrutura de lazer como",
+   "escriba": "sempre em segundo plano. Assim, --xxx-- cidades periféricas ##carecem de## --não possuem-- infraestrutura de lazer como",
+   "qwen": "sempre em segundo plano. Assim, cidades específicas possuem infraestrutura de lazer como",
+   "d": {
+    "escriba": 0,
+    "qwen": 37
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "7560-016",
+   "idx": 14,
+   "gt": "comerciais privados --xxx--, como shoppings centers, que atraem as salas de cinema, cobrando preços al-",
+   "escriba": "comerciais privados --xxx--, como shoppings centers, que atraem as salas de cinema, cobrando preços al-",
+   "qwen": "comerciais privados, como shoppings centers, que atraem as salas de cinema, cobrando preços al-",
+   "d": {
+    "escriba": 0,
+    "qwen": 8
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "7560-016",
+   "idx": 24,
+   "gt": "bas para a implementação de centros culturais que promovam sessões de cinema gratuitas ou --xxx--",
+   "escriba": "bas para a implementação de centros culturais que promovam sessões de cinema gratuitas ou --xxx--",
+   "qwen": "bas para a implementação de centros culturais que promovam sessões de cinema gratuitas ou",
+   "d": {
+    "escriba": 0,
+    "qwen": 8
+   },
+   "mk": true,
+   "sus": [
+    "bas"
+   ]
+  },
+  {
+   "page": "7627-083",
+   "idx": 28,
+   "gt": "qualquer distinção a população --xxx-- terá acesso aos meios de cultura como o cine-",
+   "escriba": "qualquer distinção a população --xxx-- terá acesso aos meios de cultura como o cine-",
+   "qwen": "qualquer distinção a população terá acesso aos meios de cultura como o cine",
+   "d": {
+    "escriba": 0,
+    "qwen": 9
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "4114-032",
+   "idx": 3,
+   "gt": "átricos no Brasil terem evoluído desde a --xxx-- época da publicação da obra de Lima Barreto, ainda há o es-",
+   "escriba": "átricos no Brasil terem evoluído desde a --xxx-- época da publicação da obra de Lima Barreto, ainda há o es-",
+   "qwen": "átricos no Brasil terem evoluído desde a essa época da publicação da obra de Faima Barato, ainda há o es-",
+   "d": {
+    "escriba": 0,
+    "qwen": 11
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "4114-032",
+   "idx": 10,
+   "gt": "de pacientes e aflora o lado artístico deles com exposição à arte, ou seja, utiliza um tratamento alternativo --xxx--",
+   "escriba": "de pacientes e aflora o lado artístico deles com exposição à arte, ou seja, utiliza um tratamento alternativo --xxx--",
+   "qwen": "de pacientes e oferta o lado artístico deles como exposição a arte, ou seja, utiliza um tratamento alternativo eficaz",
+   "d": {
+    "escriba": 0,
+    "qwen": 13
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "3942-017",
+   "idx": 26,
+   "gt": "lizar a sociedade, mostrando os impactos --da-- de associações problemáticas entre uma doença psíquica e",
+   "escriba": "lizar a sociedade, mostrando os impactos --da-- de associações problemáticas entre uma doença psíquica e",
+   "qwen": "lizar a sociedade, mostrando o impacto da associação problemática entre uma doença psíquica e",
+   "d": {
+    "escriba": 0,
+    "qwen": 13
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "4744-307",
+   "idx": 3,
+   "gt": "revela o que ocorre na realidade: o --xxx-- fator \"modernidade\" fomenta problemas de saúde mental,",
+   "escriba": "revela o que ocorre na realidade: o --xxx-- fator \"modernidade\" fomenta problemas de saúde mental,",
+   "qwen": "revela o que ocorre na realidade de: o fator \"modernidade\" fomenta problemas de saúde mental,",
+   "d": {
+    "escriba": 0,
+    "qwen": 10
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "6114-022",
+   "idx": 26,
+   "gt": "e psicólogos, e do oferecimento de atividades - por intermédio de aulas, palestras, debates e oficinas - ##em escolas## --xxx-- públicas e particulares",
+   "escriba": "e psicólogos, e do oferecimento de atividades - por intermédio de aulas, palestras, debates e oficinas - ##em escolas## --xxx-- públicas e particulares",
+   "qwen": "e psicólogos, e de oferecimento de atividades - por intermédio de aulas, palestras, debates e oficinas - em escolas públicas e particulares",
+   "d": {
+    "escriba": 0,
+    "qwen": 13
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "4106-024",
+   "idx": 6,
+   "gt": "mentais. Consoante a Organização das Nações Unidas --(ONU)-- (ONU), as escolas devem ser",
+   "escriba": "mentais. Consoante a Organização das Nações Unidas --(ONU)-- (ONU), as escolas devem ser",
+   "qwen": "mentais. Consoante a Organização das Nações Unidas (ONU), as escolas devem ser",
+   "d": {
+    "escriba": 0,
+    "qwen": 10
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "4106-024",
+   "idx": 11,
+   "gt": "la. Essa análise mostra que o --es-- ambiente escolar não abre espaço para a discus-",
+   "escriba": "la. Essa análise mostra que o --es-- ambiente escolar não abre espaço para a discus-",
+   "qwen": "la. Essa análise mostra que o ambiente escolar não abre espaço para a discus-",
+   "d": {
+    "escriba": 0,
+    "qwen": 7
+   },
+   "mk": true,
+   "sus": [
+    "discus"
+   ]
+  },
+  {
+   "page": "4106-024",
+   "idx": 27,
+   "gt": "cola. Além disso, a iniciativa privada ##deve## --devem-- promover a saúde mental dos colaboradores, por",
+   "escriba": "cola. Além disso, a iniciativa privada ##deve## --devem-- promover a saúde mental dos colaboradores, por",
+   "qwen": "cola. Além disso, a iniciativa privada deve promover a saúde mental dos colaboradores, por",
+   "d": {
+    "escriba": 0,
+    "qwen": 14
+   },
+   "mk": true,
+   "sus": []
+  },
+  {
+   "page": "4117-035",
+   "idx": 7,
+   "gt": "##modo## --maneira-- que o tópico é rodeado por diversos mitos, os quais, muitas vezes, são responsáveis por re-",
+   "escriba": "##modo## --maneira-- que o tópico é rodeado por diversos mitos, os quais, muitas vezes, são responsáveis por re-",
+   "qwen": "mesmo que o tópico é rodeado por diversos mitos, os quais, muitas vezes, são responsáveis por re-",
+   "d": {
+    "escriba": 0,
+    "qwen": 18
+   },
+   "mk": true,
+   "sus": []
+  }
+ ],
+ "B": [
+  {
+   "page": "7574-030",
+   "idx": 24,
+   "gt": "ções de ir a esses locais, vê-se como possível solução uma parceria público priva-",
+   "escriba": "ções de ir a esses locais, vê-se como possível solução uma parceria público priva-",
+   "qwen": "ções de ir a esses locais, vê-se como possível solução uma parceria público-priv-",
+   "d": {
+    "escriba": 0,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "ções"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 20,
+   "gt": "peutico, que desestimula a procura de profissionais pelos doentes, o que prejudica ainda mais sua saúde mental.",
+   "escriba": "peutico, que desestimula a procura de profissionais pelos doentes, o que prejudica ainda mais sua saúde mental.",
+   "qwen": "pêutico, que desestimula a procura de profissionais pelos doentes, o que prejudica ainda mais na recuperaçã",
+   "d": {
+    "escriba": 0,
+    "qwen": 14
+   },
+   "mk": false,
+   "sus": [
+    "peutico"
+   ]
+  },
+  {
+   "page": "7146-087",
+   "idx": 7,
+   "gt": "determinados grupos. Nessa perspectiva vilipendiosa, o indivíduo é visto com base no que conso-",
+   "escriba": "determinados grupos. Nessa perspectiva vilipendiosa, o indivíduo é visto com base no que conso-",
+   "qwen": "determinados grupos. Nessa perspectiva vilipendiadora, o indivíduo é visto com base no que consu-",
+   "d": {
+    "escriba": 0,
+    "qwen": 4
+   },
+   "mk": false,
+   "sus": [
+    "conso"
+   ]
+  },
+  {
+   "page": "8755-043",
+   "idx": 25,
+   "gt": "Ministério da Saúde, orgão mais previamente responsável por questões resolutivas",
+   "escriba": "Ministério da Saúde, orgão mais previamente responsável por questões resolutivas",
+   "qwen": "Ministério da Saúde, sejam mais previamente responsável por questões resolutivas",
+   "d": {
+    "escriba": 0,
+    "qwen": 5
+   },
+   "mk": false,
+   "sus": [
+    "orgão"
+   ]
+  },
+  {
+   "page": "8135-037",
+   "idx": 15,
+   "gt": "democratização da arte cinéfola para o desenvolvimento humano. Acerca disso, cabe referenciar o sistema educa-",
+   "escriba": "democratização da arte cinéfola para o desenvolvimento humano. Acerca disso, cabe referenciar o sistema educa-",
+   "qwen": "democratização da arte cinéfola para o desenvolvimento humano. Acerca disso, cabe referenciar o sistema educa-",
+   "d": {
+    "escriba": 0,
+    "qwen": 0
+   },
+   "mk": false,
+   "sus": [
+    "cinéfola"
+   ]
+  },
+  {
+   "page": "8455-049",
+   "idx": 8,
+   "gt": "ficitário. Assim, urge entender essa questão para poder combatê-la.",
+   "escriba": "ficitário. Assim, urge entender essa questão para poder combatê-la.",
+   "qwen": "ficitário. Assim, urge entender essa questão para poder combatê-la.",
+   "d": {
+    "escriba": 0,
+    "qwen": 0
+   },
+   "mk": false,
+   "sus": [
+    "ficitário"
+   ]
+  },
+  {
+   "page": "8455-049",
+   "idx": 12,
+   "gt": "que reflete sobre o indivíduo e a comunidade. Este foi chamado, pelo educador brasilei-",
+   "escriba": "que reflete sobre o indivíduo e a comunidade. Este foi chamado, pelo educador brasilei-",
+   "qwen": "que reflete sobre o indivíduo e a comunidade. Este foi chamado, pelo educador brasilei-",
+   "d": {
+    "escriba": 0,
+    "qwen": 0
+   },
+   "mk": false,
+   "sus": [
+    "brasilei"
+   ]
+  },
+  {
+   "page": "8455-049",
+   "idx": 22,
+   "gt": "Portanto, cabe ao Estado melhorar a educação, por meio do adequamento do método de",
+   "escriba": "Portanto, cabe ao Estado melhorar a educação, por meio do adequamento do método de",
+   "qwen": "Portanto, cabe ao Estado melhorar a educação, por meio do adequamento ao método de",
+   "d": {
+    "escriba": 0,
+    "qwen": 1
+   },
+   "mk": false,
+   "sus": [
+    "adequamento"
+   ]
+  },
+  {
+   "page": "8455-049",
+   "idx": 27,
+   "gt": "finalidade reduzir o estigma relacionado às doenças mentais na sociedade brasilei-",
+   "escriba": "finalidade reduzir o estigma relacionado às doenças mentais na sociedade brasilei-",
+   "qwen": "finalidade reduzir o estigma relacionado às doenças mentais na sociedade brasilei-",
+   "d": {
+    "escriba": 0,
+    "qwen": 0
+   },
+   "mk": false,
+   "sus": [
+    "brasilei"
+   ]
+  },
+  {
+   "page": "0635-026",
+   "idx": 27,
+   "gt": "não apenas psiquiátrico, mas também psicológico para aumentar a aceitação e comprensão dos indivíduos afetados",
+   "escriba": "não apenas psiquiátrico, mas também psicológico para aumentar a aceitação e comprensão dos indivíduos afetados",
+   "qwen": "aos apoiar psiquiátrico, mas também psicológico para aumentar a aceitação e compreensão dos indivíduos afetados",
+   "d": {
+    "escriba": 0,
+    "qwen": 7
+   },
+   "mk": false,
+   "sus": [
+    "comprensão"
+   ]
+  },
+  {
+   "page": "2187-044",
+   "idx": 27,
+   "gt": "e o Brasil formará cidadãos saudáveis em todos os ambitos da",
+   "escriba": "e o Brasil formará cidadãos saudáveis em todos os ambitos da",
+   "qwen": "e o Brasil formará cidadãos saudáveis em todos os âmbitos da",
+   "d": {
+    "escriba": 0,
+    "qwen": 1
+   },
+   "mk": false,
+   "sus": [
+    "ambitos"
+   ]
+  },
+  {
+   "page": "7572-028",
+   "idx": 11,
+   "gt": "custo de vida. Então, ocorre uma setorização dos prazeres, por que apenas pessoas com maior inserção econômica têm con-",
+   "escriba": "custo de vida. Então, ocorre uma setorização dos prazeres, por que apenas pessoas com maior inserção econômica têm coa-",
+   "qwen": "custo de vida. Então, ocorre uma setorização dos prazeres, por que apenas pessoas com maior inserção econômica têm op-",
+   "d": {
+    "escriba": 1,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "con"
+   ]
+  },
+  {
+   "page": "7572-028",
+   "idx": 18,
+   "gt": "cançar seus fins. Logo, a marginalização, imposta pelo elevado custo dessa atividade, fomenta atos criminosos de lucro com",
+   "escriba": "cançar seus fins. Logo, a marginalização, imposta pelo elevado custo dessa atividade, fomenta atos criminosos de lucro com",
+   "qwen": "cançar seus fins. Logo, a marginalização, imposta pelo elevado custo dessa atividade, fomenta atos criminosos de lucro com",
+   "d": {
+    "escriba": 0,
+    "qwen": 0
+   },
+   "mk": false,
+   "sus": [
+    "cançar"
+   ]
+  },
+  {
+   "page": "7572-028",
+   "idx": 26,
+   "gt": "VI com suas reformas, seram possíveis no Brasil contemporâneo.",
+   "escriba": "VI com suas reformas, seram possíveis no Brasil contemporâneo.",
+   "qwen": "VI com suas reformas, serão possíveis no Brasil contemporâneo.",
+   "d": {
+    "escriba": 0,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "seram"
+   ]
+  },
+  {
+   "page": "2971-014",
+   "idx": 19,
+   "gt": "de alguns que ainda se preocupam em ajudar. Essa falta de \"poder de voz\" frente a aquisição de condições para o frequentamen-",
+   "escriba": "de alguns que ainda se preocupam em ajudar. Essa falta de \"poder de voz\" frente a aquisição de condições para o frequentamen-",
+   "qwen": "de alguns que ainda se preocupam em ajudar. Uma falta de \"poder de voz\" frente a aquisição de condições para o frequentamen-",
+   "d": {
+    "escriba": 0,
+    "qwen": 3
+   },
+   "mk": false,
+   "sus": [
+    "frequentamen"
+   ]
+  },
+  {
+   "page": "4290-003",
+   "idx": 23,
+   "gt": "de ideologias errôneas e de combate às atitudes e pensamentos promotores de dis-",
+   "escriba": "de ideologias errôneas e de combate às atitudes e pensamentos promotores de dis-",
+   "qwen": "DE IDEOLOGIAS OPRESSIVAS E DE COMBATE ÀS ATITUDES E PENSAMENTOS PROVOCADORES DE DIS-",
+   "d": {
+    "escriba": 0,
+    "qwen": 71
+   },
+   "mk": false,
+   "sus": [
+    "dis"
+   ]
+  },
+  {
+   "page": "4771-016",
+   "idx": 4,
+   "gt": "ram estruturas sociais, legitimando-as e reproduzindo-as, cabe à gestão pública a função de instituir o cidadão mo-",
+   "escriba": "ram estruturas sociais, legitimando-as e reproduzindo-as, cabe à gestão pública a função de instituir o cidadão mo-",
+   "qwen": "estruturas sociais, legitimando-as e reproduzindo-as, cabe à gestão pública a função de instituir o cidadão no",
+   "d": {
+    "escriba": 0,
+    "qwen": 6
+   },
+   "mk": false,
+   "sus": [
+    "ram"
+   ]
+  },
+  {
+   "page": "9001-015",
+   "idx": 2,
+   "gt": "tes que estabelecem contínua interação entre si. Nesse contexto, setores co-",
+   "escriba": "tes que estabelecem contínua interação entre si. Nesse contexto, setores co-",
+   "qwen": "TES QUE ESTABELECEM CONTINUA INTERACAO ENTRE SI. NESSE CONTEXTO, SETORES CO-",
+   "d": {
+    "escriba": 0,
+    "qwen": 62
+   },
+   "mk": false,
+   "sus": [
+    "tes"
+   ]
+  },
+  {
+   "page": "9001-015",
+   "idx": 3,
+   "gt": "mo a cultura devem receber a devida atenção, a fim de evitar o colapso des-",
+   "escriba": "mo a cultura devem receber a devida atenção, a fim de evitar o colarso des-",
+   "qwen": "MO A CULTURA DEVEM RECEBER A DEVIDA ATENCAO, A FIM DE EVITAR O COLAPSO DES-",
+   "d": {
+    "escriba": 1,
+    "qwen": 59
+   },
+   "mk": false,
+   "sus": [
+    "des"
+   ]
+  },
+  {
+   "page": "9001-015",
+   "idx": 17,
+   "gt": "aspectos importantes para a compreensão da cultura do outro e, con-",
+   "escriba": "aspectos importantes para a compreensão da cultura do outro e, con-",
+   "qwen": "ASPECTOS IMPORTANTES PARA A COMPREENSAO DA CULTURA DO OUTRO E, CON-",
+   "d": {
+    "escriba": 0,
+    "qwen": 55
+   },
+   "mk": false,
+   "sus": [
+    "con"
+   ]
+  }
+ ],
+ "C": [
+  {
+   "page": "7280-082",
+   "idx": 27,
+   "gt": "atenção psicológica, por meio de propagandas e de programas que infor",
+   "escriba": "atenção psicológica, por meio de propagandas e de programas que infon-",
+   "qwen": "atenção psicológica, por meio de propagandas e de programas que infor-",
+   "d": {
+    "escriba": 2,
+    "qwen": 1
+   },
+   "mk": false,
+   "sus": [
+    "infor"
+   ]
+  },
+  {
+   "page": "0675-066",
+   "idx": 2,
+   "gt": "quiriu esse mesmo patamar foram as doenças mentais, como a depressão e a ansi-",
+   "escriba": "quiriu esse mesmo patamar foram as doenças mentais, como a depressão e a ausi-",
+   "qwen": "quiriu esse mesmo patamar foram as doenças mentais, como a depressão e a ansi-",
+   "d": {
+    "escriba": 1,
+    "qwen": 0
+   },
+   "mk": false,
+   "sus": [
+    "quiriu",
+    "ansi"
+   ]
+  },
+  {
+   "page": "0675-066",
+   "idx": 4,
+   "gt": "considerando o contexto da pandemia, por experciências que marcaram e abalaram a",
+   "escriba": "considerando o contexto da pandemia, por experiências que marcaram e abalaram a",
+   "qwen": "considerando o contexto da pandemia, por experiências que marcaram e abalaram a",
+   "d": {
+    "escriba": 1,
+    "qwen": 1
+   },
+   "mk": false,
+   "sus": [
+    "experciências"
+   ]
+  },
+  {
+   "page": "9003-017",
+   "idx": 0,
+   "gt": "O surgimento do cinema remonta o final do século XIX e, apesar do descrença ini-",
+   "escriba": "O surgimento do cinema remonta o final do século XIX e, apesar da discrença in-",
+   "qwen": "O surgimento do cinema, somente a partir do século XIX e, apesar da discussão ini-",
+   "d": {
+    "escriba": 3,
+    "qwen": 19
+   },
+   "mk": false,
+   "sus": [
+    "ini"
+   ]
+  },
+  {
+   "page": "9003-017",
+   "idx": 25,
+   "gt": "nientes da arrecadação de impostos com produtos de lazer, tais como brinquedos e ingres-",
+   "escriba": "ientes da arrecadação de impostos com produtos de lazer, tais como brinquedos e ingres-",
+   "qwen": "ientes da arrecadação de impostos com produtos de luxo, tais como brinquedos e ingre-",
+   "d": {
+    "escriba": 1,
+    "qwen": 6
+   },
+   "mk": false,
+   "sus": [
+    "nientes"
+   ]
+  },
+  {
+   "page": "0661-052",
+   "idx": 20,
+   "gt": "tra-se crucial trancender essa estrutura excludente do imaginário dos cidadãos.",
+   "escriba": "tra-se crucial transponder essa estrutura excludente do imaginário dos cidadãos.",
+   "qwen": "trar-se crucial transcender essa estrutura excludente do imaginário dos cidadãos.",
+   "d": {
+    "escriba": 3,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "tra-se",
+    "trancender"
+   ]
+  },
+  {
+   "page": "1493-038",
+   "idx": 3,
+   "gt": "Público em expandir essa expresão cultural no Brasil têm evidenciado o menosprezo por tal arte, di-",
+   "escriba": "Público em expandir essa expressão cultural no Brasil tem evidenciado o menosprezo por tal arte di-",
+   "qwen": "Público em expandir essa expressão cultural no Brasil têm evidenciado o menosprezo por tal arte di-",
+   "d": {
+    "escriba": 3,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "expresão"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 2,
+   "gt": "do-se cada vez mais comum na sociedada brasileira, devido ao estigma associado às doenças mentais, que fomentam uma",
+   "escriba": "de-se cada vez mais comum na sociedade brasileira, devido ao estigma associado às doenças mentais, que fomenta uma",
+   "qwen": "do-se toda vez mais comum no realidade brasileira, devido ao estigma associado às doenças mentais, que fomenta",
+   "d": {
+    "escriba": 3,
+    "qwen": 14
+   },
+   "mk": false,
+   "sus": [
+    "sociedada"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 3,
+   "gt": "cultura de banalização do sofrimento alheio, assim como o preconceito contra o tratamento terapeutico psicológico.",
+   "escriba": "cultura de banalização do sofrimento alheio, assim como o preconceito contra o tratamento terapêutico psicológico.",
+   "qwen": "uma cultura de banalização do sofrimento alheio, assim como o preconceito contra o tratamento terapêutico psicológico.",
+   "d": {
+    "escriba": 1,
+    "qwen": 5
+   },
+   "mk": false,
+   "sus": [
+    "terapeutico"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 7,
+   "gt": "morte como escapatória dessa realidade, assim como ocorreu com os autores do masacre em Suzano, há alguns",
+   "escriba": "morte como escapatória dessa realidade, assim como ocorreu com os autores do massacre em Suzano, há alguns",
+   "qwen": "muitas vezes escapatória dura realidade, assim como ocorreu com os autores de massacre em Suzano, há alguns",
+   "d": {
+    "escriba": 1,
+    "qwen": 14
+   },
+   "mk": false,
+   "sus": [
+    "masacre"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 12,
+   "gt": "Além disso, o preconceito contra o tratamento terapeutico psicológico reflete o estigma cristali-",
+   "escriba": "Além disso, o preconceito contra o tratamento terapêutico psicológico reflete o estigma cristali-",
+   "qwen": "Além disso, o preconceito contra o tratamento terapêutico psicológico reflete o estigma cristali-",
+   "d": {
+    "escriba": 1,
+    "qwen": 1
+   },
+   "mk": false,
+   "sus": [
+    "terapeutico",
+    "cristali"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 15,
+   "gt": "opinião alheia sobre o bem estar individual. Isso ocorre, principalmente devido às redes socias, a exem-",
+   "escriba": "opinião alheia sobre o bem estar individual. Isso ocorre, principalmente, devido às redes sociais, a exem-",
+   "qwen": "opinião alheia sobre o bem estar individual. Isso ocorre, principalmente, devido ao viés social, a exem-",
+   "d": {
+    "escriba": 2,
+    "qwen": 8
+   },
+   "mk": false,
+   "sus": [
+    "socias",
+    "exem"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 17,
+   "gt": "causada pela pressão das redes e a necesidade de aprovação e apresentação do corpo perfeito. Porém, após",
+   "escriba": "causada pela pressão das redes e a necessidade de aprovação e apresentação do corpo perfeito. Porém, após",
+   "qwen": "causada pela pressão das redes e a necessidade de apresentação e apresentação do corpo perfeito. Dizem pós",
+   "d": {
+    "escriba": 1,
+    "qwen": 12
+   },
+   "mk": false,
+   "sus": [
+    "necesidade"
+   ]
+  },
+  {
+   "page": "8616-064",
+   "idx": 27,
+   "gt": "cipalmente, pelas redes sociais. Somente assim, o conceito de suicídio egoista de Durkheim deixa-",
+   "escriba": "cipalmente, pelas redes sociais. Somente assim, o conceito de suicídio egoísta de Durkheim deixar-",
+   "qwen": "sofrimentos, pelos vieses sociais. Somente assim, o conceito de suicídio egoísta de Durkheim deixará",
+   "d": {
+    "escriba": 2,
+    "qwen": 14
+   },
+   "mk": false,
+   "sus": [
+    "cipalmente",
+    "egoista"
+   ]
+  },
+  {
+   "page": "8125-027",
+   "idx": 16,
+   "gt": "cinematográfico americano em território tupiniquim. Conforme o sociologo Anthony",
+   "escriba": "cinematográfico americano em território tupiniquim. Conforme o sociólogo Anthony",
+   "qwen": "cinematográfico americano em território tupiniquim. Conforme o sociólogo Anthony",
+   "d": {
+    "escriba": 1,
+    "qwen": 1
+   },
+   "mk": false,
+   "sus": [
+    "sociologo"
+   ]
+  },
+  {
+   "page": "8125-027",
+   "idx": 25,
+   "gt": "dades e a outras instituições sérias. Então, como requisito à aprovação nes-",
+   "escriba": "dades e a outras instituições sérias. Então, com o requisito à aprovação mes-",
+   "qwen": "dade e a outras instituições sérias. Então, como requisito à aprovação mes-",
+   "d": {
+    "escriba": 2,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "dades",
+    "nes"
+   ]
+  },
+  {
+   "page": "7615-071",
+   "idx": 10,
+   "gt": "sários que, desejando miximizar seus lucros, organizam os cinemas em áreas com maior poder",
+   "escriba": "cários que, desejando minimizar seus lucros, organizam os cinemas em áreas com maior poder",
+   "qwen": "sários que, dizendo maximizar seus lucros, organizam os cinemas em áreas com maior poder",
+   "d": {
+    "escriba": 2,
+    "qwen": 5
+   },
+   "mk": false,
+   "sus": [
+    "sários",
+    "miximizar"
+   ]
+  },
+  {
+   "page": "1599-038",
+   "idx": 25,
+   "gt": "sas de cinema nesses locais, no intuito de incentivar o contato com a arte cinematográfica entre os habitan-",
+   "escriba": "sas de cinema nesses locais, no intuito de incentivar o contato com a arte cinematográfica entre os habita-",
+   "qwen": "sas de cinema menos lucrativas, no intuito de incentivar o contato com a arte cinematográfica entre os habita",
+   "d": {
+    "escriba": 1,
+    "qwen": 11
+   },
+   "mk": false,
+   "sus": [
+    "sas",
+    "habitan"
+   ]
+  },
+  {
+   "page": "1599-038",
+   "idx": 26,
+   "gt": "tes. Além disso, os moradores terão direito à entrada gratuita a cada trimestre, assim como descontos nas",
+   "escriba": "dos. Além disso, os moradores terão direito à entrada gratuita a cada trimestre, assim como descontos nos",
+   "qwen": "ntes. Além disso, os moradores terão direito à entrada gratuita a cada trimestre, assim como descontos nos",
+   "d": {
+    "escriba": 3,
+    "qwen": 2
+   },
+   "mk": false,
+   "sus": [
+    "tes"
+   ]
+  },
+  {
+   "page": "7999-053",
+   "idx": 16,
+   "gt": "Além disso, a internet se tornou um ##meio## --xxx-- de disseminação do estigna associado às doenças mentais.",
+   "escriba": "Além disso, a internet se tornou um ##meio## --xxx-- de disseminação do estigma associado às doenças mentais.",
+   "qwen": "Além disso, a internet se tornou um meio de disseminação do estigma associado às doenças mentais.",
+   "d": {
+    "escriba": 1,
+    "qwen": 13
+   },
+   "mk": true,
+   "sus": [
+    "estigna"
+   ]
+  }
+ ]
+}

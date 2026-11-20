@@ -1,0 +1,14 @@
+{
+ "model": "lightonai/LightOnOCR-3-1B",
+ "run": "lightonocr3-1b",
+ "prompt": "empty",
+ "rep_penalty": 1.05,
+ "long_side": 1600,
+ "pages": 199,
+ "gpu": "NVIDIA L4",
+ "load_s": 94.5,
+ "batch_s": 466.9,
+ "pages_per_s": 0.426,
+ "seq_median_s": 6.08,
+ "truncated": 0
+}

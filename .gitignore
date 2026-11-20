@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+out/
+.DS_Store
+uv.lock
+assets/logo/
