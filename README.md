@@ -15,7 +15,7 @@
 
 # Escriba-OCR
 
-**A 1B-parameter OCR model for handwritten Brazilian Portuguese essays that keeps the student's errors.**
+**Escriba-OCR-1B is a 1B-parameter OCR model that transcribes handwritten Brazilian Portuguese essays and keeps the student's errors.**
 
 This repository contains the code and data behind **Escriba-OCR-1B** and the accompanying paper:
 
