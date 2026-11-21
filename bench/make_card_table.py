@@ -60,18 +60,19 @@ def main():
         rows.append((s["cer_cap"], name, params, how, s, trunc))
     rows.sort(key=lambda r: r[0])
     lines = [
-        "| Model | Params | Run via | CER | WER | Strike recall | Insert recall | Lines | Truncated pages |",
-        "|---|---|---|---|---|---|---|---|---|",
+        "| # | Model | Params | Run via | CER | WER | Strike recall | Insert recall | Lines | Truncated pages |",
+        "|---|---|---|---|---|---|---|---|---|---|",
     ]
-    for cer, name, params, how, s, trunc in rows:
+    for rank, (cer, name, params, how, s, trunc) in enumerate(rows, 1):
         n = f" ({s['pages']}/199 pages)" if s["pages"] < 199 else ""
-        lines.append(f"| {name}{n} | {params} | {how} | {cer:.2f}% | {s['wer_ci']:.1f}% | {pct(s.get('strike_R'))} | "
+        pos = "🥇 **1**" if rank == 1 else str(rank)  # ranked by CER
+        lines.append(f"| {pos} | {name}{n} | {params} | {how} | {cer:.2f}% | {s['wer_ci']:.1f}% | {pct(s.get('strike_R'))} | "
                      f"{pct(s.get('insert_R'))} | {s['lines_ok']:.0f}% | {trunc} |")
     note = ("\nOpen models were prompted with the same Portuguese error-preserving instructions (local OCR-specialised models "
             "LightOnOCR, PaddleOCR-VL and GLM-OCR with their native prompt, as they do not follow instructions). "
             "OpenRouter models: page upscaled to 1540 px, temperature 0, reasoning disabled, 3,000 max tokens. "
             "Local models: vLLM 0.34 on an NVIDIA L4, page upscaled to 1600 px, greedy decoding, repetition penalty 1.05. "
-            "\"Truncated\" counts pages where generation hit the token limit, usually a repetition loop.\n")
+            "Systems are ranked by CER. \"Truncated\" counts pages where generation hit the token limit, usually a repetition loop.\n")
     block = START + "\n\n" + "\n".join(lines) + "\n" + note + "\n" + END
     card = Path(a.card).read_text()
     if END in card:
