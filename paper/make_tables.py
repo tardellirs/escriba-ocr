@@ -61,6 +61,8 @@ for run, (name, params, how) in MODELS.items():
         continue
     m = s(run)
     items.append((m["cer_cap"], name, params, "API" if how == "OpenRouter" else "local", m, trunc(run)))
+m = s("htr-flor-gtlines")  # trained HTR baseline, not in the card's MODELS
+items.append((m["cer_cap"], "HTR-Flor (trained)$^\\dagger$", "$<$1M", "local", m, "--"))
 for cer, name, params, how, m, t in sorted(items, key=lambda r: r[0]):
     part = f"$^\\ddagger$" if m["pages"] < 199 else ""
     rows.append(f"{name}{part} & {params.replace(' active', '')} & {f(cer,2)} & {f(m['wer_ci'])} & {f(m['err_preserved'])} & "

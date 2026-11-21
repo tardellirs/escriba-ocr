@@ -2,27 +2,27 @@
  "quality_30": {
   "vLLM bf16 (GPU)": {
    "cer": 2.56,
-   "cer_text": 3.3
+   "cer_text": 1.85
   },
   "f16": {
    "cer": 2.6,
-   "cer_text": 3.73
+   "cer_text": 2.06
   },
   "Q8_0": {
-   "cer": 2.59,
-   "cer_text": 3.68
+   "cer": 2.6,
+   "cer_text": 2.04
   },
   "Q4_K_M": {
-   "cer": 2.56,
-   "cer_text": 3.74
+   "cer": 2.55,
+   "cer_text": 2.09
   },
   "Q4_K_M-mmQ8": {
-   "cer": 2.51,
-   "cer_text": 3.73
+   "cer": 2.54,
+   "cer_text": 2.06
   },
   "Q4_K_M-mmQ4": {
    "cer": 2.6,
-   "note": "own scorer gave 2.64 vs 2.55 for mmQ8 (same scorer); mapped to card scale (+0.04 offset)"
+   "cer_text": 2.09
   }
  },
  "latency_5": {
@@ -78,5 +78,41 @@
    "median_30": 55.8
   }
  },
- "note_ram": "llama-server prompt cache grows RSS ~0.3 GB/page up to ~10 GB over 30 pages; use --cache-ram 0"
+ "note_ram": "llama-server prompt cache grows RSS ~0.3 GB/page up to ~10 GB over 30 pages; use --cache-ram 0",
+ "note_metric": "cer and cer_text are means of capped page CER over the 30 pages in ids.txt, rescored 2026-11-21 with the line-bounded markup parser (bench/textnorm.py)",
+ "quality_note": "llama.cpp rows from the turin4_v3 run (llama.cpp b019be0); the earlier build gave 2.51-2.60, same range",
+ "cpu_30_turin4_v3": {
+  "setup": "one CPU-TURIN.4V.16G VM (4 vCPU AMD EPYC Turin, 16 GB), llama.cpp b019be0 GGML_NATIVE=ON, llama-server -np 1 -t 4 -c 8192 --cache-ram 0, 30 pages in ids.txt pre-resized to 1200 px, one at a time",
+  "f16": {
+   "median_s": 69.1,
+   "encode_s": 41.4,
+   "gen_tok_s": 27.8,
+   "peak_rss_mb": 3571
+  },
+  "Q8_0": {
+   "median_s": 70.3,
+   "encode_s": 49.0,
+   "gen_tok_s": 38.2,
+   "peak_rss_mb": 2862
+  },
+  "Q4_K_M": {
+   "median_s": 54.5,
+   "encode_s": 37.4,
+   "gen_tok_s": 46.5,
+   "peak_rss_mb": 3003
+  },
+  "Q4_K_M-mmQ8": {
+   "median_s": 66.4,
+   "encode_s": 47.6,
+   "gen_tok_s": 45.1,
+   "peak_rss_mb": 2831
+  },
+  "Q4_K_M-mmQ4": {
+   "median_s": 52.9,
+   "encode_s": 34.9,
+   "gen_tok_s": 45.3,
+   "peak_rss_mb": 2665
+  }
+ },
+ "latency_5_note": "latency_5 is superseded by cpu_30_turin4_v3 (older llama.cpp build, 5 pages, partly with the prompt cache on)"
 }

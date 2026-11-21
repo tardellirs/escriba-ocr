@@ -51,10 +51,10 @@ CER is case-insensitive and capped at 100% per page. The full table of 22 open b
 **CPU only (llama.cpp, GGUF):**
 
 ```bash
-llama-server -hf tardellirs/Escriba-OCR-1B-GGUF:Q4_K_M --temp 0 --repeat-penalty 1.05 -c 8192 --cache-ram 0 --port 8010
+llama-server -hf tardellirs/Escriba-OCR-1B-GGUF:Q4_K_M --temp 0 --repeat-penalty 1.05 -c 8192 --cache-ram 0 -np 1 --port 8010
 ```
 
-About 1 minute per page on a 4-vCPU cloud VM (AMD EPYC Turin), with under 4 GB of RAM; quality matches the GPU model. See [the GGUF card](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF) for all quantizations.
+About 55 s per page on a 4-vCPU cloud VM (AMD EPYC Turin), with under 3 GB of RAM; quality matches the GPU model. See [the GGUF card](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF) for all quantizations.
 
 **GPU (vLLM, about 2 s per page):**
 
