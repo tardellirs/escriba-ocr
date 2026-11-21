@@ -9,24 +9,25 @@
   "wer_dipl": 25.204696149400814,
   "cer_ci": 14.623634453385954,
   "wer_ci": 24.103655940142346,
-  "cer_plain": 12.838492970427314,
-  "wer_plain": 23.354865751127985,
+  "cer_plain": 11.431616532385284,
+  "wer_plain": 22.097438299760842,
   "cer_lines": 15.351737694546852,
   "wer_lines": 24.103655940142346,
-  "invented": 0.6114326366590398,
+  "invented": 0.6172008690803514,
   "cer_cap": 10.821945148426115,
+  "cer_text": 9.858523597355926,
   "lines_ok": 20.100502512562816,
   "err_suspect": 496,
   "err_preserved": 16.532258064516128,
-  "err_corrected": 68.54838709677419,
-  "err_misread": 5.443548387096774,
-  "err_deleted": 9.475806451612904,
-  "strike_P": 0.027056277056277056,
+  "err_corrected": 69.95967741935483,
+  "err_misread": 5.846774193548387,
+  "err_deleted": 7.661290322580645,
+  "strike_P": 0.03694126339120798,
   "strike_x_P": 100.0,
   "insert_P": 0.583941605839416,
   "illegible_P": 6.666666666666667,
   "strike_R": 0.1694915254237288,
-  "strike_x_R": 2.7027027027027026,
+  "strike_x_R": 3.088803088803089,
   "insert_R": 1.0554089709762533,
   "illegible_R": 1.7543859649122806,
   "lat_median": 5.794,
@@ -48,6 +49,14 @@
    "cer_lines": [
     92,
     2973
+   ],
+   "cer_plain": [
+    60,
+    2953
+   ],
+   "cer_text": [
+    60,
+    2953
    ],
    "err": {
     "suspect": 1,
@@ -77,6 +86,14 @@
     48,
     2589
    ],
+   "cer_plain": [
+    32,
+    2589
+   ],
+   "cer_text": [
+    32,
+    2589
+   ],
    "err": {
     "suspect": 4,
     "corrected": 3,
@@ -102,6 +119,14 @@
    "cer_lines": [
     61,
     2391
+   ],
+   "cer_plain": [
+    43,
+    2368
+   ],
+   "cer_text": [
+    42,
+    2368
    ],
    "err": {
     "dict_words_replaced": 5,
@@ -129,6 +154,14 @@
    "cer_lines": [
     133,
     2598
+   ],
+   "cer_plain": [
+    60,
+    2421
+   ],
+   "cer_text": [
+    60,
+    2421
    ],
    "err": {
     "suspect": 2,
@@ -160,6 +193,14 @@
     272,
     2428
    ],
+   "cer_plain": [
+    138,
+    2243
+   ],
+   "cer_text": [
+    136,
+    2243
+   ],
    "err": {
     "suspect": 3,
     "corrected": 3,
@@ -189,6 +230,14 @@
     122,
     2139
    ],
+   "cer_plain": [
+    108,
+    2139
+   ],
+   "cer_text": [
+    108,
+    2139
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -213,6 +262,14 @@
    "cer_lines": [
     365,
     3346
+   ],
+   "cer_plain": [
+    321,
+    3297
+   ],
+   "cer_text": [
+    320,
+    3297
    ],
    "err": {
     "suspect": 2,
@@ -243,6 +300,14 @@
     4174,
     2280
    ],
+   "cer_plain": [
+    1106,
+    2258
+   ],
+   "cer_text": [
+    1104,
+    2258
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -253,7 +318,7 @@
    "markup": {
     "insert_ref": 2,
     "strike_ref": 1,
-    "strike_hyp": 659
+    "strike_hyp": 14
    },
    "n_lines": [
     29,
@@ -272,6 +337,14 @@
    "cer_lines": [
     80,
     2298
+   ],
+   "cer_plain": [
+    76,
+    2282
+   ],
+   "cer_text": [
+    73,
+    2282
    ],
    "err": {
     "suspect": 1,
@@ -300,6 +373,14 @@
     68,
     2892
    ],
+   "cer_plain": [
+    54,
+    2864
+   ],
+   "cer_text": [
+    52,
+    2864
+   ],
    "err": {
     "dict_words_replaced": 11,
     "dict_words": 295
@@ -326,6 +407,14 @@
    "cer_lines": [
     314,
     2640
+   ],
+   "cer_plain": [
+    284,
+    2611
+   ],
+   "cer_text": [
+    283,
+    2611
    ],
    "err": {
     "suspect": 1,
@@ -356,6 +445,14 @@
     161,
     2552
    ],
+   "cer_plain": [
+    127,
+    2527
+   ],
+   "cer_text": [
+    126,
+    2527
+   ],
    "err": {
     "dict_words_replaced": 21,
     "dict_words": 240
@@ -380,6 +477,14 @@
    "cer_lines": [
     58,
     2318
+   ],
+   "cer_plain": [
+    42,
+    2302
+   ],
+   "cer_text": [
+    42,
+    2302
    ],
    "err": {
     "suspect": 1,
@@ -408,6 +513,14 @@
    "cer_lines": [
     296,
     3651
+   ],
+   "cer_plain": [
+    248,
+    3622
+   ],
+   "cer_text": [
+    246,
+    3622
    ],
    "err": {
     "suspect": 1,
@@ -438,6 +551,14 @@
     45,
     2342
    ],
+   "cer_plain": [
+    24,
+    2336
+   ],
+   "cer_text": [
+    22,
+    2336
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -464,6 +585,14 @@
    "cer_lines": [
     305,
     2879
+   ],
+   "cer_plain": [
+    266,
+    2847
+   ],
+   "cer_text": [
+    264,
+    2847
    ],
    "err": {
     "suspect": 2,
@@ -493,6 +622,14 @@
    "cer_lines": [
     347,
     3414
+   ],
+   "cer_plain": [
+    304,
+    3382
+   ],
+   "cer_text": [
+    303,
+    3382
    ],
    "err": {
     "suspect": 4,
@@ -524,6 +661,14 @@
     86,
     2590
    ],
+   "cer_plain": [
+    76,
+    2547
+   ],
+   "cer_text": [
+    75,
+    2547
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -553,6 +698,14 @@
     88,
     2855
    ],
+   "cer_plain": [
+    55,
+    2830
+   ],
+   "cer_text": [
+    54,
+    2830
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -580,6 +733,14 @@
    "cer_lines": [
     41,
     1870
+   ],
+   "cer_plain": [
+    20,
+    1846
+   ],
+   "cer_text": [
+    20,
+    1846
    ],
    "err": {
     "suspect": 1,
@@ -609,6 +770,14 @@
     68,
     2916
    ],
+   "cer_plain": [
+    46,
+    2908
+   ],
+   "cer_text": [
+    45,
+    2908
+   ],
    "err": {
     "dict_words_replaced": 5,
     "invented": 3,
@@ -632,6 +801,14 @@
     1996
    ],
    "cer_lines": [
+    34,
+    1996
+   ],
+   "cer_plain": [
+    37,
+    1996
+   ],
+   "cer_text": [
     34,
     1996
    ],
@@ -661,17 +838,26 @@
     533,
     3916
    ],
+   "cer_plain": [
+    432,
+    3529
+   ],
+   "cer_text": [
+    430,
+    3529
+   ],
    "err": {
     "suspect": 1,
     "deleted": 1,
-    "dict_words_replaced": 2,
+    "dict_words_replaced": 15,
+    "invented": 1,
     "dict_words": 339
    },
    "markup": {
     "insert_ref": 29,
     "strike_ref": 23,
     "strike_x_ref": 2,
-    "strike_hyp": 4
+    "strike_hyp": 3
    },
    "n_lines": [
     30,
@@ -690,6 +876,14 @@
    "cer_lines": [
     100,
     3123
+   ],
+   "cer_plain": [
+    59,
+    3063
+   ],
+   "cer_text": [
+    54,
+    3063
    ],
    "err": {
     "suspect": 6,
@@ -718,6 +912,14 @@
    "cer_lines": [
     422,
     3067
+   ],
+   "cer_plain": [
+    305,
+    2870
+   ],
+   "cer_text": [
+    300,
+    2870
    ],
    "err": {
     "suspect": 2,
@@ -750,6 +952,14 @@
     139,
     2242
    ],
+   "cer_plain": [
+    106,
+    2208
+   ],
+   "cer_text": [
+    105,
+    2208
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -778,13 +988,21 @@
     149,
     2366
    ],
+   "cer_plain": [
+    2005,
+    2366
+   ],
+   "cer_text": [
+    2004,
+    2366
+   ],
    "err": {
-    "dict_words_replaced": 6,
+    "dict_words_replaced": 2,
     "invented": 2,
     "dict_words": 268
    },
    "markup": {
-    "strike_hyp": 21
+    "strike_hyp": 20
    },
    "n_lines": [
     31,
@@ -803,6 +1021,14 @@
    "cer_lines": [
     363,
     3200
+   ],
+   "cer_plain": [
+    265,
+    3041
+   ],
+   "cer_text": [
+    264,
+    3041
    ],
    "err": {
     "suspect": 3,
@@ -834,6 +1060,14 @@
     244,
     2816
    ],
+   "cer_plain": [
+    221,
+    2786
+   ],
+   "cer_text": [
+    220,
+    2786
+   ],
    "err": {
     "suspect": 2,
     "preserved": 1,
@@ -864,6 +1098,14 @@
     96,
     2052
    ],
+   "cer_plain": [
+    108,
+    1995
+   ],
+   "cer_text": [
+    107,
+    1995
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -890,6 +1132,14 @@
    "cer_lines": [
     180,
     2928
+   ],
+   "cer_plain": [
+    119,
+    2849
+   ],
+   "cer_text": [
+    117,
+    2849
    ],
    "err": {
     "suspect": 5,
@@ -925,6 +1175,14 @@
     309,
     3704
    ],
+   "cer_plain": [
+    294,
+    3704
+   ],
+   "cer_text": [
+    294,
+    3704
+   ],
    "err": {
     "suspect": 5,
     "corrected": 4,
@@ -950,6 +1208,14 @@
    "cer_lines": [
     191,
     2587
+   ],
+   "cer_plain": [
+    93,
+    2499
+   ],
+   "cer_text": [
+    88,
+    2499
    ],
    "err": {
     "suspect": 8,
@@ -980,6 +1246,14 @@
     139,
     2224
    ],
+   "cer_plain": [
+    1834,
+    2192
+   ],
+   "cer_text": [
+    118,
+    2192
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -1008,6 +1282,14 @@
     205,
     2391
    ],
+   "cer_plain": [
+    172,
+    2359
+   ],
+   "cer_text": [
+    172,
+    2359
+   ],
    "err": {
     "suspect": 1,
     "deleted": 1,
@@ -1035,6 +1317,14 @@
    "cer_lines": [
     114,
     3094
+   ],
+   "cer_plain": [
+    99,
+    3053
+   ],
+   "cer_text": [
+    95,
+    3053
    ],
    "err": {
     "suspect": 3,
@@ -1067,6 +1357,14 @@
     124,
     2606
    ],
+   "cer_plain": [
+    112,
+    2575
+   ],
+   "cer_text": [
+    110,
+    2575
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -1094,6 +1392,14 @@
    "cer_lines": [
     198,
     2620
+   ],
+   "cer_plain": [
+    90,
+    2524
+   ],
+   "cer_text": [
+    89,
+    2524
    ],
    "err": {
     "suspect": 3,
@@ -1126,6 +1432,14 @@
     339,
     2118
    ],
+   "cer_plain": [
+    1696,
+    2118
+   ],
+   "cer_text": [
+    31,
+    2118
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -1153,6 +1467,14 @@
    "cer_lines": [
     244,
     2127
+   ],
+   "cer_plain": [
+    202,
+    2084
+   ],
+   "cer_text": [
+    200,
+    2084
    ],
    "err": {
     "suspect": 4,
@@ -1185,6 +1507,14 @@
     43,
     3054
    ],
+   "cer_plain": [
+    33,
+    3040
+   ],
+   "cer_text": [
+    33,
+    3040
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -1212,6 +1542,14 @@
    "cer_lines": [
     783,
     2818
+   ],
+   "cer_plain": [
+    589,
+    2564
+   ],
+   "cer_text": [
+    588,
+    2564
    ],
    "err": {
     "suspect": 4,
@@ -1245,6 +1583,14 @@
     208,
     3069
    ],
+   "cer_plain": [
+    193,
+    3051
+   ],
+   "cer_text": [
+    190,
+    3051
+   ],
    "err": {
     "dict_words_replaced": 28,
     "invented": 2,
@@ -1273,6 +1619,14 @@
     51,
     2517
    ],
+   "cer_plain": [
+    44,
+    2484
+   ],
+   "cer_text": [
+    40,
+    2484
+   ],
    "err": {
     "dict_words_replaced": 7,
     "dict_words": 230
@@ -1297,6 +1651,14 @@
    "cer_lines": [
     117,
     2028
+   ],
+   "cer_plain": [
+    99,
+    2011
+   ],
+   "cer_text": [
+    99,
+    2011
    ],
    "err": {
     "suspect": 1,
@@ -1326,6 +1688,14 @@
     212,
     3304
    ],
+   "cer_plain": [
+    188,
+    3281
+   ],
+   "cer_text": [
+    187,
+    3281
+   ],
    "err": {
     "suspect": 3,
     "corrected": 3,
@@ -1353,6 +1723,14 @@
    "cer_lines": [
     97,
     2652
+   ],
+   "cer_plain": [
+    72,
+    2640
+   ],
+   "cer_text": [
+    71,
+    2640
    ],
    "err": {
     "suspect": 1,
@@ -1382,6 +1760,14 @@
     55,
     1975
    ],
+   "cer_plain": [
+    22,
+    1958
+   ],
+   "cer_text": [
+    22,
+    1958
+   ],
    "err": {
     "dict_words_replaced": 2,
     "dict_words": 201
@@ -1408,6 +1794,14 @@
     180,
     2359
    ],
+   "cer_plain": [
+    168,
+    2349
+   ],
+   "cer_text": [
+    167,
+    2349
+   ],
    "err": {
     "dict_words_replaced": 32,
     "invented": 3,
@@ -1433,6 +1827,14 @@
    "cer_lines": [
     616,
     3339
+   ],
+   "cer_plain": [
+    469,
+    3145
+   ],
+   "cer_text": [
+    464,
+    3145
    ],
    "err": {
     "suspect": 3,
@@ -1464,6 +1866,14 @@
     100,
     2338
    ],
+   "cer_plain": [
+    102,
+    2306
+   ],
+   "cer_text": [
+    100,
+    2306
+   ],
    "err": {
     "dict_words_replaced": 13,
     "invented": 2,
@@ -1491,6 +1901,14 @@
     115,
     2541
    ],
+   "cer_plain": [
+    94,
+    2533
+   ],
+   "cer_text": [
+    94,
+    2533
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -1517,6 +1935,14 @@
    "cer_lines": [
     301,
     3008
+   ],
+   "cer_plain": [
+    267,
+    2980
+   ],
+   "cer_text": [
+    265,
+    2980
    ],
    "err": {
     "suspect": 8,
@@ -1548,10 +1974,18 @@
     183,
     2484
    ],
+   "cer_plain": [
+    223,
+    2468
+   ],
+   "cer_text": [
+    222,
+    2468
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
-    "dict_words_replaced": 28,
+    "dict_words_replaced": 34,
     "invented": 3,
     "dict_words": 222
    },
@@ -1576,6 +2010,14 @@
    "cer_lines": [
     247,
     2444
+   ],
+   "cer_plain": [
+    223,
+    2436
+   ],
+   "cer_text": [
+    222,
+    2436
    ],
    "err": {
     "suspect": 1,
@@ -1604,6 +2046,14 @@
     185,
     3135
    ],
+   "cer_plain": [
+    159,
+    3119
+   ],
+   "cer_text": [
+    157,
+    3119
+   ],
    "err": {
     "dict_words_replaced": 26,
     "invented": 1,
@@ -1630,6 +2080,14 @@
    "cer_lines": [
     397,
     2899
+   ],
+   "cer_plain": [
+    112,
+    2552
+   ],
+   "cer_text": [
+    112,
+    2552
    ],
    "err": {
     "suspect": 4,
@@ -1663,6 +2121,14 @@
     65,
     2184
    ],
+   "cer_plain": [
+    69,
+    2126
+   ],
+   "cer_text": [
+    67,
+    2126
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -1692,6 +2158,14 @@
     69,
     2390
    ],
+   "cer_plain": [
+    66,
+    2375
+   ],
+   "cer_text": [
+    63,
+    2375
+   ],
    "err": {
     "dict_words_replaced": 10,
     "dict_words": 243
@@ -1716,6 +2190,14 @@
    "cer_lines": [
     37,
     2508
+   ],
+   "cer_plain": [
+    38,
+    2500
+   ],
+   "cer_text": [
+    37,
+    2500
    ],
    "err": {
     "suspect": 1,
@@ -1745,6 +2227,14 @@
     64,
     2308
    ],
+   "cer_plain": [
+    52,
+    2296
+   ],
+   "cer_text": [
+    50,
+    2296
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -1772,6 +2262,14 @@
    "cer_lines": [
     377,
     2534
+   ],
+   "cer_plain": [
+    300,
+    2436
+   ],
+   "cer_text": [
+    299,
+    2436
    ],
    "err": {
     "suspect": 1,
@@ -1803,6 +2301,14 @@
     264,
     2897
    ],
+   "cer_plain": [
+    165,
+    2742
+   ],
+   "cer_text": [
+    164,
+    2742
+   ],
    "err": {
     "suspect": 3,
     "preserved": 2,
@@ -1830,6 +2336,14 @@
    "cer_lines": [
     40,
     2113
+   ],
+   "cer_plain": [
+    18,
+    2090
+   ],
+   "cer_text": [
+    17,
+    2090
    ],
    "err": {
     "suspect": 1,
@@ -1859,6 +2373,14 @@
    "cer_lines": [
     464,
     3079
+   ],
+   "cer_plain": [
+    430,
+    3015
+   ],
+   "cer_text": [
+    427,
+    3015
    ],
    "err": {
     "suspect": 6,
@@ -1891,6 +2413,14 @@
     31,
     2181
    ],
+   "cer_plain": [
+    37,
+    2181
+   ],
+   "cer_text": [
+    31,
+    2181
+   ],
    "err": {
     "suspect": 3,
     "preserved": 2,
@@ -1917,6 +2447,14 @@
    "cer_lines": [
     107,
     2095
+   ],
+   "cer_plain": [
+    85,
+    2063
+   ],
+   "cer_text": [
+    82,
+    2063
    ],
    "err": {
     "suspect": 9,
@@ -1948,6 +2486,14 @@
     69,
     1899
    ],
+   "cer_plain": [
+    61,
+    1858
+   ],
+   "cer_text": [
+    60,
+    1858
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -1973,6 +2519,14 @@
     2554
    ],
    "cer_lines": [
+    159,
+    2554
+   ],
+   "cer_plain": [
+    160,
+    2554
+   ],
+   "cer_text": [
     159,
     2554
    ],
@@ -2004,6 +2558,14 @@
     601,
     2152
    ],
+   "cer_plain": [
+    579,
+    2137
+   ],
+   "cer_text": [
+    577,
+    2137
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -2032,6 +2594,14 @@
     38,
     2563
    ],
+   "cer_plain": [
+    19,
+    2563
+   ],
+   "cer_text": [
+    19,
+    2563
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -2057,6 +2627,14 @@
     78,
     1814
    ],
+   "cer_plain": [
+    64,
+    1814
+   ],
+   "cer_text": [
+    64,
+    1814
+   ],
    "err": {
     "dict_words_replaced": 5,
     "dict_words": 175
@@ -2079,6 +2657,14 @@
    "cer_lines": [
     151,
     2556
+   ],
+   "cer_plain": [
+    133,
+    2512
+   ],
+   "cer_text": [
+    132,
+    2512
    ],
    "err": {
     "suspect": 1,
@@ -2108,6 +2694,14 @@
    "cer_lines": [
     368,
     2988
+   ],
+   "cer_plain": [
+    366,
+    2961
+   ],
+   "cer_text": [
+    363,
+    2961
    ],
    "err": {
     "suspect": 4,
@@ -2139,6 +2733,14 @@
     59,
     2389
    ],
+   "cer_plain": [
+    46,
+    2370
+   ],
+   "cer_text": [
+    45,
+    2370
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -2167,6 +2769,14 @@
     147,
     1631
    ],
+   "cer_plain": [
+    105,
+    1532
+   ],
+   "cer_text": [
+    105,
+    1532
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -2193,6 +2803,14 @@
    "cer_lines": [
     173,
     3342
+   ],
+   "cer_plain": [
+    138,
+    3302
+   ],
+   "cer_text": [
+    138,
+    3302
    ],
    "err": {
     "suspect": 5,
@@ -2224,6 +2842,14 @@
     93,
     2457
    ],
+   "cer_plain": [
+    74,
+    2444
+   ],
+   "cer_text": [
+    73,
+    2444
+   ],
    "err": {
     "suspect": 10,
     "misread": 1,
@@ -2252,6 +2878,14 @@
    "cer_lines": [
     145,
     2560
+   ],
+   "cer_plain": [
+    89,
+    2520
+   ],
+   "cer_text": [
+    89,
+    2520
    ],
    "err": {
     "suspect": 7,
@@ -2282,6 +2916,14 @@
     207,
     2544
    ],
+   "cer_plain": [
+    73,
+    2389
+   ],
+   "cer_text": [
+    73,
+    2389
+   ],
    "err": {
     "dict_words_replaced": 4,
     "invented": 1,
@@ -2309,6 +2951,14 @@
    "cer_lines": [
     258,
     2592
+   ],
+   "cer_plain": [
+    231,
+    2550
+   ],
+   "cer_text": [
+    230,
+    2550
    ],
    "err": {
     "suspect": 5,
@@ -2338,6 +2988,14 @@
     76,
     1950
    ],
+   "cer_plain": [
+    73,
+    1942
+   ],
+   "cer_text": [
+    72,
+    1942
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -2364,6 +3022,14 @@
    "cer_lines": [
     201,
     2818
+   ],
+   "cer_plain": [
+    133,
+    2752
+   ],
+   "cer_text": [
+    132,
+    2752
    ],
    "err": {
     "suspect": 3,
@@ -2396,6 +3062,14 @@
     103,
     2527
    ],
+   "cer_plain": [
+    61,
+    2495
+   ],
+   "cer_text": [
+    59,
+    2495
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -2423,6 +3097,14 @@
     114,
     2742
    ],
+   "cer_plain": [
+    85,
+    2710
+   ],
+   "cer_text": [
+    83,
+    2710
+   ],
    "err": {
     "dict_words_replaced": 11,
     "dict_words": 277
@@ -2449,6 +3131,14 @@
    "cer_lines": [
     5083,
     3233
+   ],
+   "cer_plain": [
+    1898,
+    3077
+   ],
+   "cer_text": [
+    1889,
+    3077
    ],
    "err": {
     "suspect": 2,
@@ -2481,10 +3171,18 @@
     277,
     2829
    ],
+   "cer_plain": [
+    242,
+    2729
+   ],
+   "cer_text": [
+    240,
+    2729
+   ],
    "err": {
     "suspect": 1,
-    "deleted": 1,
-    "dict_words_replaced": 15,
+    "corrected": 1,
+    "dict_words_replaced": 36,
     "invented": 1,
     "dict_words": 276
    },
@@ -2510,6 +3208,14 @@
    "cer_lines": [
     178,
     2842
+   ],
+   "cer_plain": [
+    173,
+    2805
+   ],
+   "cer_text": [
+    173,
+    2805
    ],
    "err": {
     "suspect": 5,
@@ -2541,6 +3247,14 @@
     115,
     2366
    ],
+   "cer_plain": [
+    91,
+    2358
+   ],
+   "cer_text": [
+    91,
+    2358
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -2567,6 +3281,14 @@
    "cer_lines": [
     118,
     2730
+   ],
+   "cer_plain": [
+    75,
+    2674
+   ],
+   "cer_text": [
+    74,
+    2674
    ],
    "err": {
     "suspect": 4,
@@ -2598,6 +3320,14 @@
     217,
     2905
    ],
+   "cer_plain": [
+    162,
+    2850
+   ],
+   "cer_text": [
+    159,
+    2850
+   ],
    "err": {
     "suspect": 4,
     "corrected": 4,
@@ -2626,6 +3356,14 @@
    "cer_lines": [
     73,
     2660
+   ],
+   "cer_plain": [
+    33,
+    2633
+   ],
+   "cer_text": [
+    33,
+    2633
    ],
    "err": {
     "suspect": 3,
@@ -2657,6 +3395,14 @@
     65,
     3021
    ],
+   "cer_plain": [
+    52,
+    3011
+   ],
+   "cer_text": [
+    52,
+    3011
+   ],
    "err": {
     "suspect": 5,
     "preserved": 1,
@@ -2687,6 +3433,14 @@
     117,
     2346
    ],
+   "cer_plain": [
+    72,
+    2306
+   ],
+   "cer_text": [
+    71,
+    2306
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -2714,6 +3468,14 @@
    "cer_lines": [
     281,
     2548
+   ],
+   "cer_plain": [
+    156,
+    2413
+   ],
+   "cer_text": [
+    150,
+    2413
    ],
    "err": {
     "suspect": 5,
@@ -2749,6 +3511,14 @@
     83,
     3539
    ],
+   "cer_plain": [
+    71,
+    3535
+   ],
+   "cer_text": [
+    67,
+    3535
+   ],
    "err": {
     "suspect": 2,
     "corrected": 1,
@@ -2777,6 +3547,14 @@
    "cer_lines": [
     139,
     2597
+   ],
+   "cer_plain": [
+    99,
+    2572
+   ],
+   "cer_text": [
+    97,
+    2572
    ],
    "err": {
     "suspect": 2,
@@ -2807,6 +3585,14 @@
     80,
     2732
    ],
+   "cer_plain": [
+    64,
+    2708
+   ],
+   "cer_text": [
+    64,
+    2708
+   ],
    "err": {
     "dict_words_replaced": 15,
     "invented": 2,
@@ -2834,6 +3620,14 @@
    "cer_lines": [
     6644,
     2194
+   ],
+   "cer_plain": [
+    6590,
+    2145
+   ],
+   "cer_text": [
+    6586,
+    2145
    ],
    "err": {
     "suspect": 1,
@@ -2864,6 +3658,14 @@
     6645,
     3733
    ],
+   "cer_plain": [
+    3729,
+    3729
+   ],
+   "cer_text": [
+    3729,
+    3729
+   ],
    "err": {
     "suspect": 4,
     "deleted": 4,
@@ -2890,6 +3692,14 @@
    "cer_lines": [
     205,
     2326
+   ],
+   "cer_plain": [
+    127,
+    2223
+   ],
+   "cer_text": [
+    120,
+    2223
    ],
    "err": {
     "suspect": 3,
@@ -2921,6 +3731,14 @@
     123,
     2778
    ],
+   "cer_plain": [
+    61,
+    2727
+   ],
+   "cer_text": [
+    61,
+    2727
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -2948,6 +3766,14 @@
    "cer_lines": [
     380,
     3007
+   ],
+   "cer_plain": [
+    351,
+    2987
+   ],
+   "cer_text": [
+    348,
+    2987
    ],
    "err": {
     "suspect": 1,
@@ -2978,6 +3804,14 @@
     126,
     2383
    ],
+   "cer_plain": [
+    103,
+    2372
+   ],
+   "cer_text": [
+    103,
+    2372
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -3007,6 +3841,14 @@
     110,
     2240
    ],
+   "cer_plain": [
+    93,
+    2232
+   ],
+   "cer_text": [
+    92,
+    2232
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -3033,6 +3875,14 @@
    "cer_lines": [
     316,
     2771
+   ],
+   "cer_plain": [
+    292,
+    2763
+   ],
+   "cer_text": [
+    291,
+    2763
    ],
    "err": {
     "suspect": 2,
@@ -3062,6 +3912,14 @@
     65,
     1949
    ],
+   "cer_plain": [
+    84,
+    1841
+   ],
+   "cer_text": [
+    84,
+    1841
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -3090,6 +3948,14 @@
    "cer_lines": [
     188,
     3014
+   ],
+   "cer_plain": [
+    515,
+    2952
+   ],
+   "cer_text": [
+    514,
+    2952
    ],
    "err": {
     "suspect": 4,
@@ -3122,6 +3988,14 @@
     568,
     3449
    ],
+   "cer_plain": [
+    544,
+    3431
+   ],
+   "cer_text": [
+    536,
+    3431
+   ],
    "err": {
     "suspect": 2,
     "preserved": 1,
@@ -3153,6 +4027,14 @@
     16,
     2229
    ],
+   "cer_plain": [
+    16,
+    2229
+   ],
+   "cer_text": [
+    16,
+    2229
+   ],
    "err": {
     "dict_words_replaced": 3,
     "dict_words": 221
@@ -3175,6 +4057,14 @@
    "cer_lines": [
     212,
     2470
+   ],
+   "cer_plain": [
+    125,
+    2338
+   ],
+   "cer_text": [
+    124,
+    2338
    ],
    "err": {
     "suspect": 3,
@@ -3206,6 +4096,14 @@
     391,
     3349
    ],
+   "cer_plain": [
+    258,
+    3140
+   ],
+   "cer_text": [
+    256,
+    3140
+   ],
    "err": {
     "suspect": 4,
     "corrected": 4,
@@ -3234,6 +4132,14 @@
    "cer_lines": [
     149,
     2283
+   ],
+   "cer_plain": [
+    137,
+    2237
+   ],
+   "cer_text": [
+    137,
+    2237
    ],
    "err": {
     "suspect": 5,
@@ -3265,6 +4171,14 @@
     223,
     3029
    ],
+   "cer_plain": [
+    164,
+    2940
+   ],
+   "cer_text": [
+    163,
+    2940
+   ],
    "err": {
     "dict_words_replaced": 22,
     "dict_words": 305
@@ -3292,6 +4206,14 @@
    "cer_lines": [
     6702,
     2740
+   ],
+   "cer_plain": [
+    2310,
+    2545
+   ],
+   "cer_text": [
+    2305,
+    2545
    ],
    "err": {
     "suspect": 9,
@@ -3326,6 +4248,14 @@
     204,
     2099
    ],
+   "cer_plain": [
+    146,
+    2015
+   ],
+   "cer_text": [
+    143,
+    2015
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -3357,6 +4287,14 @@
     226,
     2477
    ],
+   "cer_plain": [
+    285,
+    2387
+   ],
+   "cer_text": [
+    278,
+    2387
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -3385,6 +4323,14 @@
     55,
     2536
    ],
+   "cer_plain": [
+    48,
+    2536
+   ],
+   "cer_text": [
+    47,
+    2536
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -3410,8 +4356,16 @@
     14,
     2399
    ],
+   "cer_plain": [
+    81,
+    2380
+   ],
+   "cer_text": [
+    77,
+    2380
+   ],
    "err": {
-    "dict_words_replaced": 5,
+    "dict_words_replaced": 4,
     "dict_words": 255
    },
    "markup": {
@@ -3435,6 +4389,14 @@
    "cer_lines": [
     93,
     2371
+   ],
+   "cer_plain": [
+    75,
+    2354
+   ],
+   "cer_text": [
+    72,
+    2354
    ],
    "err": {
     "suspect": 2,
@@ -3463,6 +4425,14 @@
    "cer_lines": [
     80,
     2719
+   ],
+   "cer_plain": [
+    54,
+    2680
+   ],
+   "cer_text": [
+    54,
+    2680
    ],
    "err": {
     "suspect": 3,
@@ -3493,6 +4463,14 @@
     155,
     3280
    ],
+   "cer_plain": [
+    123,
+    3232
+   ],
+   "cer_text": [
+    123,
+    3232
+   ],
    "err": {
     "suspect": 2,
     "misread": 2,
@@ -3522,6 +4500,14 @@
    "cer_lines": [
     374,
     3556
+   ],
+   "cer_plain": [
+    296,
+    3282
+   ],
+   "cer_text": [
+    296,
+    3282
    ],
    "err": {
     "suspect": 8,
@@ -3556,6 +4542,14 @@
     182,
     2375
    ],
+   "cer_plain": [
+    60,
+    2249
+   ],
+   "cer_text": [
+    60,
+    2249
+   ],
    "err": {
     "dict_words_replaced": 8,
     "dict_words": 235
@@ -3582,6 +4576,14 @@
    "cer_lines": [
     68,
     2194
+   ],
+   "cer_plain": [
+    44,
+    2127
+   ],
+   "cer_text": [
+    44,
+    2127
    ],
    "err": {
     "suspect": 3,
@@ -3614,6 +4616,14 @@
     53,
     2353
    ],
+   "cer_plain": [
+    54,
+    2336
+   ],
+   "cer_text": [
+    52,
+    2336
+   ],
    "err": {
     "suspect": 4,
     "corrected": 2,
@@ -3644,6 +4654,14 @@
     371,
     2735
    ],
+   "cer_plain": [
+    208,
+    2569
+   ],
+   "cer_text": [
+    208,
+    2569
+   ],
    "err": {
     "suspect": 3,
     "corrected": 3,
@@ -3673,6 +4691,14 @@
     30,
     2430
    ],
+   "cer_plain": [
+    14,
+    2430
+   ],
+   "cer_text": [
+    12,
+    2430
+   ],
    "err": {
     "dict_words_replaced": 1,
     "dict_words": 256
@@ -3695,6 +4721,14 @@
    "cer_lines": [
     7818,
     3413
+   ],
+   "cer_plain": [
+    2703,
+    3142
+   ],
+   "cer_text": [
+    2698,
+    3142
    ],
    "err": {
     "suspect": 2,
@@ -3729,6 +4763,14 @@
     261,
     2875
    ],
+   "cer_plain": [
+    235,
+    2831
+   ],
+   "cer_text": [
+    234,
+    2831
+   ],
    "err": {
     "suspect": 5,
     "deleted": 1,
@@ -3761,6 +4803,14 @@
     204,
     2448
    ],
+   "cer_plain": [
+    147,
+    2392
+   ],
+   "cer_text": [
+    143,
+    2392
+   ],
    "err": {
     "suspect": 5,
     "corrected": 3,
@@ -3792,6 +4842,14 @@
     73,
     2456
    ],
+   "cer_plain": [
+    40,
+    2419
+   ],
+   "cer_text": [
+    40,
+    2419
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -3820,6 +4878,14 @@
    "cer_lines": [
     208,
     2912
+   ],
+   "cer_plain": [
+    197,
+    2901
+   ],
+   "cer_text": [
+    197,
+    2901
    ],
    "err": {
     "suspect": 5,
@@ -3850,6 +4916,14 @@
     297,
     2735
    ],
+   "cer_plain": [
+    220,
+    2507
+   ],
+   "cer_text": [
+    214,
+    2507
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -3877,6 +4951,14 @@
    "cer_lines": [
     113,
     2982
+   ],
+   "cer_plain": [
+    72,
+    2958
+   ],
+   "cer_text": [
+    72,
+    2958
    ],
    "err": {
     "suspect": 1,
@@ -3907,6 +4989,14 @@
     44,
     2429
    ],
+   "cer_plain": [
+    27,
+    2429
+   ],
+   "cer_text": [
+    26,
+    2429
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -3931,6 +5021,14 @@
    "cer_lines": [
     2972,
     2936
+   ],
+   "cer_plain": [
+    2597,
+    2896
+   ],
+   "cer_text": [
+    2597,
+    2896
    ],
    "err": {
     "suspect": 6,
@@ -3960,6 +5058,14 @@
     70,
     2479
    ],
+   "cer_plain": [
+    47,
+    2471
+   ],
+   "cer_text": [
+    45,
+    2471
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -3987,6 +5093,14 @@
    "cer_lines": [
     457,
     3671
+   ],
+   "cer_plain": [
+    408,
+    3588
+   ],
+   "cer_text": [
+    406,
+    3588
    ],
    "err": {
     "suspect": 3,
@@ -4018,6 +5132,14 @@
     88,
     2111
    ],
+   "cer_plain": [
+    92,
+    2111
+   ],
+   "cer_text": [
+    88,
+    2111
+   ],
    "err": {
     "suspect": 5,
     "corrected": 5,
@@ -4043,6 +5165,14 @@
    "cer_lines": [
     198,
     2050
+   ],
+   "cer_plain": [
+    183,
+    2016
+   ],
+   "cer_text": [
+    181,
+    2016
    ],
    "err": {
     "suspect": 4,
@@ -4075,6 +5205,14 @@
     9,
     1848
    ],
+   "cer_plain": [
+    9,
+    1848
+   ],
+   "cer_text": [
+    9,
+    1848
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -4099,6 +5237,14 @@
    "cer_lines": [
     725,
     3710
+   ],
+   "cer_plain": [
+    392,
+    3307
+   ],
+   "cer_text": [
+    392,
+    3307
    ],
    "err": {
     "suspect": 5,
@@ -4131,6 +5277,14 @@
     108,
     1941
    ],
+   "cer_plain": [
+    97,
+    1913
+   ],
+   "cer_text": [
+    96,
+    1913
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -4159,6 +5313,14 @@
    "cer_lines": [
     26,
     2528
+   ],
+   "cer_plain": [
+    8,
+    2509
+   ],
+   "cer_text": [
+    7,
+    2509
    ],
    "err": {
     "suspect": 2,
@@ -4189,6 +5351,14 @@
     160,
     2622
    ],
+   "cer_plain": [
+    159,
+    2622
+   ],
+   "cer_text": [
+    159,
+    2622
+   ],
    "err": {
     "suspect": 4,
     "corrected": 4,
@@ -4215,10 +5385,19 @@
     4932,
     2890
    ],
+   "cer_plain": [
+    1722,
+    2759
+   ],
+   "cer_text": [
+    1721,
+    2759
+   ],
    "err": {
     "suspect": 4,
-    "deleted": 4,
-    "dict_words_replaced": 5,
+    "corrected": 1,
+    "deleted": 3,
+    "dict_words_replaced": 15,
     "invented": 1,
     "dict_words": 275
    },
@@ -4228,7 +5407,7 @@
     "strike_ref": 6,
     "illegible_ref": 1,
     "insert_hyp": 675,
-    "strike_hyp": 344
+    "strike_hyp": 7
    },
    "n_lines": [
     30,
@@ -4247,6 +5426,14 @@
    "cer_lines": [
     151,
     2250
+   ],
+   "cer_plain": [
+    132,
+    2234
+   ],
+   "cer_text": [
+    126,
+    2234
    ],
    "err": {
     "suspect": 5,
@@ -4276,6 +5463,14 @@
     254,
     2975
    ],
+   "cer_plain": [
+    135,
+    2854
+   ],
+   "cer_text": [
+    134,
+    2854
+   ],
    "err": {
     "dict_words_replaced": 25,
     "invented": 6,
@@ -4304,6 +5499,14 @@
     79,
     2308
    ],
+   "cer_plain": [
+    61,
+    2308
+   ],
+   "cer_text": [
+    61,
+    2308
+   ],
    "err": {
     "suspect": 2,
     "preserved": 2,
@@ -4328,6 +5531,14 @@
    "cer_lines": [
     180,
     3061
+   ],
+   "cer_plain": [
+    145,
+    3034
+   ],
+   "cer_text": [
+    143,
+    3034
    ],
    "err": {
     "suspect": 2,
@@ -4358,6 +5569,14 @@
    "cer_lines": [
     91,
     3395
+   ],
+   "cer_plain": [
+    73,
+    3355
+   ],
+   "cer_text": [
+    54,
+    3355
    ],
    "err": {
     "suspect": 5,
@@ -4391,21 +5610,29 @@
     578,
     3394
    ],
+   "cer_plain": [
+    414,
+    3055
+   ],
+   "cer_text": [
+    411,
+    3055
+   ],
    "err": {
     "suspect": 5,
-    "corrected": 2,
-    "deleted": 3,
-    "dict_words_replaced": 44,
-    "invented": 5,
+    "corrected": 4,
+    "misread": 1,
+    "dict_words_replaced": 48,
+    "invented": 7,
     "dict_words": 290
    },
    "markup": {
     "insert_ref": 19,
     "strike_x_ref": 12,
     "strike_ref": 12,
-    "strike_hyp": 24,
-    "strike_x_hyp": 1,
-    "strike_x_tp": 1
+    "strike_hyp": 23,
+    "strike_x_hyp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -4424,6 +5651,14 @@
    "cer_lines": [
     126,
     2981
+   ],
+   "cer_plain": [
+    85,
+    2954
+   ],
+   "cer_text": [
+    85,
+    2954
    ],
    "err": {
     "suspect": 2,
@@ -4454,6 +5689,14 @@
     92,
     2005
    ],
+   "cer_plain": [
+    75,
+    1975
+   ],
+   "cer_text": [
+    75,
+    1975
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -4483,6 +5726,14 @@
     16,
     2356
    ],
+   "cer_plain": [
+    16,
+    2356
+   ],
+   "cer_text": [
+    16,
+    2356
+   ],
    "err": {
     "suspect": 2,
     "corrected": 1,
@@ -4508,6 +5759,14 @@
    "cer_lines": [
     267,
     3104
+   ],
+   "cer_plain": [
+    257,
+    3019
+   ],
+   "cer_text": [
+    256,
+    3019
    ],
    "err": {
     "suspect": 4,
@@ -4538,6 +5797,14 @@
    "cer_lines": [
     308,
     3059
+   ],
+   "cer_plain": [
+    262,
+    3016
+   ],
+   "cer_text": [
+    262,
+    3016
    ],
    "err": {
     "suspect": 11,
@@ -4570,6 +5837,14 @@
     2305,
     3794
    ],
+   "cer_plain": [
+    2236,
+    3691
+   ],
+   "cer_text": [
+    2235,
+    3691
+   ],
    "err": {
     "suspect": 4,
     "corrected": 3,
@@ -4601,6 +5876,14 @@
     68,
     2623
    ],
+   "cer_plain": [
+    59,
+    2586
+   ],
+   "cer_text": [
+    59,
+    2586
+   ],
    "err": {
     "dict_words_replaced": 14,
     "invented": 1,
@@ -4625,6 +5908,14 @@
    ],
    "cer_lines": [
     59,
+    3482
+   ],
+   "cer_plain": [
+    52,
+    3482
+   ],
+   "cer_text": [
+    38,
     3482
    ],
    "err": {
@@ -4652,6 +5943,14 @@
    "cer_lines": [
     159,
     2618
+   ],
+   "cer_plain": [
+    47,
+    2504
+   ],
+   "cer_text": [
+    47,
+    2504
    ],
    "err": {
     "suspect": 3,
@@ -4685,6 +5984,14 @@
     87,
     2215
    ],
+   "cer_plain": [
+    71,
+    2215
+   ],
+   "cer_text": [
+    70,
+    2215
+   ],
    "err": {
     "suspect": 2,
     "corrected": 1,
@@ -4710,6 +6017,14 @@
    "cer_lines": [
     80,
     2437
+   ],
+   "cer_plain": [
+    55,
+    2425
+   ],
+   "cer_text": [
+    55,
+    2425
    ],
    "err": {
     "suspect": 1,
@@ -4739,6 +6054,14 @@
    "cer_lines": [
     163,
     3204
+   ],
+   "cer_plain": [
+    124,
+    3159
+   ],
+   "cer_text": [
+    121,
+    3159
    ],
    "err": {
     "suspect": 3,
@@ -4771,12 +6094,21 @@
     243,
     2779
    ],
+   "cer_plain": [
+    221,
+    2682
+   ],
+   "cer_text": [
+    221,
+    2682
+   ],
    "err": {
     "suspect": 5,
     "preserved": 1,
-    "deleted": 4,
-    "dict_words_replaced": 6,
-    "invented": 2,
+    "corrected": 3,
+    "misread": 1,
+    "dict_words_replaced": 26,
+    "invented": 4,
     "dict_words": 253
    },
    "markup": {
@@ -4784,8 +6116,7 @@
     "strike_ref": 4,
     "strike_x_ref": 1,
     "illegible_ref": 1,
-    "insert_hyp": 2,
-    "strike_hyp": 1
+    "insert_hyp": 2
    },
    "n_lines": [
     29,
@@ -4804,6 +6135,14 @@
    "cer_lines": [
     86,
     2553
+   ],
+   "cer_plain": [
+    20,
+    2505
+   ],
+   "cer_text": [
+    19,
+    2505
    ],
    "err": {
     "dict_words_replaced": 2,
@@ -4832,6 +6171,14 @@
     345,
     3419
    ],
+   "cer_plain": [
+    320,
+    3411
+   ],
+   "cer_text": [
+    320,
+    3411
+   ],
    "err": {
     "suspect": 5,
     "corrected": 5,
@@ -4858,6 +6205,14 @@
    "cer_lines": [
     545,
     3105
+   ],
+   "cer_plain": [
+    376,
+    2749
+   ],
+   "cer_text": [
+    375,
+    2749
    ],
    "err": {
     "suspect": 3,
@@ -4892,6 +6247,14 @@
     179,
     4165
    ],
+   "cer_plain": [
+    107,
+    4104
+   ],
+   "cer_text": [
+    106,
+    4104
+   ],
    "err": {
     "suspect": 2,
     "corrected": 1,
@@ -4922,6 +6285,14 @@
    "cer_lines": [
     445,
     3245
+   ],
+   "cer_plain": [
+    393,
+    3113
+   ],
+   "cer_text": [
+    391,
+    3113
    ],
    "err": {
     "suspect": 5,
@@ -4954,6 +6325,14 @@
     142,
     2856
    ],
+   "cer_plain": [
+    84,
+    2810
+   ],
+   "cer_text": [
+    81,
+    2810
+   ],
    "err": {
     "dict_words_replaced": 21,
     "dict_words": 303
@@ -4979,6 +6358,14 @@
    "cer_lines": [
     524,
     3235
+   ],
+   "cer_plain": [
+    502,
+    3126
+   ],
+   "cer_text": [
+    499,
+    3126
    ],
    "err": {
     "suspect": 10,
@@ -5010,6 +6397,14 @@
     155,
     2771
    ],
+   "cer_plain": [
+    78,
+    2668
+   ],
+   "cer_text": [
+    77,
+    2668
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -5038,6 +6433,14 @@
    "cer_lines": [
     113,
     1935
+   ],
+   "cer_plain": [
+    71,
+    1906
+   ],
+   "cer_text": [
+    66,
+    1906
    ],
    "err": {
     "suspect": 3,
@@ -5069,6 +6472,14 @@
     23,
     2395
    ],
+   "cer_plain": [
+    25,
+    2395
+   ],
+   "cer_text": [
+    22,
+    2395
+   ],
    "err": {
     "dict_words_replaced": 5,
     "invented": 2,
@@ -5092,6 +6503,14 @@
    "cer_lines": [
     111,
     2073
+   ],
+   "cer_plain": [
+    120,
+    2053
+   ],
+   "cer_text": [
+    115,
+    2053
    ],
    "err": {
     "suspect": 2,
@@ -5122,6 +6541,14 @@
     49,
     2513
    ],
+   "cer_plain": [
+    26,
+    2507
+   ],
+   "cer_text": [
+    26,
+    2507
+   ],
    "err": {
     "dict_words_replaced": 4,
     "dict_words": 275
@@ -5146,6 +6573,14 @@
    "cer_lines": [
     127,
     2302
+   ],
+   "cer_plain": [
+    86,
+    2275
+   ],
+   "cer_text": [
+    85,
+    2275
    ],
    "err": {
     "suspect": 2,
@@ -5176,6 +6611,14 @@
     229,
     2975
    ],
+   "cer_plain": [
+    89,
+    2737
+   ],
+   "cer_text": [
+    89,
+    2737
+   ],
    "err": {
     "dict_words_replaced": 6,
     "dict_words": 285
@@ -5203,6 +6646,14 @@
     176,
     1929
    ],
+   "cer_plain": [
+    1929,
+    1929
+   ],
+   "cer_text": [
+    1929,
+    1929
+   ],
    "err": {
     "suspect": 1,
     "deleted": 1,
@@ -5228,6 +6679,14 @@
    "cer_lines": [
     242,
     2941
+   ],
+   "cer_plain": [
+    185,
+    2888
+   ],
+   "cer_text": [
+    185,
+    2888
    ],
    "err": {
     "suspect": 4,
@@ -5258,6 +6717,14 @@
     97,
     2938
    ],
+   "cer_plain": [
+    55,
+    2912
+   ],
+   "cer_text": [
+    55,
+    2912
+   ],
    "err": {
     "suspect": 2,
     "corrected": 2,
@@ -5285,6 +6752,14 @@
    "cer_lines": [
     140,
     2227
+   ],
+   "cer_plain": [
+    146,
+    2143
+   ],
+   "cer_text": [
+    136,
+    2143
    ],
    "err": {
     "suspect": 3,
@@ -5316,15 +6791,23 @@
     215,
     2313
    ],
+   "cer_plain": [
+    134,
+    2305
+   ],
+   "cer_text": [
+    132,
+    2305
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
-    "dict_words_replaced": 16,
+    "dict_words_replaced": 21,
     "dict_words": 230
    },
    "markup": {
     "strike_x_ref": 1,
-    "strike_hyp": 8
+    "strike_hyp": 6
    },
    "n_lines": [
     31,
@@ -5343,6 +6826,14 @@
    "cer_lines": [
     342,
     2798
+   ],
+   "cer_plain": [
+    330,
+    2786
+   ],
+   "cer_text": [
+    329,
+    2786
    ],
    "err": {
     "suspect": 4,
@@ -5373,6 +6864,14 @@
     139,
     3006
    ],
+   "cer_plain": [
+    62,
+    2946
+   ],
+   "cer_text": [
+    61,
+    2946
+   ],
    "err": {
     "dict_words_replaced": 15,
     "invented": 5,
@@ -5401,6 +6900,14 @@
     21,
     2217
    ],
+   "cer_plain": [
+    22,
+    2217
+   ],
+   "cer_text": [
+    21,
+    2217
+   ],
    "err": {
     "dict_words_replaced": 3,
     "dict_words": 217
@@ -5423,6 +6930,14 @@
    "cer_lines": [
     148,
     2501
+   ],
+   "cer_plain": [
+    147,
+    2488
+   ],
+   "cer_text": [
+    147,
+    2488
    ],
    "err": {
     "suspect": 3,
@@ -5451,6 +6966,14 @@
    "cer_lines": [
     359,
     2618
+   ],
+   "cer_plain": [
+    61,
+    2599
+   ],
+   "cer_text": [
+    61,
+    2599
    ],
    "err": {
     "suspect": 2,
@@ -5481,15 +7004,23 @@
     59,
     2494
    ],
+   "cer_plain": [
+    808,
+    2494
+   ],
+   "cer_text": [
+    804,
+    2494
+   ],
    "err": {
     "suspect": 1,
     "deleted": 1,
-    "dict_words_replaced": 9,
-    "invented": 4,
+    "dict_words_replaced": 11,
+    "invented": 2,
     "dict_words": 243
    },
    "markup": {
-    "strike_hyp": 5
+    "strike_hyp": 4
    },
    "n_lines": [
     29,
@@ -5508,6 +7039,14 @@
    "cer_lines": [
     95,
     3059
+   ],
+   "cer_plain": [
+    60,
+    3004
+   ],
+   "cer_text": [
+    58,
+    3004
    ],
    "err": {
     "suspect": 6,
@@ -5539,6 +7078,14 @@
     106,
     2644
    ],
+   "cer_plain": [
+    81,
+    2605
+   ],
+   "cer_text": [
+    81,
+    2605
+   ],
    "err": {
     "suspect": 5,
     "corrected": 2,
@@ -5568,6 +7115,14 @@
     158,
     2442
    ],
+   "cer_plain": [
+    138,
+    2434
+   ],
+   "cer_text": [
+    134,
+    2434
+   ],
    "err": {
     "suspect": 1,
     "preserved": 1,
@@ -5596,6 +7151,14 @@
     86,
     2237
    ],
+   "cer_plain": [
+    33,
+    2196
+   ],
+   "cer_text": [
+    32,
+    2196
+   ],
    "err": {
     "suspect": 1,
     "corrected": 1,
@@ -5622,6 +7185,14 @@
    "cer_lines": [
     112,
     2781
+   ],
+   "cer_plain": [
+    77,
+    2758
+   ],
+   "cer_text": [
+    76,
+    2758
    ],
    "err": {
     "suspect": 4,
@@ -5652,6 +7223,14 @@
     122,
     2806
    ],
+   "cer_plain": [
+    98,
+    2792
+   ],
+   "cer_text": [
+    96,
+    2792
+   ],
    "err": {
     "suspect": 4,
     "corrected": 4,
@@ -5679,6 +7258,14 @@
    "cer_lines": [
     135,
     2261
+   ],
+   "cer_plain": [
+    125,
+    2257
+   ],
+   "cer_text": [
+    116,
+    2257
    ],
    "err": {
     "suspect": 5,
@@ -5708,6 +7295,14 @@
    "cer_lines": [
     51,
     2991
+   ],
+   "cer_plain": [
+    38,
+    2961
+   ],
+   "cer_text": [
+    35,
+    2961
    ],
    "err": {
     "dict_words_replaced": 9,

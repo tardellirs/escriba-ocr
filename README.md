@@ -36,11 +36,11 @@ Feedback tools and research on learner writing need a transcription of **what th
 
 | System | Params | CER | CER (text only) | WER | `--xxx--` recall | `##t##` recall | Lines |
 |---|---|---|---|---|---|---|---|
-| **Escriba-OCR-1B** | **1B** | **2.06%** | **1.91%** | **5.9%** | **77%** | **63%** | **97%** |
-| Qwen3-VL 235B-A22B (zero-shot) | 235B | 5.60% | 4.62% | 11.2% | 1% | 3% | 79% |
-| Qwen3.5 27B (zero-shot) | 27B | 8.01% | 6.64% | 16.4% | 1% | 16% | 53% |
+| **Escriba-OCR-1B** | **1B** | **2.06%** | **1.63%** | **5.9%** | **77%** | **67%** | **97%** |
+| Qwen3-VL 235B-A22B (zero-shot) | 235B | 5.60% | 4.61% | 11.2% | 1% | 3% | 79% |
+| Qwen3.5 27B (zero-shot) | 27B | 8.01% | 6.66% | 16.4% | 1% | 16% | 53% |
 | LightOnOCR-3 4B (zero-shot) | 4B | 8.44% | 7.14% | 18.2% | 0% | 0% | 0% |
-| LightOnOCR-3 1B (base, zero-shot) | 1B | 8.97% | 7.88% | 20.5% | 0% | 0% | 12% |
+| LightOnOCR-3 1B (base, zero-shot) | 1B | 8.97% | 7.74% | 20.5% | 0% | 0% | 12% |
 
 CER is case-insensitive and capped at 100% per page. The full table of 22 open baselines is in [`results/`](results) and in the paper.
 

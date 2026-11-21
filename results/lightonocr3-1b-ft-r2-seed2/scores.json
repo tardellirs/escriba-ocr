@@ -9,13 +9,13 @@
   "wer_dipl": 6.179207981020744,
   "cer_ci": 2.028408641589438,
   "wer_ci": 5.828821704483241,
-  "cer_plain": 1.7010257712522412,
-  "wer_plain": 5.605414334672946,
+  "cer_plain": 1.7006410108425483,
+  "wer_plain": 5.604181562661801,
   "cer_lines": 2.03160950921285,
   "wer_lines": 5.828821704483241,
   "invented": 1.3286162010421274,
   "cer_cap": 2.028408641589438,
-  "cer_text": 1.6335003193511402,
+  "cer_text": 1.6331155589414472,
   "lines_ok": 94.9748743718593,
   "err_suspect": 496,
   "err_preserved": 25.0,
@@ -24,11 +24,11 @@
   "err_deleted": 1.2096774193548387,
   "strike_P": 42.50936329588015,
   "strike_x_P": 70.6896551724138,
-  "insert_P": 66.48793565683646,
+  "insert_P": 67.9144385026738,
   "illegible_P": 33.333333333333336,
   "strike_R": 38.47457627118644,
   "strike_x_R": 79.15057915057915,
-  "insert_R": 65.4353562005277,
+  "insert_R": 67.01846965699208,
   "illegible_R": 10.526315789473685,
   "lat_median": 2.305,
   "lat_p90": 2.9457,
@@ -70,8 +70,8 @@
     "strike_ref": 1,
     "insert_hyp": 3,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -227,8 +227,8 @@
     "strike_x_hyp": 3,
     "strike_hyp": 11,
     "strike_tp": 5,
-    "strike_x_tp": 1,
-    "insert_tp": 4
+    "insert_tp": 4,
+    "strike_x_tp": 1
    },
    "n_lines": [
     26,
@@ -575,8 +575,8 @@
     "strike_x_ref": 2,
     "insert_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     29,
@@ -654,8 +654,8 @@
     "illegible_ref": 1,
     "insert_hyp": 2,
     "strike_x_hyp": 2,
-    "strike_x_tp": 2,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -697,8 +697,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 2,
     "illegible_hyp": 3,
-    "strike_x_tp": 2,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -778,8 +778,8 @@
     "strike_ref": 1,
     "strike_x_hyp": 2,
     "strike_hyp": 1,
-    "strike_x_tp": 2,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -928,8 +928,8 @@
     "insert_hyp": 27,
     "strike_hyp": 22,
     "strike_x_hyp": 4,
-    "insert_tp": 22,
     "strike_tp": 12,
+    "insert_tp": 22,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -1014,8 +1014,8 @@
     "strike_hyp": 10,
     "strike_x_hyp": 3,
     "strike_tp": 6,
-    "strike_x_tp": 2,
-    "insert_tp": 5
+    "insert_tp": 5,
+    "strike_x_tp": 2
    },
    "n_lines": [
     31,
@@ -1129,8 +1129,8 @@
     "strike_x_hyp": 2,
     "strike_hyp": 11,
     "illegible_hyp": 1,
-    "strike_tp": 6,
     "insert_tp": 2,
+    "strike_tp": 6,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -1254,8 +1254,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 6,
     "strike_hyp": 1,
-    "strike_x_tp": 5,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 5
    },
    "n_lines": [
     30,
@@ -1334,8 +1334,8 @@
     "strike_hyp": 4,
     "strike_x_hyp": 2,
     "insert_tp": 5,
-    "strike_x_tp": 1,
-    "strike_tp": 3
+    "strike_tp": 3,
+    "strike_x_tp": 1
    },
    "n_lines": [
     29,
@@ -1412,8 +1412,8 @@
     "insert_hyp": 3,
     "strike_hyp": 2,
     "strike_x_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -1455,8 +1455,8 @@
     "illegible_ref": 1,
     "strike_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -1620,8 +1620,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 3,
     "illegible_hyp": 1,
-    "illegible_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "illegible_tp": 1
    },
    "n_lines": [
     30,
@@ -1702,9 +1702,9 @@
     "insert_hyp": 12,
     "strike_hyp": 14,
     "strike_x_hyp": 3,
+    "insert_tp": 9,
     "strike_tp": 9,
-    "strike_x_tp": 1,
-    "insert_tp": 9
+    "strike_x_tp": 1
    },
    "n_lines": [
     32,
@@ -1930,8 +1930,8 @@
     "strike_ref": 1,
     "insert_hyp": 1,
     "strike_hyp": 1,
-    "insert_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "insert_tp": 1
    },
    "n_lines": [
     29,
@@ -2280,10 +2280,10 @@
     "strike_x_ref": 7,
     "strike_ref": 13,
     "illegible_ref": 1,
-    "insert_hyp": 12,
+    "insert_hyp": 13,
     "strike_x_hyp": 8,
     "strike_hyp": 8,
-    "insert_tp": 4,
+    "insert_tp": 9,
     "strike_tp": 3,
     "strike_x_tp": 7
    },
@@ -2325,8 +2325,8 @@
     "strike_ref": 3,
     "strike_x_hyp": 1,
     "strike_hyp": 3,
-    "strike_x_tp": 1,
-    "strike_tp": 3
+    "strike_tp": 3,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -2476,9 +2476,9 @@
     "insert_hyp": 2,
     "strike_x_hyp": 3,
     "strike_hyp": 3,
-    "strike_x_tp": 1,
     "strike_tp": 1,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -2599,8 +2599,8 @@
     "insert_hyp": 1,
     "strike_hyp": 1,
     "strike_x_hyp": 3,
-    "strike_x_tp": 3,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 3
    },
    "n_lines": [
     30,
@@ -2677,8 +2677,8 @@
     "strike_ref": 2,
     "insert_hyp": 2,
     "strike_hyp": 2,
-    "strike_tp": 1,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -2718,8 +2718,8 @@
     "strike_ref": 2,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     29,
@@ -3059,9 +3059,9 @@
     "insert_hyp": 1,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_x_tp": 1,
+    "strike_tp": 1,
     "insert_tp": 1,
-    "strike_tp": 1
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -3143,8 +3143,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 2,
     "strike_hyp": 1,
-    "strike_x_tp": 2,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     31,
@@ -3184,9 +3184,9 @@
     "insert_hyp": 5,
     "strike_x_hyp": 6,
     "strike_hyp": 5,
-    "strike_x_tp": 6,
+    "insert_tp": 4,
     "strike_tp": 4,
-    "insert_tp": 4
+    "strike_x_tp": 6
    },
    "n_lines": [
     30,
@@ -3305,8 +3305,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 5,
     "strike_hyp": 2,
-    "strike_x_tp": 5,
     "strike_tp": 1,
+    "strike_x_tp": 5,
     "insert_tp": 1
    },
    "n_lines": [
@@ -3382,8 +3382,8 @@
     "strike_x_ref": 3,
     "insert_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 3,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 3
    },
    "n_lines": [
     30,
@@ -3583,8 +3583,8 @@
     "illegible_ref": 3,
     "insert_hyp": 2,
     "strike_hyp": 2,
-    "strike_tp": 1,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -3625,8 +3625,8 @@
     "strike_ref": 3,
     "strike_x_hyp": 2,
     "strike_hyp": 3,
-    "strike_x_tp": 2,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     28,
@@ -3669,8 +3669,8 @@
     "insert_hyp": 2,
     "strike_hyp": 1,
     "strike_x_hyp": 1,
-    "insert_tp": 2,
     "strike_tp": 1,
+    "insert_tp": 2,
     "strike_x_tp": 1
    },
    "n_lines": [
@@ -3750,8 +3750,8 @@
     "strike_ref": 4,
     "strike_x_hyp": 1,
     "strike_hyp": 3,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -3875,8 +3875,8 @@
     "strike_x_ref": 1,
     "strike_x_hyp": 2,
     "strike_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -3914,8 +3914,8 @@
     "strike_x_ref": 2,
     "insert_hyp": 2,
     "strike_x_hyp": 2,
-    "strike_x_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -4118,8 +4118,8 @@
     "illegible_ref": 1,
     "strike_x_hyp": 1,
     "illegible_hyp": 1,
-    "strike_x_tp": 1,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -4316,9 +4316,9 @@
     "insert_hyp": 4,
     "strike_x_hyp": 2,
     "strike_hyp": 2,
-    "strike_x_tp": 1,
     "insert_tp": 2,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -4476,8 +4476,8 @@
     "strike_hyp": 16,
     "strike_x_hyp": 3,
     "strike_tp": 2,
-    "strike_x_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -4558,8 +4558,8 @@
     "insert_hyp": 3,
     "strike_hyp": 4,
     "strike_x_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -4603,9 +4603,9 @@
     "insert_hyp": 9,
     "strike_hyp": 7,
     "strike_x_hyp": 6,
+    "insert_tp": 3,
     "strike_tp": 2,
-    "strike_x_tp": 6,
-    "insert_tp": 3
+    "strike_x_tp": 6
    },
    "n_lines": [
     31,
@@ -4648,8 +4648,8 @@
     "insert_hyp": 3,
     "strike_x_hyp": 5,
     "strike_hyp": 1,
-    "strike_x_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     28,
@@ -4835,8 +4835,8 @@
     "strike_ref": 3,
     "insert_hyp": 1,
     "strike_hyp": 3,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -4924,9 +4924,9 @@
     "insert_hyp": 16,
     "strike_hyp": 12,
     "strike_x_hyp": 3,
+    "insert_tp": 9,
     "strike_tp": 4,
-    "strike_x_tp": 2,
-    "insert_tp": 9
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -4967,8 +4967,8 @@
     "strike_x_hyp": 7,
     "strike_hyp": 4,
     "strike_tp": 2,
-    "insert_tp": 4,
-    "strike_x_tp": 5
+    "strike_x_tp": 5,
+    "insert_tp": 4
    },
    "n_lines": [
     30,
@@ -5093,9 +5093,9 @@
     "insert_hyp": 4,
     "strike_x_hyp": 5,
     "strike_hyp": 4,
-    "strike_x_tp": 2,
+    "insert_tp": 2,
     "strike_tp": 1,
-    "insert_tp": 2
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -5172,9 +5172,9 @@
     "insert_hyp": 9,
     "strike_x_hyp": 13,
     "strike_hyp": 11,
+    "strike_tp": 4,
     "insert_tp": 5,
-    "strike_x_tp": 5,
-    "strike_tp": 4
+    "strike_x_tp": 5
    },
    "n_lines": [
     31,
@@ -5257,8 +5257,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 6,
     "strike_hyp": 1,
-    "strike_x_tp": 3,
     "insert_tp": 1,
+    "strike_x_tp": 3,
     "strike_tp": 1
    },
    "n_lines": [
@@ -5422,8 +5422,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -5579,9 +5579,9 @@
     "strike_x_hyp": 1,
     "strike_hyp": 2,
     "illegible_hyp": 1,
+    "strike_tp": 1,
     "strike_x_tp": 1,
-    "illegible_tp": 1,
-    "strike_tp": 1
+    "illegible_tp": 1
    },
    "n_lines": [
     30,
@@ -5736,9 +5736,9 @@
     "insert_hyp": 27,
     "strike_x_hyp": 7,
     "strike_hyp": 18,
-    "strike_x_tp": 7,
     "insert_tp": 22,
-    "strike_tp": 6
+    "strike_tp": 6,
+    "strike_x_tp": 7
    },
    "n_lines": [
     29,
@@ -5779,8 +5779,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 3,
     "illegible_hyp": 1,
-    "strike_x_tp": 2,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     29,
@@ -5899,9 +5899,9 @@
     "insert_hyp": 11,
     "strike_hyp": 8,
     "strike_x_hyp": 2,
+    "strike_tp": 2,
     "insert_tp": 8,
-    "strike_x_tp": 2,
-    "strike_tp": 2
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -5981,8 +5981,8 @@
     "strike_hyp": 7,
     "strike_x_hyp": 1,
     "insert_tp": 4,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -6057,8 +6057,8 @@
     "strike_x_ref": 1,
     "strike_hyp": 1,
     "strike_x_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -6100,8 +6100,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 3,
     "illegible_hyp": 1,
-    "strike_x_tp": 3,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 3
    },
    "n_lines": [
     30,
@@ -6145,8 +6145,8 @@
     "strike_hyp": 10,
     "strike_x_hyp": 14,
     "insert_tp": 13,
-    "strike_x_tp": 12,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 12
    },
    "n_lines": [
     30,
@@ -6226,8 +6226,8 @@
     "strike_ref": 1,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     28,
@@ -6306,8 +6306,8 @@
     "insert_hyp": 1,
     "strike_hyp": 5,
     "strike_x_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -6352,8 +6352,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 2,
     "strike_hyp": 1,
-    "strike_x_tp": 2,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     31,
@@ -6512,10 +6512,10 @@
     "strike_hyp": 5,
     "strike_x_hyp": 5,
     "illegible_hyp": 1,
-    "strike_tp": 3,
-    "strike_x_tp": 4,
     "illegible_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 3,
+    "strike_x_tp": 4
    },
    "n_lines": [
     30,
@@ -6675,9 +6675,9 @@
     "insert_hyp": 2,
     "strike_hyp": 3,
     "strike_x_hyp": 1,
-    "strike_tp": 3,
     "insert_tp": 2,
-    "strike_x_tp": 1
+    "strike_x_tp": 1,
+    "strike_tp": 3
    },
    "n_lines": [
     29,
@@ -6716,8 +6716,8 @@
     "insert_hyp": 2,
     "strike_hyp": 1,
     "strike_x_hyp": 4,
-    "strike_x_tp": 4,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 4
    },
    "n_lines": [
     29,
@@ -6799,8 +6799,8 @@
     "strike_hyp": 23,
     "strike_x_hyp": 1,
     "illegible_hyp": 1,
+    "insert_tp": 4,
     "strike_tp": 9,
-    "insert_tp": 3,
     "strike_x_tp": 1
    },
    "n_lines": [
@@ -6889,8 +6889,8 @@
     "insert_hyp": 4,
     "strike_x_hyp": 4,
     "strike_hyp": 4,
-    "strike_tp": 3,
     "insert_tp": 4,
+    "strike_tp": 3,
     "strike_x_tp": 4
    },
    "n_lines": [
@@ -6951,11 +6951,11 @@
     3235
    ],
    "cer_plain": [
-    247,
+    245,
     3126
    ],
    "cer_text": [
-    245,
+    243,
     3126
    ],
    "err": {
@@ -7013,8 +7013,8 @@
     "strike_x_ref": 1,
     "strike_hyp": 5,
     "strike_x_hyp": 5,
-    "strike_x_tp": 1,
-    "strike_tp": 3
+    "strike_tp": 3,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -7322,8 +7322,8 @@
     "insert_hyp": 4,
     "strike_x_hyp": 2,
     "strike_hyp": 2,
-    "strike_tp": 2,
-    "insert_tp": 4
+    "insert_tp": 4,
+    "strike_tp": 2
    },
    "n_lines": [
     30,
@@ -7405,8 +7405,8 @@
     "insert_hyp": 2,
     "strike_hyp": 6,
     "strike_x_hyp": 1,
-    "insert_tp": 1,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "insert_tp": 1
    },
    "n_lines": [
     30,
@@ -7525,9 +7525,9 @@
     "insert_hyp": 4,
     "strike_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 2,
     "insert_tp": 3,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -7711,8 +7711,8 @@
     "strike_x_ref": 2,
     "strike_hyp": 6,
     "strike_x_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 1
    },
    "n_lines": [
     29,
@@ -7866,8 +7866,8 @@
     "strike_ref": 2,
     "strike_x_hyp": 1,
     "strike_hyp": 2,
-    "strike_x_tp": 1,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 1
    },
    "n_lines": [
     31,

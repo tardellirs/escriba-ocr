@@ -11,8 +11,10 @@ import re
 import unicodedata
 
 # Order matters: insertions may contain strike/illegible markup.
-_INS = re.compile(r"(##|\$\$)(.*?)\1", re.S)
-_STRIKE = re.compile(r"--(.+?)--", re.S)
+# Markup never crosses a line break in BRESSAY (checked on all splits), so the patterns stop at "\n":
+# otherwise one unclosed marker in a model's output pairs with a marker lines below and drops the text between.
+_INS = re.compile(r"(##|\$\$)(.*?)\1")
+_STRIKE = re.compile(r"--(.+?)--")
 _ILLEG = re.compile(r"@@\?*@@")
 _WS = re.compile(r"\s+")
 
@@ -48,7 +50,7 @@ def plain(s: str, keep_lines: bool = False) -> str:
     s = _INS.sub(lambda m: " " + m.group(2) + " ", s)  # unwrap insertions
     s = _STRIKE.sub(" ", s)  # drop struck-through (incl. --xxx--)
     s = _ILLEG.sub(" ", s)  # drop illegible
-    s = s.replace("##", " ").replace("$$", " ")  # stray markers
+    s = s.replace("##", " ").replace("$$", " ").replace("--", " ")  # stray (unclosed) markers
     if keep_lines:
         return "\n".join(_WS.sub(" ", ln).strip() for ln in s.split("\n"))
     return collapse(s)

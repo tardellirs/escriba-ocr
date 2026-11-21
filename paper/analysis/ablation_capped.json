@@ -8,110 +8,110 @@
  "s1-decoder-1e-5@final": {
   "cer": 6.12,
   "pres": 19.6,
-  "ins": 49.0,
-  "text": 6.28
+  "ins": 48.6,
+  "text": 5.37
  },
  "s1-decoder-3e-5@final": {
   "cer": 4.7,
   "pres": 21.5,
-  "ins": 57.0,
-  "text": 4.57
+  "ins": 57.1,
+  "text": 4.42
  },
  "s2-decoder-3e-5-seed1@final": {
   "cer": 5.33,
   "pres": 20.7,
-  "ins": 51.0,
-  "text": 4.53
+  "ins": 52.9,
+  "text": 4.3
  },
  "s1-decoder-6e-5@final": {
   "cer": 4.44,
   "pres": 21.7,
-  "ins": 57.0,
-  "text": 4.58
+  "ins": 57.1,
+  "text": 4.03
  },
  "s1-all-3e-5-gc@final": {
   "cer": 2.81,
   "pres": 25.7,
-  "ins": 64.0,
-  "text": 2.44
+  "ins": 64.3,
+  "text": 2.43
  },
  "s3-all-3e-5-pagespar@final": {
   "cer": 3.39,
   "pres": 25.4,
-  "ins": 63.0,
+  "ins": 62.9,
   "text": 2.38
  },
  "s4-all-3e-5-auglight@final": {
   "cer": 2.73,
   "pres": 25.7,
-  "ins": 62.0,
+  "ins": 62.9,
   "text": 2.34
  },
  "s1-all-6e-5-gc@final": {
   "cer": 2.46,
   "pres": 26.7,
-  "ins": 68.0,
-  "text": 2.46
+  "ins": 67.9,
+  "text": 2.11
  },
  "r5-1540-gc-2400@final": {
   "cer": 2.23,
-  "pres": 27.7,
-  "ins": 71.0,
-  "text": 2.9
+  "pres": 28.0,
+  "ins": 71.4,
+  "text": 1.87
  },
  "r1-all-6e-5-8k@final": {
   "cer": 2.25,
   "pres": 26.7,
-  "ins": 64.0,
-  "text": 2.27
+  "ins": 63.6,
+  "text": 1.88
  },
  "r4-errboost4-aug-8k@final": {
   "cer": 2.15,
   "pres": 26.2,
   "ins": 70.0,
-  "text": 2.53
+  "text": 1.77
  },
  "r2-final-aug-12k@step1000": {
   "cer": 2.14,
-  "pres": 24.1,
-  "ins": 68.0,
-  "text": 2.36
+  "pres": 24.3,
+  "ins": 67.9,
+  "text": 1.76
  },
  "r2-final-aug-12k@final": {
   "cer": 2.03,
   "pres": 25.9,
-  "ins": 69.0,
+  "ins": 69.3,
   "text": 1.67
  },
  "r3-scale-25@final": {
   "cer": 3.35,
-  "pres": 20.7,
-  "ins": 58.0,
-  "text": 4.41
+  "pres": 21.7,
+  "ins": 57.9,
+  "text": 2.99
  },
  "r3-scale-50@final": {
   "cer": 2.7,
   "pres": 26.2,
   "ins": 65.0,
-  "text": 2.45
+  "text": 2.3
  },
  "r1-all-6e-5-8k@step300": {
   "cer": 2.77,
-  "pres": 26.2,
-  "ins": 64.0,
-  "text": 3.16
+  "pres": 26.4,
+  "ins": 63.6,
+  "text": 2.35
  },
  "r1-all-6e-5-8k@step600": {
   "cer": 2.44,
   "pres": 25.7,
-  "ins": 61.0,
-  "text": 2.42
+  "ins": 62.9,
+  "text": 2.06
  },
  "r2-final-aug-12k@step600": {
   "cer": 2.29,
   "pres": 24.6,
   "ins": 65.0,
-  "text": 1.99
+  "text": 1.96
  },
  "foto:r0-base@base": 30.88,
  "foto:s4-all-3e-5-auglight@final": 13.08,

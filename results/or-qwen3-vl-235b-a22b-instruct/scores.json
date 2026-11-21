@@ -9,22 +9,22 @@
   "wer_dipl": 12.455745483301904,
   "cer_ci": 5.604342635933317,
   "wer_ci": 11.22574365837338,
-  "cer_plain": 5.4791806142315185,
-  "wer_plain": 11.71133410587046,
+  "cer_plain": 5.467060661326192,
+  "wer_plain": 11.696540841736729,
   "cer_lines": 5.64162332942953,
   "wer_lines": 11.22574365837338,
   "invented": 0.6575784960295333,
   "cer_cap": 5.604342635933317,
-  "cer_text": 4.62366584327939,
+  "cer_text": 4.611545890374064,
   "lines_ok": 78.89447236180905,
   "err_suspect": 496,
   "err_preserved": 21.370967741935484,
   "err_corrected": 70.56451612903226,
   "err_misread": 5.645161290322581,
   "err_deleted": 2.4193548387096775,
-  "strike_P": 10.344827586206897,
+  "strike_P": 10.526315789473685,
   "strike_x_P": 100.0,
-  "insert_P": 30.555555555555557,
+  "insert_P": 32.35294117647059,
   "illegible_P": 25.0,
   "strike_R": 1.0169491525423728,
   "strike_x_R": 0.7722007722007722,
@@ -2233,11 +2233,11 @@
     2308
    ],
    "cer_plain": [
-    76,
+    23,
     2296
    ],
    "cer_text": [
-    76,
+    23,
     2296
    ],
    "err": {
@@ -2247,8 +2247,7 @@
     "dict_words": 227
    },
    "markup": {
-    "strike_x_ref": 1,
-    "strike_hyp": 1
+    "strike_x_ref": 1
    },
    "n_lines": [
     30,
@@ -2699,11 +2698,11 @@
     2988
    ],
    "cer_plain": [
-    305,
+    303,
     2961
    ],
    "cer_text": [
-    303,
+    301,
     2961
    ],
    "err": {
@@ -3117,8 +3116,8 @@
     "strike_x_ref": 3,
     "insert_hyp": 1,
     "strike_x_hyp": 1,
-    "strike_x_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -3854,11 +3853,11 @@
     2240
    ],
    "cer_plain": [
-    40,
+    38,
     2232
    ],
    "cer_text": [
-    39,
+    37,
     2232
    ],
    "err": {
@@ -4369,11 +4368,11 @@
     2399
    ],
    "cer_plain": [
-    27,
+    24,
     2380
    ],
    "cer_text": [
-    23,
+    20,
     2380
    ],
    "err": {
@@ -4966,11 +4965,11 @@
     2982
    ],
    "cer_plain": [
-    52,
+    49,
     2958
    ],
    "cer_text": [
-    52,
+    49,
     2958
    ],
    "err": {
@@ -5271,7 +5270,7 @@
     "insert_ref": 28,
     "strike_x_ref": 9,
     "strike_ref": 16,
-    "insert_hyp": 3,
+    "insert_hyp": 1,
     "strike_hyp": 1,
     "illegible_hyp": 1
    },

@@ -9,26 +9,26 @@
   "wer_dipl": 6.238822312792749,
   "cer_ci": 2.063429899116184,
   "wer_ci": 5.884786179207981,
-  "cer_plain": 1.9803618286892752,
-  "wer_plain": 5.92223674153702,
+  "cer_plain": 1.6979476879746982,
+  "wer_plain": 5.622673142828965,
   "cer_lines": 2.066819053070385,
   "wer_lines": 5.884786179207981,
-  "invented": 1.4055259666596167,
+  "invented": 1.4036032225191795,
   "cer_cap": 2.063429899116184,
-  "cer_text": 1.911104954944556,
+  "cer_text": 1.628690814229979,
   "lines_ok": 97.48743718592965,
   "err_suspect": 496,
   "err_preserved": 23.588709677419356,
   "err_corrected": 59.87903225806452,
   "err_misread": 15.120967741935484,
   "err_deleted": 1.4112903225806452,
-  "strike_P": 40.29304029304029,
-  "strike_x_P": 68.4931506849315,
-  "insert_P": 64.343163538874,
+  "strike_P": 41.06813996316759,
+  "strike_x_P": 67.79661016949153,
+  "insert_P": 68.54838709677419,
   "illegible_P": 41.1764705882353,
-  "strike_R": 37.28813559322034,
+  "strike_R": 37.79661016949152,
   "strike_x_R": 77.22007722007721,
-  "insert_R": 63.324538258575195,
+  "insert_R": 67.28232189973615,
   "illegible_R": 12.280701754385966,
   "lat_median": 2.2885,
   "lat_p90": 2.8903,
@@ -226,8 +226,8 @@
     "insert_hyp": 4,
     "strike_x_hyp": 5,
     "strike_hyp": 10,
-    "insert_tp": 3,
     "strike_tp": 6,
+    "insert_tp": 3,
     "strike_x_tp": 1
    },
    "n_lines": [
@@ -577,8 +577,8 @@
     "strike_x_ref": 2,
     "insert_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     29,
@@ -656,8 +656,8 @@
     "illegible_ref": 1,
     "insert_hyp": 2,
     "strike_x_hyp": 2,
-    "strike_x_tp": 2,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -699,8 +699,8 @@
     "insert_hyp": 2,
     "strike_x_hyp": 2,
     "illegible_hyp": 1,
-    "strike_x_tp": 2,
     "illegible_tp": 1,
+    "strike_x_tp": 2,
     "insert_tp": 1
    },
    "n_lines": [
@@ -910,29 +910,29 @@
     3916
    ],
    "cer_plain": [
-    990,
+    55,
     3529
    ],
    "cer_text": [
-    986,
+    51,
     3529
    ],
    "err": {
     "suspect": 1,
     "deleted": 1,
     "dict_words_replaced": 13,
-    "invented": 8,
+    "invented": 7,
     "dict_words": 339
    },
    "markup": {
     "insert_ref": 29,
     "strike_ref": 23,
     "strike_x_ref": 2,
-    "insert_hyp": 27,
-    "strike_hyp": 24,
-    "strike_x_hyp": 5,
-    "insert_tp": 7,
-    "strike_tp": 11,
+    "insert_hyp": 26,
+    "strike_hyp": 21,
+    "strike_x_hyp": 8,
+    "strike_tp": 13,
+    "insert_tp": 21,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -1130,9 +1130,9 @@
     "insert_hyp": 1,
     "strike_hyp": 12,
     "strike_x_hyp": 3,
+    "insert_tp": 1,
     "strike_tp": 6,
-    "strike_x_tp": 3,
-    "insert_tp": 1
+    "strike_x_tp": 3
    },
    "n_lines": [
     30,
@@ -1541,8 +1541,8 @@
     "strike_x_hyp": 2,
     "strike_hyp": 5,
     "insert_tp": 6,
-    "strike_tp": 1,
-    "strike_x_tp": 2
+    "strike_x_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -2255,11 +2255,11 @@
     2899
    ],
    "cer_plain": [
-    243,
+    73,
     2552
    ],
    "cer_text": [
-    243,
+    73,
     2552
    ],
    "err": {
@@ -2267,7 +2267,7 @@
     "preserved": 2,
     "corrected": 1,
     "misread": 1,
-    "dict_words_replaced": 11,
+    "dict_words_replaced": 8,
     "invented": 1,
     "dict_words": 253
    },
@@ -2321,8 +2321,8 @@
     "strike_ref": 3,
     "strike_x_hyp": 3,
     "strike_hyp": 3,
-    "strike_x_tp": 2,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -2473,9 +2473,9 @@
     "insert_hyp": 2,
     "strike_hyp": 5,
     "strike_x_hyp": 2,
-    "insert_tp": 2,
     "strike_tp": 3,
-    "strike_x_tp": 1
+    "strike_x_tp": 1,
+    "insert_tp": 2
    },
    "n_lines": [
     30,
@@ -3052,8 +3052,8 @@
     "insert_hyp": 3,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -3296,8 +3296,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 6,
     "strike_hyp": 1,
-    "strike_x_tp": 6,
     "strike_tp": 1,
+    "strike_x_tp": 6,
     "insert_tp": 1
    },
    "n_lines": [
@@ -3374,8 +3374,8 @@
     "strike_x_ref": 3,
     "insert_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 3,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 3
    },
    "n_lines": [
     30,
@@ -3746,8 +3746,8 @@
     "strike_ref": 4,
     "strike_x_hyp": 1,
     "strike_hyp": 3,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -4115,8 +4115,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 1,
     "illegible_hyp": 1,
-    "strike_x_tp": 1,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -4358,8 +4358,8 @@
     "insert_hyp": 1,
     "strike_hyp": 1,
     "illegible_hyp": 1,
-    "insert_tp": 1,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "insert_tp": 1
    },
    "n_lines": [
     30,
@@ -4561,8 +4561,8 @@
     "illegible_ref": 1,
     "insert_hyp": 3,
     "strike_hyp": 5,
-    "strike_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_tp": 2
    },
    "n_lines": [
     30,
@@ -4608,10 +4608,10 @@
     "strike_x_hyp": 10,
     "strike_hyp": 4,
     "illegible_hyp": 1,
-    "strike_tp": 2,
+    "illegible_tp": 1,
     "insert_tp": 4,
-    "strike_x_tp": 8,
-    "illegible_tp": 1
+    "strike_tp": 2,
+    "strike_x_tp": 8
    },
    "n_lines": [
     31,
@@ -4653,9 +4653,9 @@
     "insert_hyp": 3,
     "strike_hyp": 5,
     "strike_x_hyp": 2,
-    "insert_tp": 2,
+    "strike_x_tp": 2,
     "strike_tp": 2,
-    "strike_x_tp": 2
+    "insert_tp": 2
    },
    "n_lines": [
     28,
@@ -4842,8 +4842,8 @@
     "strike_ref": 3,
     "insert_hyp": 1,
     "strike_hyp": 3,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -4931,8 +4931,8 @@
     "insert_hyp": 16,
     "strike_hyp": 11,
     "strike_x_hyp": 5,
-    "insert_tp": 10,
     "strike_tp": 5,
+    "insert_tp": 10,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -4973,9 +4973,9 @@
     "insert_hyp": 5,
     "strike_x_hyp": 7,
     "strike_hyp": 2,
-    "insert_tp": 4,
+    "strike_tp": 1,
     "strike_x_tp": 5,
-    "strike_tp": 1
+    "insert_tp": 4
    },
    "n_lines": [
     30,
@@ -5099,9 +5099,9 @@
     "insert_hyp": 3,
     "strike_hyp": 5,
     "strike_x_hyp": 3,
-    "strike_x_tp": 2,
+    "insert_tp": 1,
     "strike_tp": 1,
-    "insert_tp": 1
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -5177,10 +5177,10 @@
     "strike_x_hyp": 6,
     "strike_hyp": 14,
     "illegible_hyp": 1,
-    "insert_tp": 6,
     "strike_tp": 4,
-    "strike_x_tp": 5,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "insert_tp": 6,
+    "strike_x_tp": 5
    },
    "n_lines": [
     31,
@@ -5264,9 +5264,9 @@
     "insert_hyp": 2,
     "strike_x_hyp": 4,
     "strike_hyp": 2,
-    "strike_tp": 1,
+    "insert_tp": 1,
     "strike_x_tp": 3,
-    "insert_tp": 1
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -5306,8 +5306,8 @@
     "insert_hyp": 3,
     "strike_hyp": 3,
     "strike_x_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 3
+    "insert_tp": 3,
+    "strike_tp": 1
    },
    "n_lines": [
     29,
@@ -5389,8 +5389,8 @@
     "insert_hyp": 10,
     "strike_x_hyp": 1,
     "strike_hyp": 10,
-    "strike_tp": 5,
-    "insert_tp": 5
+    "insert_tp": 5,
+    "strike_tp": 5
    },
    "n_lines": [
     33,
@@ -5782,8 +5782,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 3,
     "illegible_hyp": 1,
-    "strike_x_tp": 2,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     29,
@@ -5824,8 +5824,8 @@
     "strike_x_ref": 1,
     "insert_hyp": 1,
     "strike_hyp": 2,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -5903,8 +5903,8 @@
     "insert_hyp": 10,
     "strike_hyp": 5,
     "strike_x_hyp": 5,
-    "insert_tp": 8,
     "strike_tp": 2,
+    "insert_tp": 8,
     "strike_x_tp": 3
    },
    "n_lines": [
@@ -5983,8 +5983,8 @@
     "insert_hyp": 6,
     "strike_hyp": 5,
     "strike_x_hyp": 3,
-    "strike_tp": 1,
     "insert_tp": 4,
+    "strike_tp": 1,
     "strike_x_tp": 1
    },
    "n_lines": [
@@ -6145,8 +6145,8 @@
     "strike_x_hyp": 11,
     "strike_hyp": 10,
     "insert_tp": 14,
-    "strike_x_tp": 11,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 11
    },
    "n_lines": [
     30,
@@ -6304,8 +6304,8 @@
     "insert_hyp": 1,
     "strike_hyp": 4,
     "strike_x_hyp": 1,
-    "strike_x_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -6513,10 +6513,10 @@
     "strike_hyp": 6,
     "strike_x_hyp": 3,
     "illegible_hyp": 1,
+    "illegible_tp": 1,
     "insert_tp": 3,
-    "strike_tp": 2,
     "strike_x_tp": 3,
-    "illegible_tp": 1
+    "strike_tp": 2
    },
    "n_lines": [
     30,
@@ -6632,8 +6632,8 @@
     "insert_hyp": 2,
     "strike_hyp": 2,
     "strike_x_hyp": 1,
-    "insert_tp": 2,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "insert_tp": 2
    },
    "n_lines": [
     30,
@@ -6677,9 +6677,9 @@
     "insert_hyp": 2,
     "strike_hyp": 3,
     "strike_x_hyp": 1,
-    "strike_tp": 3,
     "insert_tp": 2,
-    "strike_x_tp": 1
+    "strike_x_tp": 1,
+    "strike_tp": 3
    },
    "n_lines": [
     29,
@@ -6778,18 +6778,18 @@
     3105
    ],
    "cer_plain": [
-    484,
+    123,
     2749
    ],
    "cer_text": [
-    481,
+    120,
     2749
    ],
    "err": {
     "suspect": 3,
     "misread": 1,
     "corrected": 2,
-    "dict_words_replaced": 22,
+    "dict_words_replaced": 21,
     "invented": 5,
     "dict_words": 289
    },
@@ -6800,8 +6800,8 @@
     "insert_hyp": 6,
     "strike_hyp": 26,
     "strike_x_hyp": 2,
-    "strike_tp": 11,
-    "insert_tp": 3,
+    "insert_tp": 4,
+    "strike_tp": 12,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -6951,11 +6951,11 @@
     3235
    ],
    "cer_plain": [
-    155,
+    153,
     3126
    ],
    "cer_text": [
-    153,
+    151,
     3126
    ],
    "err": {
@@ -7055,8 +7055,8 @@
     "strike_x_ref": 1,
     "insert_hyp": 1,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -7240,8 +7240,8 @@
     "insert_hyp": 9,
     "strike_x_hyp": 6,
     "strike_hyp": 11,
-    "strike_tp": 7,
     "insert_tp": 4,
+    "strike_tp": 7,
     "strike_x_tp": 1
    },
    "n_lines": [
@@ -7319,8 +7319,8 @@
     "strike_x_hyp": 1,
     "strike_hyp": 3,
     "illegible_hyp": 1,
-    "strike_tp": 3,
-    "insert_tp": 4
+    "insert_tp": 4,
+    "strike_tp": 3
    },
    "n_lines": [
     30,
@@ -7525,8 +7525,8 @@
     "strike_hyp": 3,
     "strike_x_hyp": 2,
     "insert_tp": 3,
-    "strike_x_tp": 2,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -7866,8 +7866,8 @@
     "strike_ref": 2,
     "strike_x_hyp": 1,
     "strike_hyp": 2,
-    "strike_x_tp": 1,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 1
    },
    "n_lines": [
     31,

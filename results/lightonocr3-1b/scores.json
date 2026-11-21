@@ -9,20 +9,20 @@
   "wer_dipl": 21.593770910639332,
   "cer_ci": 8.973349952740131,
   "wer_ci": 20.49638055842813,
-  "cer_plain": 8.757339304814892,
-  "wer_plain": 20.891787272861755,
+  "cer_plain": 8.619210317735146,
+  "wer_plain": 20.78207056386992,
   "cer_lines": 9.485300486155307,
   "wer_lines": 20.49638055842813,
-  "invented": 3.6570593551116155,
+  "invented": 3.6666730758138013,
   "cer_cap": 8.973349952740131,
-  "cer_text": 7.880085570715115,
+  "cer_text": 7.742341344045063,
   "lines_ok": 11.557788944723619,
   "err_suspect": 496,
   "err_preserved": 12.903225806451612,
-  "err_corrected": 65.3225806451613,
+  "err_corrected": 65.5241935483871,
   "err_misread": 19.556451612903224,
-  "err_deleted": 2.217741935483871,
-  "strike_P": 0.0,
+  "err_deleted": 2.0161290322580645,
+  "strike_P": NaN,
   "strike_x_P": NaN,
   "insert_P": NaN,
   "illegible_P": NaN,
@@ -1560,28 +1560,26 @@
     2818
    ],
    "cer_plain": [
-    1302,
+    584,
     2564
    ],
    "cer_text": [
-    1298,
+    582,
     2564
    ],
    "err": {
     "suspect": 4,
     "preserved": 1,
     "misread": 1,
-    "deleted": 1,
-    "corrected": 1,
-    "dict_words_replaced": 55,
-    "invented": 8,
+    "corrected": 2,
+    "dict_words_replaced": 87,
+    "invented": 13,
     "dict_words": 256
    },
    "markup": {
     "insert_ref": 12,
     "strike_ref": 17,
-    "strike_x_ref": 1,
-    "strike_hyp": 1
+    "strike_x_ref": 1
    },
    "n_lines": [
     32,

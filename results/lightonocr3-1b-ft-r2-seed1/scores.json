@@ -9,13 +9,13 @@
   "wer_dipl": 6.1706916479104565,
   "cer_ci": 2.0483669926530674,
   "wer_ci": 5.827605085467486,
-  "cer_plain": 1.731806604027672,
+  "cer_plain": 1.7314218436179791,
   "wer_plain": 5.595552158583792,
   "cer_lines": 2.050626428622535,
   "wer_lines": 5.827605085467486,
   "invented": 1.3689938279913092,
   "cer_cap": 2.0483669926530674,
-  "cer_text": 1.6673592354041138,
+  "cer_text": 1.666974474994421,
   "lines_ok": 96.98492462311557,
   "err_suspect": 496,
   "err_preserved": 26.20967741935484,
@@ -24,11 +24,11 @@
   "err_deleted": 1.6129032258064515,
   "strike_P": 42.03703703703704,
   "strike_x_P": 71.18055555555556,
-  "insert_P": 61.477572559366756,
+  "insert_P": 66.57894736842105,
   "illegible_P": 63.63636363636363,
   "strike_R": 38.47457627118644,
   "strike_x_R": 79.15057915057915,
-  "insert_R": 61.477572559366756,
+  "insert_R": 66.75461741424802,
   "illegible_R": 12.280701754385966,
   "lat_median": 2.2805,
   "lat_p90": 2.9115,
@@ -70,8 +70,8 @@
     "strike_ref": 1,
     "insert_hyp": 3,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -184,8 +184,8 @@
     "strike_hyp": 11,
     "strike_x_hyp": 2,
     "strike_tp": 7,
-    "strike_x_tp": 1,
-    "insert_tp": 3
+    "insert_tp": 3,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -228,8 +228,8 @@
     "strike_x_hyp": 4,
     "strike_hyp": 11,
     "strike_tp": 6,
-    "strike_x_tp": 1,
-    "insert_tp": 4
+    "insert_tp": 4,
+    "strike_x_tp": 1
    },
    "n_lines": [
     26,
@@ -421,8 +421,8 @@
     "strike_ref": 1,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "strike_x_tp": 1
+    "strike_x_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -658,8 +658,8 @@
     "illegible_ref": 1,
     "insert_hyp": 2,
     "strike_x_hyp": 2,
-    "strike_x_tp": 2,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -742,8 +742,8 @@
     "strike_x_ref": 4,
     "strike_hyp": 1,
     "strike_x_hyp": 3,
-    "strike_tp": 1,
-    "strike_x_tp": 3
+    "strike_x_tp": 3,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -934,7 +934,7 @@
     "strike_hyp": 23,
     "strike_x_hyp": 4,
     "strike_tp": 12,
-    "insert_tp": 6,
+    "insert_tp": 21,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -1134,9 +1134,9 @@
     "insert_hyp": 3,
     "strike_x_hyp": 6,
     "strike_hyp": 9,
+    "insert_tp": 2,
     "strike_tp": 5,
-    "strike_x_tp": 5,
-    "insert_tp": 2
+    "strike_x_tp": 5
    },
    "n_lines": [
     30,
@@ -1341,9 +1341,9 @@
     "insert_hyp": 6,
     "strike_hyp": 3,
     "strike_x_hyp": 3,
+    "insert_tp": 5,
     "strike_tp": 3,
-    "strike_x_tp": 1,
-    "insert_tp": 5
+    "strike_x_tp": 1
    },
    "n_lines": [
     29,
@@ -1548,8 +1548,8 @@
     "strike_x_hyp": 3,
     "strike_hyp": 4,
     "insert_tp": 6,
-    "strike_tp": 1,
-    "strike_x_tp": 2
+    "strike_x_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -1627,8 +1627,8 @@
     "insert_hyp": 3,
     "strike_x_hyp": 4,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -2130,8 +2130,8 @@
     "insert_hyp": 3,
     "strike_hyp": 2,
     "strike_x_hyp": 2,
-    "insert_tp": 1,
-    "strike_x_tp": 2
+    "strike_x_tp": 2,
+    "insert_tp": 1
    },
    "n_lines": [
     29,
@@ -2265,11 +2265,11 @@
     2899
    ],
    "cer_plain": [
-    89,
+    87,
     2552
    ],
    "cer_text": [
-    89,
+    87,
     2552
    ],
    "err": {
@@ -2286,12 +2286,12 @@
     "strike_x_ref": 7,
     "strike_ref": 13,
     "illegible_ref": 1,
-    "insert_hyp": 13,
+    "insert_hyp": 14,
     "strike_hyp": 11,
     "strike_x_hyp": 6,
+    "insert_tp": 10,
     "strike_tp": 5,
-    "strike_x_tp": 6,
-    "insert_tp": 5
+    "strike_x_tp": 6
    },
    "n_lines": [
     29,
@@ -2480,9 +2480,9 @@
     "insert_hyp": 2,
     "strike_hyp": 4,
     "strike_x_hyp": 2,
+    "strike_tp": 1,
     "insert_tp": 2,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -3185,8 +3185,8 @@
     "strike_x_hyp": 7,
     "strike_hyp": 4,
     "insert_tp": 4,
-    "strike_x_tp": 7,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 7
    },
    "n_lines": [
     30,
@@ -3304,8 +3304,8 @@
     "insert_hyp": 1,
     "strike_x_hyp": 6,
     "strike_hyp": 1,
-    "insert_tp": 1,
-    "strike_x_tp": 6
+    "strike_x_tp": 6,
+    "insert_tp": 1
    },
    "n_lines": [
     30,
@@ -3380,8 +3380,8 @@
     "strike_x_ref": 3,
     "insert_hyp": 2,
     "strike_x_hyp": 3,
-    "strike_x_tp": 3,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 3
    },
    "n_lines": [
     30,
@@ -3583,8 +3583,8 @@
     "illegible_ref": 3,
     "insert_hyp": 2,
     "strike_hyp": 2,
-    "strike_tp": 1,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -3626,8 +3626,8 @@
     "strike_ref": 3,
     "strike_x_hyp": 2,
     "strike_hyp": 3,
-    "strike_tp": 1,
-    "strike_x_tp": 2
+    "strike_x_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     28,
@@ -4036,8 +4036,8 @@
     "strike_x_ref": 10,
     "insert_hyp": 4,
     "strike_x_hyp": 6,
-    "strike_x_tp": 6,
-    "insert_tp": 2
+    "insert_tp": 2,
+    "strike_x_tp": 6
    },
    "n_lines": [
     29,
@@ -4309,8 +4309,8 @@
     "strike_x_hyp": 1,
     "strike_hyp": 3,
     "insert_tp": 3,
-    "strike_x_tp": 1,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -4469,8 +4469,8 @@
     "insert_hyp": 3,
     "strike_hyp": 14,
     "strike_x_hyp": 5,
-    "strike_tp": 1,
     "insert_tp": 2,
+    "strike_tp": 1,
     "strike_x_tp": 2
    },
    "n_lines": [
@@ -4551,8 +4551,8 @@
     "illegible_ref": 1,
     "insert_hyp": 3,
     "strike_hyp": 5,
-    "insert_tp": 2,
-    "strike_tp": 4
+    "strike_tp": 4,
+    "insert_tp": 2
    },
    "n_lines": [
     30,
@@ -4599,9 +4599,9 @@
     "strike_x_hyp": 7,
     "illegible_hyp": 1,
     "illegible_tp": 1,
-    "strike_x_tp": 7,
     "insert_tp": 4,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 7
    },
    "n_lines": [
     31,
@@ -4645,8 +4645,8 @@
     "strike_hyp": 3,
     "strike_x_hyp": 3,
     "insert_tp": 2,
-    "strike_tp": 1,
-    "strike_x_tp": 2
+    "strike_x_tp": 2,
+    "strike_tp": 1
    },
    "n_lines": [
     28,
@@ -4834,8 +4834,8 @@
     "strike_ref": 3,
     "insert_hyp": 1,
     "strike_hyp": 3,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -4923,9 +4923,9 @@
     "insert_hyp": 16,
     "strike_hyp": 11,
     "strike_x_hyp": 4,
-    "strike_x_tp": 2,
+    "strike_tp": 4,
     "insert_tp": 9,
-    "strike_tp": 4
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -4965,9 +4965,9 @@
     "insert_hyp": 5,
     "strike_x_hyp": 7,
     "strike_hyp": 3,
-    "insert_tp": 3,
+    "strike_tp": 1,
     "strike_x_tp": 5,
-    "strike_tp": 1
+    "insert_tp": 3
    },
    "n_lines": [
     30,
@@ -5092,9 +5092,9 @@
     "insert_hyp": 5,
     "strike_hyp": 6,
     "strike_x_hyp": 4,
-    "insert_tp": 2,
+    "strike_tp": 2,
     "strike_x_tp": 2,
-    "strike_tp": 2
+    "insert_tp": 2
    },
    "n_lines": [
     30,
@@ -5171,10 +5171,10 @@
     "strike_x_hyp": 10,
     "strike_hyp": 12,
     "illegible_hyp": 1,
-    "illegible_tp": 1,
     "strike_tp": 4,
-    "strike_x_tp": 5,
-    "insert_tp": 4
+    "illegible_tp": 1,
+    "insert_tp": 4,
+    "strike_x_tp": 5
    },
    "n_lines": [
     31,
@@ -5257,9 +5257,9 @@
     "insert_hyp": 2,
     "strike_x_hyp": 5,
     "strike_hyp": 1,
-    "strike_tp": 1,
+    "insert_tp": 1,
     "strike_x_tp": 3,
-    "insert_tp": 1
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -5898,9 +5898,9 @@
     "insert_hyp": 9,
     "strike_hyp": 8,
     "strike_x_hyp": 1,
+    "strike_tp": 2,
     "insert_tp": 7,
-    "strike_x_tp": 1,
-    "strike_tp": 2
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -5982,9 +5982,9 @@
     "insert_hyp": 6,
     "strike_hyp": 6,
     "strike_x_hyp": 2,
-    "strike_x_tp": 1,
     "insert_tp": 4,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     30,
@@ -6146,8 +6146,8 @@
     "strike_hyp": 12,
     "strike_x_hyp": 10,
     "insert_tp": 13,
-    "strike_x_tp": 10,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 10
    },
    "n_lines": [
     30,
@@ -6228,8 +6228,8 @@
     "strike_ref": 1,
     "strike_x_hyp": 1,
     "strike_hyp": 1,
-    "strike_x_tp": 1,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 1
    },
    "n_lines": [
     28,
@@ -6676,8 +6676,8 @@
     "insert_hyp": 2,
     "strike_hyp": 3,
     "strike_x_hyp": 1,
-    "insert_tp": 2,
     "strike_tp": 2,
+    "insert_tp": 2,
     "strike_x_tp": 1
    },
    "n_lines": [
@@ -6800,8 +6800,8 @@
     "strike_hyp": 22,
     "strike_x_hyp": 1,
     "insert_tp": 4,
-    "strike_x_tp": 1,
-    "strike_tp": 11
+    "strike_tp": 11,
+    "strike_x_tp": 1
    },
    "n_lines": [
     33,
@@ -6844,8 +6844,8 @@
     "insert_hyp": 5,
     "strike_hyp": 3,
     "strike_x_hyp": 2,
-    "strike_x_tp": 2,
-    "insert_tp": 5
+    "insert_tp": 5,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
@@ -6890,8 +6890,8 @@
     "strike_x_hyp": 4,
     "strike_hyp": 5,
     "insert_tp": 3,
-    "strike_x_tp": 4,
-    "strike_tp": 2
+    "strike_tp": 2,
+    "strike_x_tp": 4
    },
    "n_lines": [
     29,
@@ -6976,8 +6976,8 @@
     "strike_hyp": 6,
     "strike_x_hyp": 4,
     "illegible_hyp": 1,
-    "strike_tp": 1,
-    "illegible_tp": 1
+    "illegible_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -7060,8 +7060,8 @@
     "strike_x_ref": 1,
     "insert_hyp": 1,
     "strike_hyp": 1,
-    "strike_tp": 1,
-    "insert_tp": 1
+    "insert_tp": 1,
+    "strike_tp": 1
    },
    "n_lines": [
     30,
@@ -7486,8 +7486,8 @@
     "strike_x_ref": 1,
     "insert_hyp": 1,
     "strike_x_hyp": 1,
-    "insert_tp": 1,
-    "strike_x_tp": 1
+    "strike_x_tp": 1,
+    "insert_tp": 1
    },
    "n_lines": [
     30,
@@ -7527,9 +7527,9 @@
     "insert_hyp": 4,
     "strike_hyp": 3,
     "strike_x_hyp": 2,
-    "strike_x_tp": 2,
     "insert_tp": 3,
-    "strike_tp": 1
+    "strike_tp": 1,
+    "strike_x_tp": 2
    },
    "n_lines": [
     30,
