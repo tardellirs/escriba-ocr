@@ -6,6 +6,7 @@
 </p>
 
 <p align="center">
+  <a href="https://huggingface.co/spaces/tardellirs/Escriba-OCR-Demo">Online demo</a> ·
   <a href="https://huggingface.co/tardellirs/Escriba-OCR-1B">Model on Hugging Face</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#reproduce-the-benchmark-numbers">Benchmark</a> ·
@@ -14,7 +15,7 @@
 
 # Escriba-OCR
 
-**Error-preserving (diplomatic) transcription of handwritten Brazilian Portuguese student essays.**
+**A 1B-parameter OCR model for handwritten Brazilian Portuguese essays that keeps the student's errors.**
 
 This repository contains the code and data behind **Escriba-OCR-1B** and the accompanying paper:
 
@@ -25,7 +26,7 @@ This repository contains the code and data behind **Escriba-OCR-1B** and the acc
 - the **human review** of apparent corrections and an **erratum** of 40 transcription errors in the BRESSAY test ground truth;
 - the scripts that produce every **table and figure** in the paper.
 
-**Model:** [`tardellirs/Escriba-OCR-1B`](https://huggingface.co/tardellirs/Escriba-OCR-1B) on Hugging Face; GGUF for CPU in [`tardellirs/Escriba-OCR-1B-GGUF`](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF).
+**Model:** [`tardellirs/Escriba-OCR-1B`](https://huggingface.co/tardellirs/Escriba-OCR-1B) on Hugging Face; GGUF for CPU in [`tardellirs/Escriba-OCR-1B-GGUF`](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF). **Try it online:** [Escriba-OCR-Demo](https://huggingface.co/spaces/tardellirs/Escriba-OCR-Demo).
 
 ## Why "error-preserving"?
 
@@ -50,10 +51,10 @@ CER is case-insensitive and capped at 100% per page. The full table of 22 open b
 **CPU only (llama.cpp, GGUF):**
 
 ```bash
-llama-server -hf tardellirs/Escriba-OCR-1B-GGUF:Q4_K_M --temp 0 --repeat-penalty 1.05 -c 8192 --port 8010
+llama-server -hf tardellirs/Escriba-OCR-1B-GGUF:Q4_K_M --temp 0 --repeat-penalty 1.05 -c 8192 --cache-ram 0 --port 8010
 ```
 
-About 70–160 s per page on 4 vCPUs and about 3.5 GB of RAM. See [the GGUF card](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF) for all quantizations.
+About 1 minute per page on a 4-vCPU cloud VM (AMD EPYC Turin), with under 4 GB of RAM; quality matches the GPU model. See [the GGUF card](https://huggingface.co/tardellirs/Escriba-OCR-1B-GGUF) for all quantizations.
 
 **GPU (vLLM, about 2 s per page):**
 
@@ -138,7 +139,8 @@ bench/       normalisation, metrics, evaluation, bootstrap, OpenRouter runner
 training/    fine-tuning, checkpoint I/O, vLLM evaluation, job pipeline
 scripts/     dataset download, inference example
 paper/       figure and table generators
-results/     outputs and scores of every system on the BRESSAY test split; training logs in results/finetune/
+results/     outputs and scores of every system on the BRESSAY test split; training logs and the three-seed
+             runs in results/finetune/; GGUF (CPU) outputs in results/gguf/
 review/      human-review verdicts and BRESSAY erratum
 ```
 

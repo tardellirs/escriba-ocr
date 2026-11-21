@@ -1,0 +1,82 @@
+{
+ "quality_30": {
+  "vLLM bf16 (GPU)": {
+   "cer": 2.56,
+   "cer_text": 3.3
+  },
+  "f16": {
+   "cer": 2.6,
+   "cer_text": 3.73
+  },
+  "Q8_0": {
+   "cer": 2.59,
+   "cer_text": 3.68
+  },
+  "Q4_K_M": {
+   "cer": 2.56,
+   "cer_text": 3.74
+  },
+  "Q4_K_M-mmQ8": {
+   "cer": 2.51,
+   "cer_text": 3.73
+  },
+  "Q4_K_M-mmQ4": {
+   "cer": 2.6,
+   "note": "own scorer gave 2.64 vs 2.55 for mmQ8 (same scorer); mapped to card scale (+0.04 offset)"
+  }
+ },
+ "latency_5": {
+  "turin4/f16": {
+   "median_s": 85,
+   "peak_rss_mb": 4709,
+   "n": 5
+  },
+  "turin4/Q8_0": {
+   "median_s": 78,
+   "peak_rss_mb": 3842,
+   "n": 5
+  },
+  "turin4/Q4_K_M": {
+   "median_s": 60,
+   "peak_rss_mb": 4157,
+   "n": 5
+  },
+  "turin4/Q4_K_M-mmQ8": {
+   "median_s": 70,
+   "peak_rss_mb": 3818,
+   "n": 5
+  },
+  "turin4/Q4_K_M-mmQ8-1000": {
+   "median_s": 44,
+   "peak_rss_mb": 3379,
+   "n": 5
+  },
+  "rome4/f16": {
+   "median_s": 159,
+   "peak_rss_mb": 4708,
+   "n": 5
+  },
+  "rome4/Q8_0": {
+   "median_s": 155,
+   "peak_rss_mb": 3842,
+   "n": 5
+  },
+  "rome4/Q4_K_M": {
+   "median_s": 141,
+   "peak_rss_mb": 4156,
+   "n": 5
+  },
+  "rome4/Q4_K_M-mmQ8": {
+   "median_s": 151,
+   "peak_rss_mb": 3818,
+   "n": 5
+  },
+  "turin4/Q4_K_M-mmQ4": {
+   "median_s": 56,
+   "peak_rss_mb": 3648,
+   "n": 5,
+   "median_30": 55.8
+  }
+ },
+ "note_ram": "llama-server prompt cache grows RSS ~0.3 GB/page up to ~10 GB over 30 pages; use --cache-ram 0"
+}
