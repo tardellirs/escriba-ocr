@@ -17,6 +17,8 @@
 
 **Escriba-OCR-1B is a 1B-parameter OCR model that transcribes handwritten Brazilian Portuguese essays and keeps the student's errors.**
 
+🇧🇷 *OCR de redações manuscritas (estilo ENEM) que transcreve exatamente o que o aluno escreveu, com os erros. Modelo aberto; roda em GPU ou em CPU comum, sem enviar as redações para fora da escola.*
+
 This repository contains the code and data behind **Escriba-OCR-1B** and the accompanying paper:
 
 - the **benchmark**: text normalisation, page-level CER/WER, error preservation and invented errors, edit-markup precision and recall, line structure, and a paired page-level bootstrap;

@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use Escriba-OCR, please cite it as below, together with the BRESSAY papers."
+title: "Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays"
+type: software
+authors:
+  - family-names: Stekel
+    given-names: Tardelli Ronan Coelho
+    affiliation: "Federal Institute of São Paulo (IFSP)"
+repository-code: "https://github.com/tardellirs/escriba-ocr"
+url: "https://huggingface.co/tardellirs/Escriba-OCR-1B"
+license: CC-BY-NC-4.0
+version: "1.0"
+date-released: "2026-11-22"
+keywords:
+  - ocr
+  - handwritten-text-recognition
+  - htr
+  - error-preserving transcription
+  - diplomatic transcription
+  - Brazilian Portuguese
+  - ENEM
+  - education
+  - vision-language model
+references:
+  - type: conference-paper
+    title: "BRESSAY: A Brazilian Portuguese Dataset for Offline Handwritten Text Recognition"
+    authors:
+      - family-names: Neto
+        given-names: Arthur F. S.
+      - family-names: Bezerra
+        given-names: Byron L. D.
+      - family-names: Araújo
+        given-names: Sávio S.
+      - family-names: Souza
+        given-names: Wiliane M. A. S.
+      - family-names: Alves
+        given-names: Kléberson F.
+      - family-names: Oliveira
+        given-names: Macileide F.
+      - family-names: Lins
+        given-names: Samara V. S.
+      - family-names: Hazin
+        given-names: Hugo J. F.
+      - family-names: Rocha
+        given-names: Pedro H. V.
+      - family-names: Toselli
+        given-names: Alejandro H.
+    collection-title: "Document Analysis and Recognition -- ICDAR 2024"
+    year: 2024
