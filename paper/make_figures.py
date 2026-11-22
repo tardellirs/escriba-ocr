@@ -89,6 +89,61 @@ fig.tight_layout(pad=0.3)
 fig.savefig(FIG / "cer_vs_params.pdf"); fig.savefig(FIG / "cer_vs_params.png", dpi=220)
 plt.close(fig)
 
+# ---------- Overview figure (Figure 1): accuracy vs size, and the diplomatic features ----------
+fig, (axa, axb) = plt.subplots(1, 2, figsize=(6.9, 2.45), gridspec_kw={"width_ratios": [1, 1.12]})
+grid(axa, "both")
+for group, color, marker, name in ((OPEN, AQUA, "o", "General VLMs, zero-shot"), (OCR, YELLOW, "s", "OCR VLMs, zero-shot")):
+    xs, ys = [], []
+    for run, (label, p, lab) in group.items():
+        s = score(run)
+        xs.append(p); ys.append(s["cer_cap"])
+        if lab:
+            off = {"LightOnOCR-3 1B (base)": (-5, -1, "right"), "Qwen3.5 27B": (-4, -9, "center"),
+                   "Qwen3-VL 235B-A22B": (0, -9, "center")}.get(label, (3, 2, "left"))
+            axa.annotate(label, (p, s["cer_cap"]), xytext=off[:2], textcoords="offset points", fontsize=6, color=INK2, ha=off[2])
+    axa.scatter(xs, ys, s=16, c=color, marker=marker, edgecolors="white", linewidths=0.6, zorder=3, label=name)
+h = score("htr-flor-gtlines")
+axa.scatter([0.001], [h["cer_cap"]], s=22, c=VIOLET, marker="D", edgecolors="white", linewidths=0.6, zorder=3, label="HTR-Flor, trained on BRESSAY")
+axa.annotate("HTR-Flor", (0.001, h["cer_cap"]), xytext=(4, 2), textcoords="offset points", fontsize=6, color=INK2)
+e = score("lightonocr3-1b-ft-r2")
+axa.scatter([1], [e["cer_cap"]], s=80, c=BLUE, marker="*", edgecolors="white", linewidths=0.6, zorder=4, label="Escriba-OCR-1B (ours)")
+axa.annotate("Escriba-OCR-1B", (1, e["cer_cap"]), xytext=(8, -3), textcoords="offset points", fontsize=7, color=INK, weight="bold", ha="left")
+axa.set_xscale("log"); axa.set_yscale("log")
+axa.set_xlim(0.0005, 900); axa.set_ylim(1.2, 110)
+axa.set_xlabel("Parameters (billions, log scale; MoE: total)")
+axa.set_ylabel("Page CER, % (log scale)")
+axa.set_yticks([1.5, 2, 3, 5, 10, 20, 50, 100]); axa.set_yticklabels(["1.5", "2", "3", "5", "10", "20", "50", "100"])
+axa.set_title("(a) Accuracy against model size", fontsize=8, loc="left")
+
+ROWS = [("strike_x_R", "Illegible deletions\n(--xxx--) recovered"), ("insert_R", "Insertions\n(^^...^^) recovered"),
+        ("lines_ok", "Pages with correct\nline structure"), ("err_preserved", "Likely misspellings\ncopied verbatim")]
+grid(axb, "x")
+for i, (key, lab) in enumerate(ROWS):
+    y = len(ROWS) - 1 - i
+    axb.axhline(y, color=GRID, linewidth=0.5, zorder=0)
+    for group, color, marker, dy in ((OPEN, AQUA, "o", 0.0), (OCR, YELLOW, "s", 0.0)):
+        vals = [score(r).get(key) or 0.0 for r in group]
+        axb.scatter(vals, [y + dy] * len(vals), s=14, c=color, marker=marker, edgecolors="white", linewidths=0.5, alpha=0.9, zorder=3)
+    if key != "lines_ok":  # HTR-Flor reads ground-truth line crops, so its line structure is given
+        axb.scatter([h.get(key) or 0.0], [y], s=20, c=VIOLET, marker="D", edgecolors="white", linewidths=0.5, zorder=3)
+    best = max((score(r).get(key) or 0.0, OPEN.get(r, OCR.get(r))[0]) for r in list(OPEN) + list(OCR))
+    ev = e[key]
+    axb.scatter([ev], [y], s=90, c=BLUE, marker="*", edgecolors="white", linewidths=0.6, zorder=4)
+    axb.annotate(f"{ev:.0f}%", (ev, y), xytext=(0, 5.5), textcoords="offset points", fontsize=6.5, color=INK, weight="bold", ha="center")
+    axb.annotate(f"best zero-shot {best[0]:.0f}%", (best[0], y), xytext=(0, -9), textcoords="offset points", fontsize=5.5, color=INK2, ha="center")
+axb.set_yticks(range(len(ROWS))); axb.set_yticklabels([lab for _, lab in ROWS][::-1], fontsize=6.5)
+axb.tick_params(axis="y", length=0)
+axb.spines["left"].set_visible(False)
+axb.set_xlim(-4, 104); axb.set_ylim(-0.7, len(ROWS) - 0.4)
+axb.set_xlabel("% of test cases (199 pages)")
+axb.set_title("(b) Diplomatic features, every system", fontsize=8, loc="left")
+handles, labels = axa.get_legend_handles_labels()
+fig.legend(handles, labels, loc="lower center", ncol=4, fontsize=6.5, handletextpad=0.3, columnspacing=1.4, bbox_to_anchor=(0.5, -0.01))
+fig.tight_layout(pad=0.3, w_pad=1.2, rect=(0, 0.07, 1, 1))
+fig.savefig(FIG / "overview.pdf"); fig.savefig(FIG / "overview.png", dpi=220)
+plt.close(fig)
+
+
 # ---------- Figure 2: data scaling and training length / augmentation ----------
 summ = {}
 for f in (ROOT / "results" / "finetune" / "lambda" / "summary.jsonl", ROOT / "results" / "finetune" / "summary.jsonl"):
@@ -203,7 +258,6 @@ ax.plot(steps, loss, color=GRAY, linewidth=0.5, alpha=0.6)
 ax.plot(steps, smooth, color=BLUE, linewidth=1.5)
 ax.set_yscale("log"); ax.set_xlabel("Training examples"); ax.set_ylabel("Token cross-entropy (log)")
 ax.set_xticks([0, 4000, 8000, 12000]); ax.set_xticklabels(["0", "4k", "8k", "12k"])
-ax.set_title("Training loss of the final run", fontsize=8, loc="left")
 fig.tight_layout(pad=0.3, w_pad=1.5)
 fig.savefig(FIG / "training.pdf"); fig.savefig(FIG / "training.png", dpi=220)
 plt.close(fig)
