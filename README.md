@@ -113,7 +113,7 @@ uv run python -m bench.compare results/or-qwen3-vl-235b-a22b-instruct results/li
 The paper also tests Escriba on 40 letters from the [Brazilian Forensic Letter database](https://web.inf.ufpr.br/vri/?p=39) (BFL, UFPR), in which every writer copies the same letter.
 
 - `bfl/sample40.txt`: the 40 letters (one per writer, drawn at random); `bfl/template.txt`: the printed text of the letter.
-- `bfl/references/pass1/`: our transcriptions, made from the printed text before any model was run; `bfl/references/adjudicated/`: the same after re-examining the points listed in `bfl/review_points.json` (where both models agreed against the reference, and every span Escriba marked).
+- `bfl/references/pass1/`: our transcriptions, made from the printed text before any model was run; `bfl/references/adjudicated/`: the same after re-examining the points listed in `bfl/review_points.json` (where both models agreed against the reference, and every span Escriba marked), which `uv run python -m bench.bfl_points` regenerates.
 - `results/bfl/`: outputs of Escriba and its base model; `uv run python -m bench.bfl_score` scores them against both reference versions.
 - `results/wise/a<alpha>/`: outputs on the BRESSAY validation and test splits and on BFL of models whose weights interpolate Escriba and its base model (WiSE-FT), produced by `training/run_wise.py`; `uv run python -m bench.wise_score` prints the table in the paper.
 
