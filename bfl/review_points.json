@@ -1,0 +1,1224 @@
+{
+ "CF00040_02": [
+  {
+   "ref": "publicação",
+   "alt": "publicações",
+   "ctx": "Soube, através de publicação pela imprensa local,",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "à",
+   "alt": "a",
+   "ctx": "Júnior. Inicialmente, coloco-me à disposição de V.",
+   "why": "leitura"
+  },
+  {
+   "ref": "expectativa",
+   "alt": "experiência",
+   "ctx": "minhas aptidões. Na expectativa de uma resposta",
+   "why": "leitura"
+  },
+  {
+   "ref": "saudações,",
+   "alt": "saudaços,",
+   "ctx": "resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "why": "leitura"
+  }
+ ],
+ "CF00042_02": [
+  {
+   "ref": "Ap.",
+   "alt": "Ap",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00046_02": [
+  {
+   "ref": "Walterez,",
+   "alt": "(nada)",
+   "ctx": "Rua Luiz Kirt Walterez, 87 - Ap.",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "Júnior.",
+   "alt": "Simios.",
+   "ctx": "Auxiliar de Escritório Júnior. Inicialmente, coloco-me à",
+   "why": "leitura"
+  }
+ ],
+ "CF00051_02": [
+  {
+   "ref": "De",
+   "alt": "Me",
+   "ctx": "De Fernando Quintas Zanon",
+   "why": "leitura"
+  },
+  {
+   "ref": "Zanon",
+   "alt": "Zamon",
+   "ctx": "De Fernando Quintas Zanon Rua Luiz Kirt",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sou",
+   "alt": "Sob",
+   "ctx": "a esta vaga. Sou brasileiro, solteiro, com",
+   "why": "leitura"
+  },
+  {
+   "ref": "dois",
+   "alt": "(nada)",
+   "ctx": "arquivos. Trabalhei durante dois anos nas Lojas",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "aptidões.",
+   "alt": "(nada)",
+   "ctx": "tranquilamente avaliar minhas aptidões. Na expectativa de",
+   "why": "leitura"
+  }
+ ],
+ "CF00053_01": [
+  {
+   "ref": "candidatar-me",
+   "alt": "--sere--",
+   "ctx": "Pessoal. Venho, portanto, candidatar-me a esta vaga.",
+   "why": "marcação"
+  },
+  {
+   "ref": "vaga. Sou",
+   "alt": "@@???@@. Sob",
+   "ctx": "candidatar-me a esta vaga. Sou brasileiro, solteiro, com",
+   "why": "marcação"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "um",
+   "ctx": "Na expectativa de uma resposta apresento-lhes",
+   "why": "leitura"
+  }
+ ],
+ "CF00057_02": [
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "imprensa local, que V. Sas. necessitam de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "arquivos.",
+   "alt": "arquivos",
+   "ctx": "de datilografia e arquivos. Trabalhei durante dois",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "Júnior.",
+   "alt": "junior",
+   "ctx": "Auxiliar de Escritório Júnior. Inicialmente, coloco-me à",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "à disposição de V. Sas. para um",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  }
+ ],
+ "CF00061_03": [
+  {
+   "ref": "Zanon",
+   "alt": "(nada)",
+   "ctx": "De Fernando Quintas Zanon Rua Luiz Kirt",
+   "why": "leitura"
+  },
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "à",
+   "alt": "a",
+   "ctx": "Júnior. Inicialmente, coloco-me à disposição de V.",
+   "why": "leitura"
+  },
+  {
+   "ref": "saudações,",
+   "alt": "saudações.",
+   "ctx": "resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "why": "leitura"
+  }
+ ],
+ "CF00073_03": [
+  {
+   "ref": "(nada)",
+   "alt": "A",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis,",
+   "why": "leitura"
+  },
+  {
+   "ref": "Ap.",
+   "alt": "p.",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  },
+  {
+   "ref": "imprensa",
+   "alt": "empresa",
+   "ctx": "de publicação pela imprensa local, que V.",
+   "why": "leitura"
+  },
+  {
+   "ref": "Seção",
+   "alt": "Secção",
+   "ctx": "um funcionário na Seção de Correspondência do",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "a",
+   "ctx": "Pessoal. Venho, portanto, candidatar-me a esta",
+   "why": "leitura"
+  },
+  {
+   "ref": "Horácio",
+   "alt": "horário",
+   "ctx": "Contabilidade do Colégio Horácio Alves - Escola",
+   "why": "leitura"
+  },
+  {
+   "ref": "então,",
+   "alt": "(nada)",
+   "ctx": "de experiência, quando, então, poderão tranquilamente avaliar",
+   "why": "leitura"
+  },
+  {
+   "ref": "expectativa",
+   "alt": "expectativas",
+   "ctx": "minhas aptidões. Na expectativa de uma resposta",
+   "why": "leitura"
+  }
+ ],
+ "CF00108_02": [
+  {
+   "ref": "de",
+   "alt": "da",
+   "ctx": "Grant Soube, através de publicação pela imprensa",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "apresento-lhes",
+   "alt": "apresento-nes",
+   "ctx": "de uma resposta apresento-lhes cordiais saudações, Fernando",
+   "why": "leitura"
+  }
+ ],
+ "CF00115_01": [
+  {
+   "ref": "Onório",
+   "alt": "Anório",
+   "ctx": "14506-159 Para Dr. Onório Bob Grant Soube,",
+   "why": "leitura"
+  },
+  {
+   "ref": "Venho,",
+   "alt": "venho",
+   "ctx": "do Departamento Pessoal. Venho, portanto, candidatar-me a",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00123_02": [
+  {
+   "ref": "87",
+   "alt": "87,",
+   "ctx": "Luiz Kirt Walterez, 87 - Ap. 300",
+   "why": "leitura"
+  },
+  {
+   "ref": "300",
+   "alt": "(nada)",
+   "ctx": "87 - Ap. 300 Xenápolis, Nova Yolanda",
+   "why": "leitura"
+  },
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "publicação",
+   "alt": "publicações",
+   "ctx": "Soube, através de publicação pela imprensa local,",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V",
+   "ctx": "imprensa local, que V. Sas. necessitam de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sou",
+   "alt": "Sob",
+   "ctx": "a esta vaga. Sou brasileiro, solteiro, com",
+   "why": "leitura"
+  },
+  {
+   "ref": "Alves",
+   "alt": "AlvesEscola",
+   "ctx": "do Colégio Horácio Alves - Escola Municipal",
+   "why": "leitura"
+  },
+  {
+   "ref": "- Escola",
+   "alt": "(nada)",
+   "ctx": "Colégio Horácio Alves - Escola Municipal de 2º",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00129_03": [
+  {
+   "ref": "do",
+   "alt": "de",
+   "ctx": "a 3ª série do Curso Técnico de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "à",
+   "alt": "a",
+   "ctx": "Júnior. Inicialmente, coloco-me à disposição de V.",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sos.",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  }
+ ],
+ "CF00148_03": [
+  {
+   "ref": "De",
+   "alt": "De:",
+   "ctx": "De Fernando Quintas Zanon",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "um",
+   "alt": "seu",
+   "ctx": "Sas. necessitam de um funcionário na Seção",
+   "why": "leitura"
+  },
+  {
+   "ref": "com",
+   "alt": "tenho",
+   "ctx": "Sou brasileiro, solteiro, com 18 anos, curso",
+   "why": "leitura"
+  },
+  {
+   "ref": "a",
+   "alt": "(nada)",
+   "ctx": "18 anos, curso a 3ª série do",
+   "why": "leitura"
+  },
+  {
+   "ref": "Trabalhei",
+   "alt": "Trabalhei,",
+   "ctx": "datilografia e arquivos. Trabalhei durante dois anos",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "exerci",
+   "alt": "exerce",
+   "ctx": "S. A. onde exerci as funções de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  },
+  {
+   "ref": "minhas",
+   "alt": "muitas",
+   "ctx": "poderão tranquilamente avaliar minhas aptidões. Na expectativa",
+   "why": "leitura"
+  }
+ ],
+ "CF00150_02": [
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "experiência,",
+   "alt": "experiência",
+   "ctx": "um período de experiência, quando, então, poderão",
+   "why": "leitura"
+  },
+  {
+   "ref": "Zanon",
+   "alt": "Zanon.",
+   "ctx": "cordiais saudações, Fernando Zanon",
+   "why": "leitura"
+  }
+ ],
+ "CF00159_02": [
+  {
+   "ref": "Quintas",
+   "alt": "Quintos",
+   "ctx": "De Fernando Quintas Zanon Rua Luiz",
+   "why": "leitura"
+  },
+  {
+   "ref": "Horácio",
+   "alt": "Horacio",
+   "ctx": "Contabilidade do Colégio Horácio Alves - Escola",
+   "why": "leitura"
+  },
+  {
+   "ref": "A",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "as",
+   "alt": "(nada)",
+   "ctx": "A onde exerci as funções de Auxiliar",
+   "why": "leitura"
+  },
+  {
+   "ref": "quando, então, poderão tranquilamente avaliar minhas aptidões. Na expectativa de uma resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "alt": "(nada)",
+   "ctx": "período de experiência, quando, então, poderão tranquilamente avaliar minhas aptidões. Na expectativa de uma resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "why": "leitura"
+  }
+ ],
+ "CF00161_03": [
+  {
+   "ref": "Sou",
+   "alt": "Soli",
+   "ctx": "a esta vaga. Sou brasileiro, solteiro, com",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00164_02": [
+  {
+   "ref": "Xenápolis,",
+   "alt": "(nada)",
+   "ctx": "- Ap. 300 Xenápolis, Nova Yolanda 14506-159",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sos.",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "candidatar-me",
+   "alt": "condidator-se",
+   "ctx": "Pessoal. Venho, portanto, candidatar-me a esta vaga.",
+   "why": "leitura"
+  },
+  {
+   "ref": "-",
+   "alt": "(nada)",
+   "ctx": "de 2º Grau - e possuo alguma",
+   "why": "leitura"
+  },
+  {
+   "ref": "Auxiliar",
+   "alt": "Curitiba",
+   "ctx": "as funções de Auxiliar de Escritório Júnior.",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sos,",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  },
+  {
+   "ref": "apresento-lhes cordiais saudações,",
+   "alt": "aparente-me @@???@@ saudável,",
+   "ctx": "de uma resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "why": "marcação"
+  }
+ ],
+ "CF00175_02": [
+  {
+   "ref": "Quintas",
+   "alt": "Quintos",
+   "ctx": "De Fernando Quintas Zanon Rua Luiz",
+   "why": "leitura"
+  },
+  {
+   "ref": "Yolanda",
+   "alt": "Yolando",
+   "ctx": "300 Xenápolis, Nova Yolanda 14506-159 Para Dr.",
+   "why": "leitura"
+  },
+  {
+   "ref": "pela imprensa",
+   "alt": "pelo imprenso",
+   "ctx": "através de publicação pela imprensa local, que V.",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00179_03": [
+  {
+   "ref": "publicação",
+   "alt": "publicações",
+   "ctx": "Soube, através de publicação pela imprensa local,",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sos.",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "possuo",
+   "alt": "possui",
+   "ctx": "Grau - e possuo alguma prática de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "minhas",
+   "alt": "muitas",
+   "ctx": "poderão tranquilamente avaliar minhas aptidões. Na expectativa",
+   "why": "leitura"
+  }
+ ],
+ "CF00183_02": [
+  {
+   "ref": "Xenápolis,",
+   "alt": "Lenápolis,",
+   "ctx": "- Ap. 300 Xenápolis, Nova Yolanda 14506-159",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "imprensa local, que V. Sas. necessitam de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "Pessoal",
+   "ctx": "Correspondência do Departamento Pessoal. Venho, portanto,",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "à disposição de V. Sas. para um",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "--portanto--",
+   "ctx": "experiência, quando, então, poderão tranquilamente avaliar",
+   "why": "marcação"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "--xxx--",
+   "ctx": "expectativa de uma resposta apresento-lhes cordiais",
+   "why": "marcação"
+  }
+ ],
+ "CF00193_03": [
+  {
+   "ref": "Luiz",
+   "alt": "Lury",
+   "ctx": "Quintas Zanon Rua Luiz Kirt Walterez, 87",
+   "why": "leitura"
+  },
+  {
+   "ref": "possuo",
+   "alt": "possui",
+   "ctx": "Grau - e possuo alguma prática de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00204_03": [
+  {
+   "ref": "datilografia",
+   "alt": "patilografia",
+   "ctx": "alguma prática de datilografia e arquivos. Trabalhei",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00216_01": [
+  {
+   "ref": "Ap.",
+   "alt": "Ap.300",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  },
+  {
+   "ref": "300",
+   "alt": "(nada)",
+   "ctx": "87 - Ap. 300 Xenápolis, Nova Yolanda",
+   "why": "leitura"
+  },
+  {
+   "ref": "-",
+   "alt": "(nada)",
+   "ctx": "Colégio Horácio Alves - Escola Municipal de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "à",
+   "alt": "a",
+   "ctx": "Júnior. Inicialmente, coloco-me à disposição de V.",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sra",
+   "ctx": "à disposição de V. Sas. para um",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "a",
+   "ctx": "de uma resposta apresento-lhes cordiais saudações,",
+   "why": "leitura"
+  },
+  {
+   "ref": "apresento-lhes",
+   "alt": "presento-lhes",
+   "ctx": "de uma resposta apresento-lhes cordiais saudações, Fernando",
+   "why": "leitura"
+  }
+ ],
+ "CF00226_03": [
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "Trabalhei",
+   "alt": "Trabalhui",
+   "ctx": "datilografia e arquivos. Trabalhei durante dois anos",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00231_01": [
+  {
+   "ref": "14506-159",
+   "alt": "19506-159",
+   "ctx": "Xenápolis, Nova Yolanda 14506-159 Para Dr. Onório",
+   "why": "leitura"
+  },
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00235_01": [
+  {
+   "ref": "Soube,",
+   "alt": "Soude,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "do",
+   "alt": "de",
+   "ctx": "a 3ª série do Curso Técnico de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "de",
+   "alt": "do",
+   "ctx": "funções de Auxiliar de Escritório Júnior. Inicialmente,",
+   "why": "leitura"
+  },
+  {
+   "ref": "Júnior.",
+   "alt": "junior.",
+   "ctx": "Auxiliar de Escritório Júnior. Inicialmente, coloco-me à",
+   "why": "leitura"
+  }
+ ],
+ "CF00252_01": [
+  {
+   "ref": "Ap.",
+   "alt": "Ap",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  }
+ ],
+ "CF00258_03": [
+  {
+   "ref": "publicação",
+   "alt": "publicações",
+   "ctx": "Soube, através de publicação pela imprensa local,",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "imprensa local, que V. Sas. necessitam de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "-",
+   "alt": "(nada)",
+   "ctx": "Colégio Horácio Alves - Escola Municipal de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "à disposição de V. Sas. para um",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  },
+  {
+   "ref": "saudações,",
+   "alt": "saudações.",
+   "ctx": "resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "why": "leitura"
+  }
+ ],
+ "CF00263_03": [
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "tranquila",
+   "ctx": "quando, então, poderão tranquilamente avaliar minhas",
+   "why": "leitura"
+  },
+  {
+   "ref": "tranquilamente",
+   "alt": "mente",
+   "ctx": "quando, então, poderão tranquilamente avaliar minhas aptidões.",
+   "why": "leitura"
+  }
+ ],
+ "CF00276_03": [
+  {
+   "ref": "Yolanda",
+   "alt": "Volanda",
+   "ctx": "300 Xenápolis, Nova Yolanda 14506-159 Para Dr.",
+   "why": "leitura"
+  },
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas.",
+   "ctx": "imprensa local, que V. Sas. necessitam de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "3ª",
+   "alt": "3º",
+   "ctx": "anos, curso a 3ª série do Curso",
+   "why": "leitura"
+  },
+  {
+   "ref": "-",
+   "alt": "(nada)",
+   "ctx": "Colégio Horácio Alves - Escola Municipal de",
+   "why": "leitura"
+  },
+  {
+   "ref": "Grau",
+   "alt": "Grau-",
+   "ctx": "Municipal de 2º Grau - e possuo",
+   "why": "leitura"
+  },
+  {
+   "ref": "-",
+   "alt": "(nada)",
+   "ctx": "de 2º Grau - e possuo alguma",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "V.",
+   "alt": "V.Sas",
+   "ctx": "à disposição de V. Sas. para um",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  },
+  {
+   "ref": "quando,",
+   "alt": "quando",
+   "ctx": "período de experiência, quando, então, poderão tranquilamente",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "apresento",
+   "ctx": "de uma resposta apresento-lhes cordiais saudações,",
+   "why": "leitura"
+  }
+ ],
+ "CF00281_01": [
+  {
+   "ref": "Ap.",
+   "alt": "Cap.",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "14506 -",
+   "ctx": "Xenápolis, Nova Yolanda 14506-159 Para Dr.",
+   "why": "leitura"
+  },
+  {
+   "ref": "14506-159",
+   "alt": "159",
+   "ctx": "Xenápolis, Nova Yolanda 14506-159 Para Dr. Onório",
+   "why": "leitura"
+  },
+  {
+   "ref": "Soube,",
+   "alt": "Sobre,",
+   "ctx": "Onório Bob Grant Soube, através de publicação",
+   "why": "leitura"
+  },
+  {
+   "ref": "candidatar-me",
+   "alt": "--sse--",
+   "ctx": "Pessoal. Venho, portanto, candidatar-me a esta vaga.",
+   "why": "marcação"
+  },
+  {
+   "ref": "solteiro,",
+   "alt": "soltiero,",
+   "ctx": "vaga. Sou brasileiro, solteiro, com 18 anos,",
+   "why": "leitura"
+  },
+  {
+   "ref": "3ª",
+   "alt": "3º",
+   "ctx": "anos, curso a 3ª série do Curso",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00285_03": [
+  {
+   "ref": "saudações,",
+   "alt": "saudações.",
+   "ctx": "resposta apresento-lhes cordiais saudações, Fernando Zanon",
+   "why": "leitura"
+  }
+ ],
+ "CF00286_03": [
+  {
+   "ref": "Walterez,",
+   "alt": "Walterz,",
+   "ctx": "Rua Luiz Kirt Walterez, 87 - Ap.",
+   "why": "leitura"
+  },
+  {
+   "ref": "Xenápolis,",
+   "alt": "Xenopolis,",
+   "ctx": "- Ap. 300 Xenápolis, Nova Yolanda 14506-159",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sas..",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "(nada)",
+   "alt": "de",
+   "ctx": "série do Curso Técnico de Contabilidade",
+   "why": "leitura"
+  },
+  {
+   "ref": "- Escola",
+   "alt": "(nada)",
+   "ctx": "Colégio Horácio Alves - Escola Municipal de 2º",
+   "why": "leitura"
+  },
+  {
+   "ref": "dois",
+   "alt": "2",
+   "ctx": "arquivos. Trabalhei durante dois anos nas Lojas",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "Júnior.",
+   "alt": "junior.",
+   "ctx": "Auxiliar de Escritório Júnior. Inicialmente, coloco-me à",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "(nada)",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  }
+ ],
+ "CF00294_02": [
+  {
+   "ref": "3ª",
+   "alt": "3º",
+   "ctx": "anos, curso a 3ª série do Curso",
+   "why": "leitura"
+  },
+  {
+   "ref": "possuo",
+   "alt": "passou",
+   "ctx": "Grau - e possuo alguma prática de",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "expectativa",
+   "alt": "--expectativa--",
+   "ctx": "minhas aptidões. Na expectativa de uma resposta",
+   "why": "marcação"
+  },
+  {
+   "ref": "resposta apresento-lhes",
+   "alt": "--disposta-- apresenta-las",
+   "ctx": "expectativa de uma resposta apresento-lhes cordiais saudações, Fernando",
+   "why": "marcação"
+  }
+ ],
+ "CF00296_02": [
+  {
+   "ref": "Lojas",
+   "alt": "lutas",
+   "ctx": "dois anos nas Lojas Universais Rayon S.",
+   "why": "leitura"
+  }
+ ],
+ "CF00301_01": [
+  {
+   "ref": "Ap.",
+   "alt": "4p.",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  },
+  {
+   "ref": "Xenápolis,",
+   "alt": "Xenópolis,",
+   "ctx": "- Ap. 300 Xenápolis, Nova Yolanda 14506-159",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sos.",
+   "ctx": "local, que V. Sas. necessitam de um",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  },
+  {
+   "ref": "Sas.",
+   "alt": "Sos.",
+   "ctx": "disposição de V. Sas. para um período",
+   "why": "leitura"
+  }
+ ],
+ "CF00308_02": [
+  {
+   "ref": "14506-159",
+   "alt": "14506-199",
+   "ctx": "Xenápolis, Nova Yolanda 14506-159 Para Dr. Onório",
+   "why": "leitura"
+  },
+  {
+   "ref": "A.",
+   "alt": "(nada)",
+   "ctx": "Universais Rayon S. A. onde exerci as",
+   "why": "leitura"
+  }
+ ],
+ "CF00315_01": [
+  {
+   "ref": "(nada)",
+   "alt": "Ap",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis,",
+   "why": "leitura"
+  },
+  {
+   "ref": "Ap.",
+   "alt": "-",
+   "ctx": "Walterez, 87 - Ap. 300 Xenápolis, Nova",
+   "why": "leitura"
+  },
+  {
+   "ref": "Xenápolis,",
+   "alt": "Xenópolis,",
+   "ctx": "- Ap. 300 Xenápolis, Nova Yolanda 14506-159",
+   "why": "leitura"
+  },
+  {
+   "ref": "3ª",
+   "alt": "3º",
+   "ctx": "anos, curso a 3ª série do Curso",
+   "why": "leitura"
+  },
+  {
+   "ref": "Lojas",
+   "alt": "Legas",
+   "ctx": "dois anos nas Lojas Universais Rayon SA.",
+   "why": "leitura"
+  }
+ ]
+}

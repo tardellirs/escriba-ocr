@@ -1,0 +1,8 @@
+{
+ "model": "lightonai/LightOnOCR-3-1B",
+ "run": "lightonocr3-1b-base",
+ "long_side": 1600,
+ "pages": 40,
+ "seconds": 127.5,
+ "truncated": 0
+}

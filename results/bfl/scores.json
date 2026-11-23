@@ -1,0 +1,90 @@
+{
+ "pass1": {
+  "escriba-ocr-1b": {
+   "cer": 6.02,
+   "wer": 19.75,
+   "cer_text": 5.96,
+   "cer_page_median": 4.29,
+   "markup": {
+    "ref_spans": 0,
+    "predicted": 8,
+    "matched": 0
+   }
+  },
+  "lightonocr3-1b-base": {
+   "cer": 27.66,
+   "wer": 38.53,
+   "cer_text": 27.66,
+   "cer_page_median": 30.59,
+   "markup": {
+    "ref_spans": 0,
+    "predicted": 0,
+    "matched": 0
+   }
+  },
+  "lightonocr3-1b-base (comments removed)": {
+   "cer": 5.67,
+   "wer": 18.0,
+   "cer_text": 5.67,
+   "cer_page_median": 4.35,
+   "markup": {
+    "ref_spans": 0,
+    "predicted": 0,
+    "matched": 0
+   }
+  },
+  "escriba_minus_base_without_comments": {
+   "delta": 0.35,
+   "ci95": [
+    -0.48,
+    1.1
+   ],
+   "escriba_better": 17,
+   "escriba_worse": 21
+  }
+ },
+ "adjudicated": {
+  "escriba-ocr-1b": {
+   "cer": 5.12,
+   "wer": 17.71,
+   "cer_text": 5.12,
+   "cer_page_median": 3.93,
+   "markup": {
+    "ref_spans": 6,
+    "predicted": 8,
+    "matched": 6
+   }
+  },
+  "lightonocr3-1b-base": {
+   "cer": 27.01,
+   "wer": 36.81,
+   "cer_text": 27.05,
+   "cer_page_median": 30.53,
+   "markup": {
+    "ref_spans": 6,
+    "predicted": 0,
+    "matched": 0
+   }
+  },
+  "lightonocr3-1b-base (comments removed)": {
+   "cer": 4.93,
+   "wer": 16.19,
+   "cer_text": 4.92,
+   "cer_page_median": 3.52,
+   "markup": {
+    "ref_spans": 6,
+    "predicted": 0,
+    "matched": 0
+   }
+  },
+  "escriba_minus_base_without_comments": {
+   "delta": 0.19,
+   "ci95": [
+    -0.68,
+    0.94
+   ],
+   "escriba_better": 17,
+   "escriba_worse": 21
+  }
+ }
+}

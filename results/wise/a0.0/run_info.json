@@ -1,0 +1,12 @@
+{
+ "alpha": 0.0,
+ "model": "tardellirs/Escriba-OCR-1B",
+ "long_side": 1200,
+ "val_pages": 154,
+ "val_truncated": 0,
+ "test_pages": 199,
+ "test_truncated": 0,
+ "bfl_pages": 40,
+ "bfl_truncated": 0,
+ "seconds": 791.7
+}

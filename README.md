@@ -106,6 +106,19 @@ uv run python -m bench.compare results/or-qwen3-vl-235b-a22b-instruct results/li
 | `qwen3.5-*`, `qwen3-vl-2b`, `lightonocr3-*`, `paddleocr-vl-1.6`, `glm-ocr` | open models run locally with vLLM |
 | `htr-flor-gtlines` | HTR-Flor trained on BRESSAY lines, evaluated on ground-truth line crops |
 
+`uv run python -m bench.icdar_protocol results/lightonocr3-1b-ft-r2` scores a run with the case-sensitive metric of the ICDAR 2024 BRESSAY competition, for comparison with published results (output in `results/icdar_protocol.json`).
+
+### Out-of-domain test (BFL) and weight interpolation
+
+The paper also tests Escriba on 40 letters from the [Brazilian Forensic Letter database](https://web.inf.ufpr.br/vri/?p=39) (BFL, UFPR), in which every writer copies the same letter.
+
+- `bfl/sample40.txt`: the 40 letters (one per writer, drawn at random); `bfl/template.txt`: the printed text of the letter.
+- `bfl/references/pass1/`: our transcriptions, made from the printed text before any model was run; `bfl/references/adjudicated/`: the same after re-examining the points listed in `bfl/review_points.json` (where both models agreed against the reference, and every span Escriba marked).
+- `results/bfl/`: outputs of Escriba and its base model; `uv run python -m bench.bfl_score` scores them against both reference versions.
+- `results/wise/a<alpha>/`: outputs on the BRESSAY validation and test splits and on BFL of models whose weights interpolate Escriba and its base model (WiSE-FT), produced by `training/run_wise.py`; `uv run python -m bench.wise_score` prints the table in the paper.
+
+The BFL images are not redistributed here; request them from UFPR and place the 40 pages, as `<id>.png`, where `training/run_bfl.py` and `training/run_wise.py` expect them.
+
 ### Evaluate your own model
 
 1. Write one transcription per test page to `results/<your-run>/pred/<page-id>.txt`.
@@ -142,7 +155,9 @@ training/    fine-tuning, checkpoint I/O, vLLM evaluation, job pipeline
 scripts/     dataset download, inference example
 paper/       figure and table generators
 results/     outputs and scores of every system on the BRESSAY test split; training logs and the three-seed
-             runs in results/finetune/; GGUF (CPU) outputs in results/gguf/
+             runs in results/finetune/; GGUF (CPU) outputs in results/gguf/; BFL and weight-interpolation
+             outputs in results/bfl/ and results/wise/
+bfl/         our reference transcriptions of 40 BFL letters
 review/      human-review verdicts and BRESSAY erratum
 ```
 
@@ -150,6 +165,7 @@ review/      human-review verdicts and BRESSAY erratum
 
 - **Code:** Apache License 2.0 (see [LICENSE](LICENSE)).
 - **Model outputs, human-review data and erratum** (`results/`, `review/`): CC BY-NC 4.0. They are derived from [BRESSAY](https://zenodo.org/records/11637681), whose terms restrict use to non-commercial research and teaching.
+- **BFL reference transcriptions** (`bfl/`): CC BY-NC 4.0, like the other data here. If you use them, also cite the BFL database (Freitas et al., IWFHR 2008).
 - **BRESSAY images are not redistributed here.** `scripts/download_bressay.sh` fetches them from Zenodo.
 
 ## Citation

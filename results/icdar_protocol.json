@@ -1,0 +1,53 @@
+{
+  "results/lightonocr3-1b-ft-r2": {
+    "lines": {
+      "cer_micro": 2.1361084228007217,
+      "cer_page_mean": 2.070624302853474,
+      "wer_micro": 6.240038931808504
+    },
+    "flat": {
+      "cer_micro": 2.1327192688465204,
+      "cer_page_mean": 2.067250618564873,
+      "wer_micro": 6.240038931808504
+    },
+    "symbols": {
+      "cer_micro": 2.0484573977762857,
+      "cer_page_mean": 1.9880028167548551,
+      "wer_micro": 6.238822312792749
+    }
+  },
+  "results/lightonocr3-1b-ft-r2-seed1": {
+    "lines": {
+      "cer_micro": 2.1153969264139363,
+      "cer_page_mean": 2.0396397385523484,
+      "wer_micro": 6.171908266926212
+    },
+    "flat": {
+      "cer_micro": 2.1131374904444686,
+      "cer_page_mean": 2.0370387039681406,
+      "wer_micro": 6.171908266926212
+    },
+    "symbols": {
+      "cer_micro": 2.038784126731231,
+      "cer_page_mean": 1.9677545416060254,
+      "wer_micro": 6.171908266926212
+    }
+  },
+  "results/lightonocr3-1b-ft-r2-seed2": {
+    "lines": {
+      "cer_micro": 2.098827729304508,
+      "cer_page_mean": 2.0369727089840617,
+      "wer_micro": 6.180424600036498
+    },
+    "flat": {
+      "cer_micro": 2.0956268616810956,
+      "cer_page_mean": 2.033685325913866,
+      "wer_micro": 6.180424600036498
+    },
+    "symbols": {
+      "cer_micro": 2.0141267691654052,
+      "cer_page_mean": 1.957978125135652,
+      "wer_micro": 6.179207981020744
+    }
+  }
+}

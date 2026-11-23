@@ -1,0 +1,31 @@
+É fato que, no mundo atual, a tecnologia tem ganhado cada vez mais
+espoço em diversos setores. Na saúde, no entanto, o uso de Inteligências Artificiais (IA)
+ainda é bastante controverso. Há quem se defenda em diagnósticos médicos, pautados num
+grande facilidade de preconceito dessas máquinas. Já os contrários evidenciam, principalmente,
+a falta de caráter humano nesse processo, --(ante)-- faltando em questões éticas. Assim, questiona-se
+se seria benéfico o uso das IAs para diagnósticos médicos na era da tecnologia.
+
+De um lado, os pioneiros ressaltam --(o)-- já tem precedidos casos em que as IAs (4) se
+utilizadas. Na momografia, por exemplo, os máquinos são capazes de levar os exames, diagnosticar
+o paciente e ainda recomendar tratamentos de forma excelente. Da mesma forma, o dieter-
+-geral do Hospital São-Libonês, Paulo Chapchup, afirma que a tecnologia veio para auxiliar,
+já que sua alta capacidade de armazenamento de dados permite a identificação dos
+milhares de diferentes patologias e condições genéticas existentes - quase sempre mais
+precisamente do que um médico. No entanto, há casos em que a mal--(prevenimento)--
+treinamento dessas IAs pode levar a um erro de diagnóstico, tornando seu uso perigoso.
+
+Por outro lado, os contrários ao uso das IAs acudiram que se trata de uma
+questão filosófica e ética. Como ##analisado por## --(acudita)-- Morais Figueiredo, doutor em informática, ao visitar
+um médico, se aliau ali a vida sob responsabilidade de outra pessoa, comprometimento incapaz
+de ser efetuado por um programa de software. Além disso, o tratamento humanizado
+de um paciente pode, em muitos casos, falar com que a --carga-- emocional desse seja
+menor: --(o)-- um erro cometido por uma máquina pode agravar a doença ou
+dá levar o paciente a óbito. Logo, a forma de tratamento médico - paciente
+nunca poderão ser reproduzidas por --(um)-- poétillares, nem como ele poderá conduzido.
+
+--(Por tanto)-- Portanto, é preciso ressaltar a importância da humanização
+do tratamento médico - paciente durante um diagnóstico. Vale lembrar que,
+operar de auxíliar --(as)-- --(o)-- na análise da situação pelo médico, a Inteligência
+Artificial não consegue substituí-lo. Desse modo, o médico deve assumir a
+responsabilidade final do diagnóstico do paciente, mesmo que haja o uso
+de IAs durante esse processo.
