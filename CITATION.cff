@@ -11,10 +11,14 @@ url: "https://huggingface.co/tardellirs/Escriba-OCR-1B"
 license: CC-BY-NC-4.0
 version: "1.0.1"
 date-released: "2026-11-24"
+doi: "10.5281/zenodo.24493645"
 identifiers:
   - type: url
     value: "https://arxiv.org/abs/2611.29874"
     description: "Paper (arXiv)"
+  - type: doi
+    value: "10.5281/zenodo.24493645"
+    description: "Software archive (Zenodo, all versions)"
 keywords:
   - ocr
   - handwritten-text-recognition

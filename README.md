@@ -14,6 +14,11 @@
   <a href="#citation">Citation</a>
 </p>
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2611.29874"><img src="https://img.shields.io/badge/arXiv-2611.29874-b31b1b.svg" alt="arXiv:2611.29874"></a>
+  <a href="https://doi.org/10.5281/zenodo.24493645"><img src="https://zenodo.org/badge/1465812565.svg" alt="DOI"></a>
+</p>
+
 # Escriba-OCR
 
 **Escriba-OCR-1B is a 1B-parameter OCR model that transcribes handwritten Brazilian Portuguese essays and keeps the student's errors.**
