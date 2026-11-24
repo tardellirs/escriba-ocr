@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://huggingface.co/spaces/tardellirs/Escriba-OCR-Demo">Online demo</a> ·
   <a href="https://huggingface.co/tardellirs/Escriba-OCR-1B">Model on Hugging Face</a> ·
+  <a href="https://arxiv.org/abs/2611.29874">Paper (arXiv)</a> ·
   <a href="#quick-start">Quick start</a> ·
   <a href="#reproduce-the-benchmark-numbers">Benchmark</a> ·
   <a href="#citation">Citation</a>
@@ -19,7 +20,7 @@
 
 🇧🇷 *OCR de redações manuscritas (estilo ENEM) que transcreve exatamente o que o aluno escreveu, com os erros. Modelo aberto; roda em GPU ou em CPU comum, sem enviar as redações para fora da escola.*
 
-This repository contains the code and data behind **Escriba-OCR-1B** and the accompanying paper:
+This repository contains the code and data behind **Escriba-OCR-1B** and the accompanying paper, [arXiv:2611.29874](https://arxiv.org/abs/2611.29874):
 
 - the **benchmark**: text normalisation, page-level CER/WER, error preservation and invented errors, edit-markup precision and recall, line structure, and a paired page-level bootstrap;
 - the **evaluation runners** for open vision-language models, served locally with vLLM or through OpenRouter;
@@ -172,10 +173,13 @@ review/      human-review verdicts and BRESSAY erratum
 
 ```bibtex
 @misc{stekel2026escriba,
-  title  = {Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays},
-  author = {Stekel, Tardelli Ronan Coelho},
-  year   = {2026},
-  howpublished = {\url{https://github.com/tardellirs/escriba-ocr}}
+  title         = {Escriba-OCR: A 1B Vision-Language Model for Error-Preserving Transcription of Handwritten Portuguese Essays},
+  author        = {Stekel, Tardelli Ronan Coelho},
+  year          = {2026},
+  eprint        = {2611.29874},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2611.29874}
 }
 ```
 
