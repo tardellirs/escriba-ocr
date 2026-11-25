@@ -116,6 +116,8 @@ uv run python -m bench.compare results/or-qwen3-vl-235b-a22b-instruct results/li
 
 `uv run python -m bench.token_types` breaks word-level errors down by token type (numbers, proper nouns, likely misspellings, dictionary words) and by frequency in the training transcriptions, and counts *silent* rewrites: outputs that are a different known word, or a different number, than the one on the page. By default it compares Escriba, its base model, Qwen3-VL 235B-A22B and Qwen3.5 27B; `--runs` takes other run directories.
 
+`training/prior_gap.py` (GPU) scores every token of a model's saved output with the page image, with a blank page and with no image; `uv run python -m bench.prior_gap_eval` then asks whether that image-vs-prior gap flags silent rewrites better than plain confidence. It does not overall (AUROC 0.51 vs 0.87 for Escriba, 0.55 vs 0.90 for the base model). The one exception is student misspellings normalised by Escriba, where confidence is inverted (0.44) and the gap points the right way (0.64). Per-token scores are in `results/<run>/prior_gap.json.gz`, the summary in `results/prior_gap_eval.json`.
+
 ### Out-of-domain test (BFL) and weight interpolation
 
 The paper also tests Escriba on 40 letters from the [Brazilian Forensic Letter database](https://web.inf.ufpr.br/vri/?p=39) (BFL, UFPR), in which every writer copies the same letter.
