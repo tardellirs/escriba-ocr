@@ -114,6 +114,8 @@ uv run python -m bench.compare results/or-qwen3-vl-235b-a22b-instruct results/li
 
 `uv run python -m bench.icdar_protocol results/lightonocr3-1b-ft-r2` scores a run with the case-sensitive metric of the ICDAR 2024 BRESSAY competition, for comparison with published results (output in `results/icdar_protocol.json`).
 
+`uv run python -m bench.token_types` breaks word-level errors down by token type (numbers, proper nouns, likely misspellings, dictionary words) and by frequency in the training transcriptions, and counts *silent* rewrites: outputs that are a different known word, or a different number, than the one on the page. By default it compares Escriba, its base model, Qwen3-VL 235B-A22B and Qwen3.5 27B; `--runs` takes other run directories.
+
 ### Out-of-domain test (BFL) and weight interpolation
 
 The paper also tests Escriba on 40 letters from the [Brazilian Forensic Letter database](https://web.inf.ufpr.br/vri/?p=39) (BFL, UFPR), in which every writer copies the same letter.
